@@ -2,6 +2,10 @@
 
 AuraMart is a modern full-stack e-commerce web platform with integrated Razorpay Standard Checkout, instant UPI app redirection, cash on delivery, and administrative management.
 
+[![Live Storefront](https://img.shields.io/badge/Live_Storefront-GitHub_Pages-2ea44f?style=for-the-badge&logo=github)](https://indukurunaveenreddy.github.io/auramart-ecommerce/)
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/indukurunaveenreddy/auramart-ecommerce)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Findukurunaveenreddy%2Fauramart-ecommerce&root-directory=frontend)
+
 ![AuraMart Modern Commerce](https://images.unsplash.com/photo-1544787219-7f47ccb76574?w=1200&q=80)
 
 ---
