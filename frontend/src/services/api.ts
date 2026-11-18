@@ -9,6 +9,7 @@ import {
   PaymentConfig,
   RazorpayOrderResult
 } from '../types';
+import { FALLBACK_CATEGORIES, FALLBACK_PRODUCTS } from '../data/fallbackData';
 
 const API_BASE = (import.meta as any).env?.VITE_API_URL 
   ? `${(import.meta as any).env.VITE_API_URL}/api`
@@ -78,28 +79,81 @@ export const api = {
 
   // Categories
   async getCategories(): Promise<Category[]> {
-    return request('/categories');
+    try {
+      return await request('/categories');
+    } catch (err) {
+      console.warn('Backend unavailable, using fallback categories:', err);
+      return FALLBACK_CATEGORIES;
+    }
   },
 
   // Products
   async getProducts(params: ProductFilterParams = {}): Promise<PaginatedProducts> {
-    const query = new URLSearchParams();
-    if (params.category_slug) query.set('category_slug', params.category_slug);
-    if (params.search) query.set('search', params.search);
-    if (params.min_price !== undefined) query.set('min_price', params.min_price.toString());
-    if (params.max_price !== undefined) query.set('max_price', params.max_price.toString());
-    if (params.sort_by) query.set('sort_by', params.sort_by);
-    if (params.featured_only) query.set('featured_only', 'true');
-    if (params.in_stock_only) query.set('in_stock_only', 'true');
-    if (params.page) query.set('page', params.page.toString());
-    if (params.limit) query.set('limit', params.limit.toString());
+    try {
+      const query = new URLSearchParams();
+      if (params.category_slug) query.set('category_slug', params.category_slug);
+      if (params.search) query.set('search', params.search);
+      if (params.min_price !== undefined) query.set('min_price', params.min_price.toString());
+      if (params.max_price !== undefined) query.set('max_price', params.max_price.toString());
+      if (params.sort_by) query.set('sort_by', params.sort_by);
+      if (params.featured_only) query.set('featured_only', 'true');
+      if (params.in_stock_only) query.set('in_stock_only', 'true');
+      if (params.page) query.set('page', params.page.toString());
+      if (params.limit) query.set('limit', params.limit.toString());
 
-    const qs = query.toString();
-    return request(`/products${qs ? `?${qs}` : ''}`);
+      const qs = query.toString();
+      return await request(`/products${qs ? `?${qs}` : ''}`);
+    } catch (err) {
+      console.warn('Backend unavailable, serving filtered fallback products:', err);
+      let list = [...FALLBACK_PRODUCTS];
+      if (params.category_slug) {
+        list = list.filter(p => p.category?.slug === params.category_slug);
+      }
+      if (params.search) {
+        const q = params.search.toLowerCase();
+        list = list.filter(p => p.name.toLowerCase().includes(q) || (p.description && p.description.toLowerCase().includes(q)));
+      }
+      if (params.min_price !== undefined) {
+        list = list.filter(p => p.price >= params.min_price!);
+      }
+      if (params.max_price !== undefined) {
+        list = list.filter(p => p.price <= params.max_price!);
+      }
+      if (params.featured_only) {
+        list = list.filter(p => p.is_featured);
+      }
+      if (params.in_stock_only) {
+        list = list.filter(p => p.stock > 0);
+      }
+      if (params.sort_by === 'price_asc') {
+        list.sort((a, b) => a.price - b.price);
+      } else if (params.sort_by === 'price_desc') {
+        list.sort((a, b) => b.price - a.price);
+      } else if (params.sort_by === 'rating') {
+        list.sort((a, b) => b.rating - a.rating);
+      }
+      const page = params.page || 1;
+      const limit = params.limit || 40;
+      const start = (page - 1) * limit;
+      const paginated = list.slice(start, start + limit);
+      return {
+        products: paginated,
+        total: list.length,
+        page,
+        limit,
+        total_pages: Math.max(1, Math.ceil(list.length / limit))
+      };
+    }
   },
 
   async getProduct(idOrSlug: string | number): Promise<Product> {
-    return request(`/products/${idOrSlug}`);
+    try {
+      return await request(`/products/${idOrSlug}`);
+    } catch {
+      const match = FALLBACK_PRODUCTS.find(p => p.id === Number(idOrSlug) || p.slug === idOrSlug);
+      if (match) return match;
+      throw new Error('Product not found');
+    }
   },
 
   async createProduct(productData: Partial<Product>): Promise<Product> {
@@ -171,7 +225,15 @@ export const api = {
 
   // Payments & Checkout Integration
   async getPaymentConfig(): Promise<PaymentConfig> {
-    return request('/payments/config');
+    try {
+      return await request('/payments/config');
+    } catch {
+      return {
+        razorpay_key_id: 'rzp_live_U1EINZEYZdW4j8',
+        upi_id: '8639866865@ybl',
+        merchant_name: 'AuraMart Modern Commerce'
+      };
+    }
   },
 
   async createRazorpayOrder(payload: {
