@@ -7,9 +7,68 @@ from app.auth import get_password_hash
 CATALOG_FILE = Path(__file__).resolve().parent / "curated_catalog.json"
 
 def seed_database(db: Session):
+    # Clean up any legacy Meesho or Flipkart products & category descriptions
+    try:
+        for bad_kw in ['meesho', 'flipkart', 'messho']:
+            pattern = f"%{bad_kw}%"
+            db.query(Product).filter(
+                (Product.name.ilike(pattern)) | (Product.description.ilike(pattern))
+            ).delete(synchronize_session=False)
+
+        cat7 = db.query(Category).filter(Category.slug == "accessories").first()
+        if cat7 and "meesho" in (cat7.description or "").lower():
+            cat7.description = "Amazon trending jewellery, smart accessories, mobile covers, 65W fast chargers, tempered glass, wallets, sunglasses and watches"
+        db.commit()
+    except Exception as e:
+        db.rollback()
+        print(f"Warning during legacy cleanup: {e}")
+
     # Check if database is already seeded
     if db.query(User).filter(User.email == "admin@store.com").first():
-        print("Database already seeded.")
+        print("Database already seeded. Verifying catalog products...")
+        # Ensure any missing Amazon products from curated_catalog.json are inserted
+        if CATALOG_FILE.exists():
+            try:
+                with open(CATALOG_FILE, "r", encoding="utf-8") as f:
+                    catalog = json.load(f)
+                category_map = {c.slug: c.id for c in db.query(Category).all()}
+                existing_skus = {p.sku for p in db.query(Product.sku).all()}
+                new_count = 0
+                for p in catalog.get("products", []):
+                    sku = p.get("sku", f"AURA-{p['id']:05d}")
+                    if sku not in existing_skus:
+                        # Find matching category by slug or default
+                        cat_slug = p.get("category_slug")
+                        cat_id = category_map.get(cat_slug) or p.get("category_id")
+                        prod = Product(
+                            name=p["name"],
+                            slug=p["slug"],
+                            description=p.get("description", ""),
+                            price=float(p["price"]),
+                            compare_at_price=float(p["compare_at_price"]) if p.get("compare_at_price") else None,
+                            cost_price=float(p["cost_price"]) if p.get("cost_price") else None,
+                            stock=int(p.get("stock", 50)),
+                            sku=sku,
+                            category_id=cat_id,
+                            image_url=p.get("image_url", ""),
+                            is_featured=bool(p.get("is_featured", 0)),
+                            is_active=bool(p.get("is_active", 1)),
+                            rating=float(p.get("rating", 4.5)),
+                            reviews_count=int(p.get("reviews_count", 100)),
+                            asin=p.get("asin"),
+                            is_amazon_product=bool(p.get("is_amazon_product", 1)),
+                            amazon_affiliate_url=p.get("amazon_affiliate_url"),
+                            brand=p.get("brand"),
+                            features=p.get("features")
+                        )
+                        db.add(prod)
+                        new_count += 1
+                if new_count > 0:
+                    db.commit()
+                    print(f"Added {new_count} missing curated products to database.")
+            except Exception as e:
+                db.rollback()
+                print(f"Warning syncing curated products: {e}")
         return
 
     print("Seeding database with curated catalog in Indian Rupees (₹)...")
