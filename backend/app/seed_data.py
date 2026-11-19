@@ -34,7 +34,8 @@ def seed_database(db: Session):
                 category_map = {c.slug: c.id for c in db.query(Category).all()}
                 existing_skus = {p.sku for p in db.query(Product.sku).all()}
                 new_count = 0
-                for p in catalog.get("products", []):
+                prod_list = catalog if isinstance(catalog, list) else catalog.get("products", [])
+                for p in prod_list:
                     sku = p.get("sku", f"AURA-{p['id']:05d}")
                     if sku not in existing_skus:
                         # Find matching category by slug or default
