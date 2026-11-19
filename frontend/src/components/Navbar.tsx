@@ -47,10 +47,20 @@ export const Navbar: React.FC<NavbarProps> = ({
   return (
     <header className="sticky top-0 z-40 bg-white/90 backdrop-blur-md border-b border-slate-200">
       {/* Top promotional bar */}
-      <div className="bg-slate-900 text-slate-300 text-xs py-1.5 px-4 text-center font-medium flex items-center justify-center gap-2">
-        <Sparkles className="w-3.5 h-3.5 text-emerald-400 animate-pulse" />
-        <span>Spring Season Special: <strong>Free Express Shipping</strong> on orders over ₹999</span>
-        <span className="hidden md:inline text-slate-500">• Use code <strong className="text-emerald-400">AURAFRESH</strong> for 10% off</span>
+      <div className="bg-slate-900 text-slate-300 text-xs py-1.5 px-4 font-medium">
+        <div className="max-w-7xl mx-auto flex items-center justify-between">
+          <div className="hidden sm:flex items-center gap-1.5 text-slate-400 text-[11px]">
+            <span>Designed by <strong className="text-emerald-400 font-semibold">Naveen Reddy</strong></span>
+          </div>
+          <div className="flex items-center justify-center gap-2 mx-auto sm:mx-0">
+            <Sparkles className="w-3.5 h-3.5 text-emerald-400 animate-pulse" />
+            <span>Spring Special: <strong>Free Express Shipping</strong> over ₹999</span>
+            <span className="hidden md:inline text-slate-500">• Code <strong className="text-emerald-400">AURAFRESH</strong> for 10% off</span>
+          </div>
+          <div className="hidden sm:flex items-center gap-2 text-slate-400 text-[11px]">
+            <span className="bg-emerald-950/80 text-emerald-400 px-2 py-0.5 rounded border border-emerald-500/20 font-semibold">Official Store</span>
+          </div>
+        </div>
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -72,8 +82,8 @@ export const Navbar: React.FC<NavbarProps> = ({
                 <span className="text-xl font-extrabold tracking-tight bg-gradient-to-r from-slate-900 via-emerald-950 to-slate-800 bg-clip-text text-transparent">
                   Aura<span className="text-emerald-600">Mart</span>
                 </span>
-                <span className="block text-[10px] font-semibold text-emerald-600 tracking-wider uppercase">
-                  Modern Commerce
+                <span className="block text-[10px] font-semibold text-slate-500 tracking-wider">
+                  by <span className="text-emerald-600 font-bold">Naveen Reddy</span>
                 </span>
               </div>
             </button>

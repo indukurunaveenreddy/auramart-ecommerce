@@ -474,8 +474,8 @@ const MainContent: React.FC = () => {
                 </div>
                 <span className="text-lg font-black text-white">AuraMart</span>
               </div>
-              <p className="text-slate-400 leading-relaxed">
-                State-of-the-art online shopping experience powered by FastAPI and modern React architecture.
+              <p className="text-slate-400 leading-relaxed text-sm">
+                Modern full-stack shopping platform designed by <strong className="text-white">Naveen Reddy</strong>, featuring Razorpay gateway and Amazon.in Associates.
               </p>
             </div>
 
@@ -537,10 +537,10 @@ const MainContent: React.FC = () => {
             </div>
           </div>
 
-          <div className="border-t border-slate-800 mt-10 pt-6 flex flex-col sm:flex-row justify-between items-center gap-3">
+          <div className="border-t border-slate-800 mt-10 pt-6 flex flex-col sm:flex-row justify-between items-center gap-3 text-xs sm:text-sm">
             <p>© {new Date().getFullYear()} AuraMart E-Commerce Platform. All rights reserved.</p>
-            <p className="text-slate-500 flex items-center gap-1">
-              Crafted with <Heart className="w-3.5 h-3.5 text-rose-500 fill-rose-500" /> for high performance
+            <p className="text-slate-300 flex items-center gap-1.5 font-medium">
+              Designed by <strong className="text-white font-bold tracking-wide">Naveen Reddy</strong> <Heart className="w-3.5 h-3.5 text-rose-500 fill-rose-500 inline" />
             </p>
           </div>
 

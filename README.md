@@ -1,6 +1,6 @@
 # AuraMart – Modern Commerce
 
-AuraMart is a modern full-stack e-commerce web platform with integrated Razorpay Standard Checkout, instant UPI app redirection, cash on delivery, and administrative management.
+AuraMart is a modern full-stack e-commerce web platform designed by **Naveen Reddy**, with integrated Razorpay Standard Checkout, instant UPI app redirection, cash on delivery, Amazon.in Associates, and administrative management.
 
 [![Live Storefront](https://img.shields.io/badge/Live_Storefront-GitHub_Pages-2ea44f?style=for-the-badge&logo=github)](https://indukurunaveenreddy.github.io/auramart-ecommerce/)
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/indukurunaveenreddy/auramart-ecommerce)
