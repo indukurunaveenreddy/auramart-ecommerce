@@ -28,7 +28,6 @@ import { OrderSuccessModal } from './components/OrderSuccessModal';
 import { PaymentFailureModal } from './components/PaymentFailureModal';
 import { MyOrdersModal } from './components/MyOrdersModal';
 import { AuthModal } from './components/AuthModal';
-import { AuthGate } from './components/AuthGate';
 import { AdminLoginModal } from './components/AdminLoginModal';
 import { AdminDashboard } from './components/admin/AdminDashboard';
 
@@ -193,10 +192,6 @@ const MainContent: React.FC = () => {
         <p className="text-xs text-slate-400 mt-1">Verifying secure session...</p>
       </div>
     );
-  }
-
-  if (!user) {
-    return <AuthGate onAdminLoginSuccess={() => setCurrentView('admin')} />;
   }
 
   return (
