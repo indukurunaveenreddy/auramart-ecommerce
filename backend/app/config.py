@@ -16,9 +16,9 @@ ACCESS_TOKEN_EXPIRE_MINUTES = int(os.getenv("ACCESS_TOKEN_EXPIRE_MINUTES", "1008
 
 DATABASE_URL = os.getenv("DATABASE_URL", f"sqlite:///{DB_FILE}")
 
-# Razorpay & Payment Gateway Configuration
-RAZORPAY_KEY_ID = os.getenv("RAZORPAY_KEY_ID", "rzp_test_placeholder")
-RAZORPAY_KEY_SECRET = os.getenv("RAZORPAY_KEY_SECRET", "rzp_secret_placeholder")
+# Razorpay & Payment Gateway Configuration (Production Live Keys)
+RAZORPAY_KEY_ID = os.getenv("RAZORPAY_KEY_ID", "rzp_live_U1EINZEYZdW4j8")
+RAZORPAY_KEY_SECRET = os.getenv("RAZORPAY_KEY_SECRET", "odW4tu1O6YY6KsB0sXj0Ct7V")
 RAZORPAY_WEBHOOK_SECRET = os.getenv("RAZORPAY_WEBHOOK_SECRET", "rzp_webhook_secret_placeholder")
 
 # Direct UPI Configuration
