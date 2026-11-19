@@ -4,6 +4,7 @@ import { Product } from '../types';
 import { useCart } from '../context/CartContext';
 import { formatPrice } from '../utils/currency';
 import { getAmazonAffiliateUrl } from '../utils/amazon';
+import { AmazonIcon } from './AmazonLogo';
 
 interface ProductCardProps {
   product: Product;
@@ -46,6 +47,10 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product, onOpenDetails
 
         {/* Floating Badges */}
         <div className="absolute top-3 left-3 flex flex-col gap-1.5 items-start">
+          <span className="bg-slate-900/90 text-white text-[10px] font-bold px-2 py-0.5 rounded-md flex items-center gap-1 shadow-sm backdrop-blur-xs border border-white/10">
+            <AmazonIcon className="w-3 h-3 text-amber-400" />
+            <span>Amazon</span>
+          </span>
           {discountPercent > 0 && (
             <span className="bg-rose-600 text-white text-[11px] font-bold px-2 py-0.5 rounded-md shadow-sm">
               -{discountPercent}%
@@ -137,10 +142,12 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product, onOpenDetails
               target="_blank"
               rel="noopener noreferrer sponsored"
               onClick={(e) => e.stopPropagation()}
-              className="p-2.5 rounded-xl text-amber-700 bg-amber-50 hover:bg-[#FF9900] hover:text-slate-950 border border-amber-200/70 transition-all flex items-center justify-center shadow-xs"
+              className="px-2.5 py-2 rounded-xl text-xs font-bold bg-[#FF9900]/15 hover:bg-[#FF9900] text-slate-900 border border-amber-300/80 transition-all flex items-center gap-1.5 shadow-xs hover:shadow-md group/amz"
               title="Buy directly on Amazon.in (Prime delivery)"
             >
-              <ExternalLink className="w-4 h-4" />
+              <AmazonIcon className="w-4 h-4 text-amber-600 group-hover/amz:text-slate-950 transition-colors" />
+              <span className="hidden sm:inline text-[11px] font-extrabold tracking-tight">Amazon</span>
+              <ExternalLink className="w-3 h-3 text-slate-500 group-hover/amz:text-slate-950" />
             </a>
 
             <button

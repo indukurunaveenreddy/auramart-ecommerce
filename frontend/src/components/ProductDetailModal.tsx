@@ -4,6 +4,7 @@ import { Product } from '../types';
 import { useCart } from '../context/CartContext';
 import { formatPrice } from '../utils/currency';
 import { getAmazonAffiliateUrl } from '../utils/amazon';
+import { AmazonIcon } from './AmazonLogo';
 
 interface ProductDetailModalProps {
   product: Product | null;
@@ -65,9 +66,12 @@ export const ProductDetailModal: React.FC<ProductDetailModalProps> = ({ product,
         <div className="md:w-1/2 p-6 md:p-8 flex flex-col justify-between overflow-y-auto">
           <div className="space-y-4">
             <div>
-              <div className="flex items-center gap-2 mb-1.5">
+              <div className="flex items-center gap-2 mb-1.5 flex-wrap">
                 <span className="text-xs font-bold uppercase tracking-wider text-emerald-600 bg-emerald-50 px-2.5 py-0.5 rounded-md">
                   {product.category?.name || 'Category'}
+                </span>
+                <span className="text-xs font-bold text-amber-700 bg-amber-50 border border-amber-200/80 px-2 py-0.5 rounded-md flex items-center gap-1">
+                  <AmazonIcon className="w-3.5 h-3.5" /> Amazon Verified
                 </span>
                 <span className="text-xs text-slate-400 font-mono">
                   SKU: {product.sku}
@@ -184,16 +188,17 @@ export const ProductDetailModal: React.FC<ProductDetailModalProps> = ({ product,
               )}
             </button>
 
-            {/* Amazon Associate Link */}
+            {/* Amazon Associate Link with Official Logo on the Left */}
             <a
               href={getAmazonAffiliateUrl(product.name)}
               target="_blank"
               rel="noopener noreferrer sponsored"
-              className="w-full py-3 rounded-xl font-bold text-xs sm:text-sm bg-[#FF9900] hover:bg-[#e68a00] text-slate-950 flex items-center justify-center gap-2 transition-all shadow-md shadow-amber-500/10 group"
+              className="w-full py-3.5 rounded-xl font-bold text-sm bg-[#FF9900] hover:bg-[#F28B00] text-slate-950 flex items-center justify-center gap-2.5 transition-all shadow-md hover:shadow-lg shadow-amber-500/20 group"
               title="Buy directly on Amazon.in"
             >
-              <ExternalLink className="w-4 h-4 transition-transform group-hover:scale-110" />
+              <AmazonIcon className="w-5 h-5 fill-slate-950" />
               <span>Buy on Amazon.in (Prime / Fast Delivery)</span>
+              <ExternalLink className="w-4 h-4 text-slate-800 group-hover:translate-x-0.5 transition-transform" />
             </a>
 
             <div className="grid grid-cols-3 gap-2 text-center text-[11px] text-slate-500 pt-1">
