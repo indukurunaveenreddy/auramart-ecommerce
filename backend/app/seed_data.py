@@ -121,20 +121,41 @@ def seed_database(db: Session):
             catalog = json.load(f)
 
         category_id_map = {}
-        for c in catalog.get("categories", []):
-            cat = Category(
-                name=c["name"],
-                slug=c["slug"],
-                description=c.get("description"),
-                icon=c.get("icon")
-            )
-            db.add(cat)
-            db.flush()
-            category_id_map[c["id"]] = cat.id
+        if isinstance(catalog, dict) and "categories" in catalog:
+            for c in catalog.get("categories", []):
+                cat = Category(
+                    name=c["name"],
+                    slug=c["slug"],
+                    description=c.get("description"),
+                    icon=c.get("icon")
+                )
+                db.add(cat)
+                db.flush()
+                category_id_map[c["id"]] = cat.id
+        else:
+            # Ensure standard 8 categories exist
+            DEFAULT_CATS = [
+                (1, "Clothing", "clothing", "Men, Women and Kids fashion apparel, ethnic wear, and daily essentials"),
+                (2, "Accessories", "accessories", "Watches, sunglasses, genuine leather wallets, backpacks, jewellery, and travel luggage"),
+                (3, "Groceries", "groceries", "Basmati rice, unpolished pulses, organic atta, cooking oil, spices, and gourmet dry fruits"),
+                (4, "Electronics", "electronics", "Smartphones, laptops, noise-canceling headphones, 4K Smart TVs, tablets, and smart devices"),
+                (5, "Home & Kitchen", "home-kitchen", "750W mixer grinders, pressure cookers, ergonomic chairs, bedsheets, and vacuum cleaners"),
+                (6, "Beauty & Personal Care", "beauty-personal-care", "Hyaluronic moisturizers, SPF 50+ sunscreens, luxury perfumes, keratin shampoos, and hair oils"),
+                (7, "Sports & Fitness", "sports-fitness", "Neoprene dumbbells, 10mm yoga mats, graphite badminton rackets, footballs, and running shoes"),
+                (8, "Toys & Baby Products", "toys-baby", "LEGO building bricks, 4WD remote control monster trucks, board games, and Pampers diapers")
+            ]
+            for cid, cname, cslug, cdesc in DEFAULT_CATS:
+                cat = db.query(Category).filter(Category.slug == cslug).first()
+                if not cat:
+                    cat = Category(name=cname, slug=cslug, description=cdesc)
+                    db.add(cat)
+                    db.flush()
+                category_id_map[cid] = cat.id
 
-        for p in catalog.get("products", []):
+        prod_list = catalog.get("products", []) if isinstance(catalog, dict) else catalog
+        for p in prod_list:
             old_cat_id = p.get("category_id")
-            new_cat_id = category_id_map.get(old_cat_id)
+            new_cat_id = category_id_map.get(old_cat_id, old_cat_id)
             prod = Product(
                 name=p["name"],
                 slug=p["slug"],
@@ -143,13 +164,18 @@ def seed_database(db: Session):
                 compare_at_price=float(p["compare_at_price"]) if p.get("compare_at_price") else None,
                 cost_price=float(p["cost_price"]) if p.get("cost_price") else None,
                 stock=int(p.get("stock", 50)),
-                sku=p.get("sku", f"AURA-{p['id']:05d}"),
+                sku=p.get("sku", f"AMZ-{p.get('asin', p.get('id', '000'))}"),
                 category_id=new_cat_id,
                 image_url=p.get("image_url", ""),
                 is_featured=bool(p.get("is_featured", 0)),
                 is_active=bool(p.get("is_active", 1)),
                 rating=float(p.get("rating", 4.5)),
-                reviews_count=int(p.get("reviews_count", 100))
+                reviews_count=int(p.get("reviews_count", 100)),
+                asin=p.get("asin"),
+                is_amazon_product=bool(p.get("is_amazon_product", 1)),
+                amazon_affiliate_url=p.get("amazon_affiliate_url"),
+                brand=p.get("brand"),
+                features=p.get("features")
             )
             db.add(prod)
         db.flush()
