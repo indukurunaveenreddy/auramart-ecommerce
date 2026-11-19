@@ -24,10 +24,16 @@ app = FastAPI(
     lifespan=lifespan
 )
 
-# Enable CORS for frontend applications
+# Enable CORS for frontend applications (GitHub Pages, Vercel, localhost)
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=[
+        "http://localhost:5173",
+        "http://localhost:3000",
+        "http://127.0.0.1:5173",
+        "https://indukurunaveenreddy.github.io",
+    ],
+    allow_origin_regex=r"https://.*\.github\.io|https://.*\.vercel\.app|https://.*\.onrender\.com|http://localhost:.*",
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],

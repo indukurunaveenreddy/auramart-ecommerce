@@ -11,11 +11,23 @@ import {
 } from '../types';
 import { FALLBACK_CATEGORIES, FALLBACK_PRODUCTS } from '../data/fallbackData';
 
-const API_BASE = (import.meta as any).env?.VITE_API_URL 
-  ? `${(import.meta as any).env.VITE_API_URL}/api`
-  : (typeof window !== 'undefined' && (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1')
-      ? 'http://localhost:8000/api'
-      : '/api');
+const DEFAULT_RENDER_BACKEND = 'https://auramart-api.onrender.com';
+
+const getApiBase = (): string => {
+  if (typeof window !== 'undefined') {
+    const customUrl = localStorage.getItem('auramart_api_url');
+    if (customUrl) return `${customUrl.replace(/\/$/, '')}/api`;
+  }
+  if ((import.meta as any).env?.VITE_API_URL) {
+    return `${(import.meta as any).env.VITE_API_URL.replace(/\/$/, '')}/api`;
+  }
+  if (typeof window !== 'undefined' && (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1')) {
+    return 'http://localhost:8000/api';
+  }
+  return `${DEFAULT_RENDER_BACKEND}/api`;
+};
+
+const API_BASE = getApiBase();
 
 function getAuthHeaders(): HeadersInit {
   const token = localStorage.getItem('token');
