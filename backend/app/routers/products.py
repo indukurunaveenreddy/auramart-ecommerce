@@ -19,8 +19,9 @@ def get_products(
     max_price: Optional[float] = None,
     featured_only: Optional[bool] = None,
     in_stock_only: Optional[bool] = None,
+    amazon_only: Optional[bool] = None,
     include_inactive: Optional[bool] = False,
-    sort_by: Optional[str] = "newest",  # newest, price_asc, price_desc, rating
+    sort_by: Optional[str] = "newest",  # newest, price_asc, price_desc, rating, trending
     page: int = Query(1, ge=1),
     limit: int = Query(40, ge=1, le=200),
     db: Session = Depends(get_db)
@@ -44,7 +45,9 @@ def get_products(
             or_(
                 Product.name.ilike(search_fmt),
                 Product.description.ilike(search_fmt),
-                Product.sku.ilike(search_fmt)
+                Product.sku.ilike(search_fmt),
+                Product.asin.ilike(search_fmt),
+                Product.brand.ilike(search_fmt)
             )
         )
 
@@ -56,6 +59,9 @@ def get_products(
     if featured_only:
         query = query.filter(Product.is_featured == True)
 
+    if amazon_only:
+        query = query.filter(Product.is_amazon_product == True)
+
     if in_stock_only:
         query = query.filter(Product.stock > 0)
 
@@ -65,6 +71,8 @@ def get_products(
         query = query.order_by(Product.price.desc())
     elif sort_by == "rating":
         query = query.order_by(Product.rating.desc())
+    elif sort_by == "trending":
+        query = query.order_by(Product.reviews_count.desc(), Product.rating.desc())
     else:  # newest
         query = query.order_by(Product.created_at.desc())
 
@@ -149,7 +157,7 @@ def update_stock(
 
 @router.get("/export/csv")
 def export_products_csv(db: Session = Depends(get_db)):
-    """Export complete Flipkart & Amazon A-to-Z catalog as CSV."""
+    """Export complete Amazon A-to-Z catalog as CSV."""
     import csv, io
     from fastapi.responses import Response
 
@@ -196,7 +204,7 @@ def export_products_csv(db: Session = Depends(get_db)):
 
 @router.get("/export/json")
 def export_products_json(db: Session = Depends(get_db)):
-    """Export complete Flipkart & Amazon A-to-Z catalog as JSON."""
+    """Export complete Amazon A-to-Z catalog as JSON."""
     products = (
         db.query(Product, Category.name.label("category_name"))
         .join(Category, Product.category_id == Category.id)

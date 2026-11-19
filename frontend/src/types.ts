@@ -176,9 +176,10 @@ export interface ProductFilterParams {
   search?: string;
   min_price?: number;
   max_price?: number;
-  sort_by?: 'newest' | 'price_asc' | 'price_desc' | 'rating';
+  sort_by?: 'newest' | 'price_asc' | 'price_desc' | 'rating' | 'trending';
   featured_only?: boolean;
   in_stock_only?: boolean;
+  amazon_only?: boolean;
   page?: number;
   limit?: number;
 }

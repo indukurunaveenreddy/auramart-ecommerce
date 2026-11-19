@@ -13,8 +13,11 @@ import {
   ChevronLeft,
   ChevronRight,
   ChevronsLeft,
-  ChevronsRight
+  ChevronsRight,
+  Flame,
+  Zap
 } from 'lucide-react';
+import { AmazonIcon } from './components/AmazonLogo';
 import { Product, Category, Order } from './types';
 import { api } from './services/api';
 import { AuthProvider, useAuth } from './context/AuthContext';
@@ -49,9 +52,10 @@ const MainContent: React.FC = () => {
   // Filters
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
   const [searchQuery, setSearchQuery] = useState('');
-  const [sortBy, setSortBy] = useState<'newest' | 'price_asc' | 'price_desc' | 'rating'>('newest');
+  const [sortBy, setSortBy] = useState<'newest' | 'price_asc' | 'price_desc' | 'rating' | 'trending'>('newest');
   const [inStockOnly, setInStockOnly] = useState(false);
   const [featuredOnly, setFeaturedOnly] = useState(false);
+  const [amazonOnly, setAmazonOnly] = useState(false);
   const [minPrice, setMinPrice] = useState<number | undefined>(undefined);
   const [maxPrice, setMaxPrice] = useState<number | undefined>(undefined);
   const [pricePreset, setPricePreset] = useState<string>('all');
@@ -84,6 +88,7 @@ const MainContent: React.FC = () => {
         sort_by: sortBy,
         in_stock_only: inStockOnly || undefined,
         featured_only: featuredOnly || undefined,
+        amazon_only: amazonOnly || undefined,
         min_price: minPrice,
         max_price: maxPrice,
         page,
@@ -99,7 +104,7 @@ const MainContent: React.FC = () => {
     } finally {
       setLoading(false);
     }
-  }, [selectedCategory, searchQuery, sortBy, inStockOnly, featuredOnly, minPrice, maxPrice]);
+  }, [selectedCategory, searchQuery, sortBy, inStockOnly, featuredOnly, amazonOnly, minPrice, maxPrice]);
 
   useEffect(() => {
     fetchCategories();
@@ -109,7 +114,7 @@ const MainContent: React.FC = () => {
   useEffect(() => {
     setCurrentPage(1);
     fetchProducts(1);
-  }, [selectedCategory, searchQuery, sortBy, inStockOnly, featuredOnly, minPrice, maxPrice]);
+  }, [selectedCategory, searchQuery, sortBy, inStockOnly, featuredOnly, amazonOnly, minPrice, maxPrice]);
 
   const handlePricePreset = (presetKey: string) => {
     setPricePreset(presetKey);
@@ -214,6 +219,75 @@ const MainContent: React.FC = () => {
         <AdminDashboard onSwitchToShop={() => setCurrentView('shop')} />
       ) : (
         <main className="flex-1 w-full max-w-full overflow-x-hidden">
+          {/* Amazon Best Sellers & Trending Showcase Banner */}
+          <div className="bg-gradient-to-r from-slate-900 via-slate-800 to-amber-950 text-white border-b border-amber-500/20 py-8 px-4 sm:px-6 lg:px-8">
+            <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
+              <div className="space-y-2 text-center md:text-left">
+                <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-500/20 border border-amber-400/30 text-amber-300 text-xs font-bold tracking-wide">
+                  <AmazonIcon className="w-3.5 h-3.5 text-amber-400" />
+                  <span>Official Amazon India Associates Collection</span>
+                </div>
+                <h1 className="text-2xl sm:text-3xl font-extrabold tracking-tight">
+                  Discover Best Sellers, Gadgets & Trending Finds
+                </h1>
+                <p className="text-xs sm:text-sm text-slate-300 max-w-2xl">
+                  Curated quality products with 1-click checkout on Amazon.in. Prime delivery, verified buyer reviews, and genuine brand guarantees.
+                </p>
+              </div>
+
+              {/* Quick Action Badges */}
+              <div className="flex flex-wrap items-center justify-center gap-2.5">
+                <button
+                  onClick={() => {
+                    setSortBy('trending');
+                    const el = document.getElementById('catalog-section');
+                    el?.scrollIntoView({ behavior: 'smooth' });
+                  }}
+                  className={`px-4 py-2 rounded-xl text-xs font-bold transition-all flex items-center gap-1.5 shadow-md ${
+                    sortBy === 'trending'
+                      ? 'bg-amber-500 text-slate-950 ring-2 ring-amber-300'
+                      : 'bg-white/10 hover:bg-white/20 text-white border border-white/10'
+                  }`}
+                >
+                  <Flame className="w-3.5 h-3.5 text-amber-400" />
+                  <span>Trending Deals</span>
+                </button>
+
+                <button
+                  onClick={() => {
+                    setFeaturedOnly(!featuredOnly);
+                    const el = document.getElementById('catalog-section');
+                    el?.scrollIntoView({ behavior: 'smooth' });
+                  }}
+                  className={`px-4 py-2 rounded-xl text-xs font-bold transition-all flex items-center gap-1.5 shadow-md ${
+                    featuredOnly
+                      ? 'bg-emerald-500 text-white ring-2 ring-emerald-300'
+                      : 'bg-white/10 hover:bg-white/20 text-white border border-white/10'
+                  }`}
+                >
+                  <Sparkles className="w-3.5 h-3.5 text-emerald-400" />
+                  <span>Featured Picks</span>
+                </button>
+
+                <button
+                  onClick={() => {
+                    setAmazonOnly(!amazonOnly);
+                    const el = document.getElementById('catalog-section');
+                    el?.scrollIntoView({ behavior: 'smooth' });
+                  }}
+                  className={`px-4 py-2 rounded-xl text-xs font-bold transition-all flex items-center gap-1.5 shadow-md ${
+                    amazonOnly
+                      ? 'bg-amber-400 text-slate-950 ring-2 ring-amber-200'
+                      : 'bg-white/10 hover:bg-white/20 text-white border border-white/10'
+                  }`}
+                >
+                  <AmazonIcon className="w-3.5 h-3.5 text-amber-300" />
+                  <span>Amazon Verified</span>
+                </button>
+              </div>
+            </div>
+          </div>
+
           {/* Catalog & Filter Section */}
           <div id="catalog-section" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 w-full">
             {/* Quick Category Selection Pills */}
@@ -277,7 +351,18 @@ const MainContent: React.FC = () => {
                       onChange={(e) => setFeaturedOnly(e.target.checked)}
                       className="rounded text-emerald-600 focus:ring-emerald-500"
                     />
-                    <span>Featured Only</span>
+                    <span>Featured</span>
+                  </label>
+
+                  <label className="flex items-center gap-1.5 text-xs font-semibold text-slate-700 cursor-pointer select-none">
+                    <input
+                      type="checkbox"
+                      checked={amazonOnly}
+                      onChange={(e) => setAmazonOnly(e.target.checked)}
+                      className="rounded text-amber-500 focus:ring-amber-500"
+                    />
+                    <AmazonIcon className="w-3.5 h-3.5 text-amber-500" />
+                    <span>Amazon Verified</span>
                   </label>
 
                   <div className="h-4 w-px bg-slate-200 hidden sm:block" />
@@ -291,9 +376,10 @@ const MainContent: React.FC = () => {
                       className="bg-slate-50 border border-slate-200 text-slate-800 text-xs font-semibold rounded-xl px-3 py-1.5 focus:bg-white focus:outline-none"
                     >
                       <option value="newest">Sort: Newest First</option>
+                      <option value="trending">🔥 Trending Deals</option>
+                      <option value="rating">★ Highest Rated</option>
                       <option value="price_asc">Price: Low to High</option>
                       <option value="price_desc">Price: High to Low</option>
-                      <option value="rating">Highest Rated</option>
                     </select>
                   </div>
                 </div>
@@ -304,9 +390,9 @@ const MainContent: React.FC = () => {
                 <span className="text-slate-400 font-semibold mr-1">Price Range:</span>
                 {[
                   { key: 'all', label: 'All Deals' },
-                  { key: 'under99', label: 'Under ₹99 (Meesho Budget)' },
-                  { key: 'under299', label: 'Under ₹299 (Flipkart Deals)' },
-                  { key: 'under999', label: 'Under ₹999 (Daily Essentials)' },
+                  { key: 'under99', label: 'Under ₹99 (Super Saver)' },
+                  { key: 'under299', label: 'Under ₹299 (Budget Deals)' },
+                  { key: 'under999', label: 'Under ₹999 (Amazon Best Deals)' },
                   { key: '1k-10k', label: '₹1,000 – ₹10,000' },
                   { key: 'above10k', label: '₹10,000+ (Premium)' },
                 ].map((preset) => (
@@ -369,6 +455,8 @@ const MainContent: React.FC = () => {
                     setSearchQuery('');
                     setInStockOnly(false);
                     setFeaturedOnly(false);
+                    setAmazonOnly(false);
+                    setSortBy('newest');
                     handlePricePreset('all');
                   }}
                   className="px-4 py-2 bg-slate-900 text-white rounded-xl text-xs font-semibold hover:bg-slate-800"

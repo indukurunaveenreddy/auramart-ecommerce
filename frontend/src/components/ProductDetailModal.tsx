@@ -190,7 +190,7 @@ export const ProductDetailModal: React.FC<ProductDetailModalProps> = ({ product,
 
             {/* Amazon Associate Link with Official Logo on the Left */}
             <a
-              href={getAmazonAffiliateUrl(product.name)}
+              href={getAmazonAffiliateUrl(product.name, product.asin, product.amazon_affiliate_url)}
               target="_blank"
               rel="noopener noreferrer sponsored"
               className="w-full py-3.5 rounded-xl font-bold text-sm bg-[#FF9900] hover:bg-[#F28B00] text-slate-950 flex items-center justify-center gap-2.5 transition-all shadow-md hover:shadow-lg shadow-amber-500/20 group"

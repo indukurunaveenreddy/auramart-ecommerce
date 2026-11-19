@@ -98,7 +98,7 @@ export const Navbar: React.FC<NavbarProps> = ({
                   type="text"
                   value={searchQuery}
                   onChange={(e) => onSearchChange(e.target.value)}
-                  placeholder="Search clothing, electronics, accessories, home & fitness..."
+                  placeholder="Search products, brands, ASINs, categories..."
                   className="w-full pl-10 pr-16 py-2 bg-slate-100 border border-transparent rounded-xl text-sm text-slate-900 placeholder:text-slate-400 focus:bg-white focus:border-emerald-500 focus:outline-none focus:ring-2 focus:ring-emerald-500/20 transition-all"
                 />
                 {searchQuery && (
@@ -255,7 +255,7 @@ export const Navbar: React.FC<NavbarProps> = ({
                 type="text"
                 value={searchQuery}
                 onChange={(e) => onSearchChange(e.target.value)}
-                placeholder="Search products or brands..."
+                placeholder="Search products, brands, ASINs..."
                 className="w-full pl-10 pr-4 py-2 bg-slate-100 border border-transparent rounded-xl text-sm text-slate-900 placeholder:text-slate-400 focus:bg-white focus:border-emerald-500 focus:outline-none focus:ring-2 focus:ring-emerald-500/20"
               />
             </div>

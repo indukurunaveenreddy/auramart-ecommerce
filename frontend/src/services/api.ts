@@ -113,6 +113,7 @@ export const api = {
       if (params.sort_by) query.set('sort_by', params.sort_by);
       if (params.featured_only) query.set('featured_only', 'true');
       if (params.in_stock_only) query.set('in_stock_only', 'true');
+      if (params.amazon_only) query.set('amazon_only', 'true');
       if (params.page) query.set('page', params.page.toString());
       if (params.limit) query.set('limit', params.limit.toString());
 
@@ -126,19 +127,28 @@ export const api = {
       }
       if (params.search) {
         const q = params.search.toLowerCase();
-        list = list.filter(p => p.name.toLowerCase().includes(q) || (p.description && p.description.toLowerCase().includes(q)));
+        list = list.filter(
+          (p) =>
+            p.name.toLowerCase().includes(q) ||
+            (p.description && p.description.toLowerCase().includes(q)) ||
+            (p.asin && p.asin.toLowerCase().includes(q)) ||
+            (p.brand && p.brand.toLowerCase().includes(q))
+        );
       }
       if (params.min_price !== undefined) {
-        list = list.filter(p => p.price >= params.min_price!);
+        list = list.filter((p) => p.price >= params.min_price!);
       }
       if (params.max_price !== undefined) {
-        list = list.filter(p => p.price <= params.max_price!);
+        list = list.filter((p) => p.price <= params.max_price!);
       }
       if (params.featured_only) {
-        list = list.filter(p => p.is_featured);
+        list = list.filter((p) => p.is_featured);
+      }
+      if (params.amazon_only) {
+        list = list.filter((p) => p.is_amazon_product);
       }
       if (params.in_stock_only) {
-        list = list.filter(p => p.stock > 0);
+        list = list.filter((p) => p.stock > 0);
       }
       if (params.sort_by === 'price_asc') {
         list.sort((a, b) => a.price - b.price);
@@ -146,6 +156,8 @@ export const api = {
         list.sort((a, b) => b.price - a.price);
       } else if (params.sort_by === 'rating') {
         list.sort((a, b) => b.rating - a.rating);
+      } else if (params.sort_by === 'trending') {
+        list.sort((a, b) => (b.reviews_count || 0) - (a.reviews_count || 0) || b.rating - a.rating);
       }
       const page = params.page || 1;
       const limit = params.limit || 40;

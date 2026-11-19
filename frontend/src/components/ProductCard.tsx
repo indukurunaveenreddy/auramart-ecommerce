@@ -138,7 +138,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product, onOpenDetails
           {/* Actions: Direct Amazon Affiliate & Add to Cart */}
           <div className="flex items-center gap-1.5">
             <a
-              href={getAmazonAffiliateUrl(product.name)}
+              href={getAmazonAffiliateUrl(product.name, product.asin, product.amazon_affiliate_url)}
               target="_blank"
               rel="noopener noreferrer sponsored"
               onClick={(e) => e.stopPropagation()}

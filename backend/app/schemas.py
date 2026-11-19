@@ -60,6 +60,12 @@ class ProductBase(BaseModel):
     is_active: Optional[bool] = True
     rating: Optional[float] = 4.5
     reviews_count: Optional[int] = 0
+    asin: Optional[str] = None
+    is_amazon_product: Optional[bool] = False
+    amazon_affiliate_url: Optional[str] = None
+    brand: Optional[str] = None
+    features: Optional[str] = None
+    last_synced_at: Optional[datetime] = None
 
 class ProductCreate(ProductBase):
     pass
@@ -77,6 +83,11 @@ class ProductUpdate(BaseModel):
     image_url: Optional[str] = None
     is_featured: Optional[bool] = None
     is_active: Optional[bool] = None
+    asin: Optional[str] = None
+    is_amazon_product: Optional[bool] = None
+    amazon_affiliate_url: Optional[str] = None
+    brand: Optional[str] = None
+    features: Optional[str] = None
 
 class ProductResponse(ProductBase):
     id: int
