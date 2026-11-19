@@ -11,7 +11,7 @@ import {
 } from '../types';
 import { FALLBACK_CATEGORIES, FALLBACK_PRODUCTS } from '../data/fallbackData';
 
-const DEFAULT_RENDER_BACKEND = 'https://auramart-api.onrender.com';
+const DEFAULT_RENDER_BACKEND = 'https://auramart-ecommerce.onrender.com';
 
 const getApiBase = (): string => {
   if (typeof window !== 'undefined') {
