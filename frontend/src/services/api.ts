@@ -7,7 +7,10 @@ import {
   ProductFilterParams,
   PaginatedProducts,
   PaymentConfig,
-  RazorpayOrderResult
+  RazorpayOrderResult,
+  AmazonProductItem,
+  AmazonConfig,
+  AmazonImportLog
 } from '../types';
 import { FALLBACK_CATEGORIES, FALLBACK_PRODUCTS } from '../data/fallbackData';
 
@@ -352,5 +355,104 @@ export const api = {
   // Admin Analytics
   async getAdminStats(): Promise<AdminStats> {
     return request('/analytics/dashboard');
+  },
+
+  // Amazon India Creators & PA-API Integration
+  async getAmazonConfig(): Promise<AmazonConfig> {
+    return request('/amazon/config');
+  },
+
+  async testAmazonCredentials(): Promise<{ success: boolean; status: string; message: string; sample_items_found?: number }> {
+    return request('/amazon/test-credentials', { method: 'POST' });
+  },
+
+  async searchAmazon(params: {
+    keyword?: string;
+    category?: string;
+    page?: number;
+    item_count?: number;
+  }): Promise<{
+    source: string;
+    total_results: number;
+    page: number;
+    items: AmazonProductItem[];
+    api_error?: string;
+    partner_tag: string;
+  }> {
+    return request('/amazon/search', {
+      method: 'POST',
+      body: JSON.stringify(params),
+    });
+  },
+
+  async lookupAmazonASINs(asins: string[]): Promise<{
+    total_results: number;
+    items: AmazonProductItem[];
+  }> {
+    return request('/amazon/lookup', {
+      method: 'POST',
+      body: JSON.stringify({ asins }),
+    });
+  },
+
+  async importAmazonProducts(products: AmazonProductItem[]): Promise<{
+    success: boolean;
+    imported_count: number;
+    skipped_count: number;
+    failed_count: number;
+    imported: any[];
+    skipped: any[];
+    failed: any[];
+  }> {
+    return request('/amazon/import', {
+      method: 'POST',
+      body: JSON.stringify({ products }),
+    });
+  },
+
+  async getAmazonImports(params?: {
+    page?: number;
+    limit?: number;
+    search?: string;
+    category_id?: number;
+  }): Promise<{
+    total: number;
+    page: number;
+    limit: number;
+    total_pages: number;
+    products: any[];
+    recent_logs: AmazonImportLog[];
+  }> {
+    const q = new URLSearchParams();
+    if (params?.page) q.set('page', params.page.toString());
+    if (params?.limit) q.set('limit', params.limit.toString());
+    if (params?.search) q.set('search', params.search);
+    if (params?.category_id) q.set('category_id', params.category_id.toString());
+    const qs = q.toString();
+    return request(`/amazon/imports${qs ? `?${qs}` : ''}`);
+  },
+
+  async toggleAmazonProduct(productId: number): Promise<{ success: boolean; product_id: number; is_active: boolean }> {
+    return request(`/amazon/products/${productId}/toggle`, {
+      method: 'PATCH',
+    });
+  },
+
+  async deleteAmazonProduct(productId: number): Promise<{ success: boolean; message: string }> {
+    return request(`/amazon/products/${productId}`, {
+      method: 'DELETE',
+    });
+  },
+
+  async syncAmazonProducts(productIds?: number[]): Promise<{
+    success: boolean;
+    synced_count: number;
+    partner_tag: string;
+    synced_at: string;
+  }> {
+    return request('/amazon/sync', {
+      method: 'POST',
+      body: JSON.stringify({ product_ids: productIds }),
+    });
   },
 };

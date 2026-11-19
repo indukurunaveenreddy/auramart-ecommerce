@@ -17,9 +17,11 @@ import { formatPrice } from '../../utils/currency';
 import { ProductManagement } from './ProductManagement';
 import { OrderManagement } from './OrderManagement';
 import { ProductFormModal } from './ProductFormModal';
+import { AmazonImporter } from './AmazonImporter';
+import { AmazonIcon } from '../AmazonLogo';
 
 export const AdminDashboard: React.FC<{ onSwitchToShop: () => void }> = ({ onSwitchToShop }) => {
-  const [activeTab, setActiveTab] = useState<'overview' | 'products' | 'orders'>('overview');
+  const [activeTab, setActiveTab] = useState<'overview' | 'products' | 'orders' | 'amazon'>('overview');
   const [stats, setStats] = useState<AdminStats | null>(null);
   const [products, setProducts] = useState<Product[]>([]);
   const [categories, setCategories] = useState<Category[]>([]);
@@ -107,6 +109,18 @@ export const AdminDashboard: React.FC<{ onSwitchToShop: () => void }> = ({ onSwi
                 >
                   <ListOrdered className="w-3.5 h-3.5" />
                   <span>Orders ({orders.length})</span>
+                </button>
+
+                <button
+                  onClick={() => setActiveTab('amazon')}
+                  className={`px-3 py-1.5 rounded-lg text-xs font-bold flex items-center gap-1.5 transition-all ${
+                    activeTab === 'amazon'
+                      ? 'bg-[#FF9900] text-slate-950 shadow-xs'
+                      : 'text-amber-800 bg-amber-50 hover:bg-amber-100/80 border border-amber-200/80'
+                  }`}
+                >
+                  <AmazonIcon className="w-3.5 h-3.5 text-slate-950" />
+                  <span>Amazon Importer</span>
                 </button>
               </div>
             </div>
@@ -316,6 +330,10 @@ export const AdminDashboard: React.FC<{ onSwitchToShop: () => void }> = ({ onSwi
 
             {activeTab === 'orders' && (
               <OrderManagement orders={orders} onRefresh={loadData} />
+            )}
+
+            {activeTab === 'amazon' && (
+              <AmazonImporter onProductImported={loadData} />
             )}
           </>
         )}

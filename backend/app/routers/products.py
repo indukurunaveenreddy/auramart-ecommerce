@@ -191,7 +191,7 @@ def export_products_csv(db: Session = Depends(get_db)):
     return Response(
         content=csv_data,
         media_type="text/csv",
-        headers={"Content-Disposition": "attachment; filename=flipkart_amazon_a_to_z_catalog.csv"}
+        headers={"Content-Disposition": "attachment; filename=amazon_india_catalog.csv"}
     )
 
 @router.get("/export/json")

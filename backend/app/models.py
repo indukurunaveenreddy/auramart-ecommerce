@@ -45,6 +45,13 @@ class Product(Base):
     is_active = Column(Boolean, default=True)
     rating = Column(Float, default=4.5)
     reviews_count = Column(Integer, default=12)
+    # Amazon Associates & Creators API Fields
+    asin = Column(String(20), unique=True, index=True, nullable=True)
+    is_amazon_product = Column(Boolean, default=True)
+    amazon_affiliate_url = Column(String(500), nullable=True)
+    brand = Column(String(100), nullable=True)
+    features = Column(Text, nullable=True)  # JSON or bullet points
+    last_synced_at = Column(DateTime, nullable=True)
     created_at = Column(DateTime, default=datetime.utcnow)
     updated_at = Column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
 
@@ -110,3 +117,15 @@ class CartItem(Base):
 
     user = relationship("User", back_populates="cart_items")
     product = relationship("Product", back_populates="cart_items")
+
+class AmazonImportLog(Base):
+    __tablename__ = "amazon_import_logs"
+
+    id = Column(Integer, primary_key=True, index=True)
+    asin = Column(String(20), index=True, nullable=False)
+    title = Column(String(300), nullable=False)
+    category = Column(String(100), nullable=True)
+    status = Column(String(20), default="success")  # "success", "failed", "duplicate"
+    message = Column(Text, nullable=True)
+    product_id = Column(Integer, ForeignKey("products.id", ondelete="SET NULL"), nullable=True)
+    imported_at = Column(DateTime, default=datetime.utcnow)

@@ -3,7 +3,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from app.database import engine, Base, SessionLocal
 from app.seed_data import seed_database
-from app.routers import auth, products, categories, orders, analytics, payments
+from app.routers import auth, products, categories, orders, analytics, payments, amazon
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
@@ -46,6 +46,7 @@ app.include_router(products.router)
 app.include_router(orders.router)
 app.include_router(analytics.router)
 app.include_router(payments.router)
+app.include_router(amazon.router)
 
 @app.get("/")
 def root():

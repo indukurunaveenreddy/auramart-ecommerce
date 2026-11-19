@@ -20,19 +20,65 @@ export interface Product {
   slug: string;
   description: string;
   price: number;
-  compare_at_price?: number;
-  cost_price?: number;
+  compare_at_price?: number | null;
+  cost_price?: number | null;
   stock: number;
   sku: string;
-  category_id?: number;
+  category_id?: number | null;
   category?: Category;
   image_url: string;
   is_featured: boolean;
   is_active: boolean;
   rating: number;
   reviews_count: number;
-  created_at: string;
-  updated_at: string;
+  asin?: string | null;
+  is_amazon_product?: boolean | null;
+  amazon_affiliate_url?: string | null;
+  brand?: string | null;
+  features?: string | null;
+  last_synced_at?: string | null;
+  created_at?: string | null;
+  updated_at?: string | null;
+}
+
+export interface AmazonProductItem {
+  asin: string;
+  name: string;
+  brand?: string;
+  category?: string;
+  price: number;
+  compare_at_price?: number;
+  discount_percent?: number;
+  image_url: string;
+  description?: string;
+  features?: string[];
+  rating?: number;
+  reviews_count?: number;
+  availability?: string;
+  affiliate_url: string;
+  is_already_imported?: boolean;
+  existing_product_id?: number;
+}
+
+export interface AmazonConfig {
+  is_configured: boolean;
+  partner_tag: string;
+  marketplace: string;
+  api_host: string;
+  region: string;
+  supported_categories: { name: string; value: string; icon: string }[];
+  total_imported_products: number;
+  status: 'CONFIGURED_ACTIVE' | 'AWAITING_CREDENTIALS';
+}
+
+export interface AmazonImportLog {
+  id: number;
+  asin: string;
+  title: string;
+  category?: string;
+  status: 'success' | 'failed' | 'duplicate';
+  message?: string;
+  imported_at: string;
 }
 
 export interface OrderItem {
