@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
-import { X, Star, ShoppingBag, Shield, Truck, RefreshCw, Check, AlertCircle } from 'lucide-react';
+import { X, Star, ShoppingBag, Shield, Truck, RefreshCw, Check, AlertCircle, ExternalLink } from 'lucide-react';
 import { Product } from '../types';
 import { useCart } from '../context/CartContext';
 import { formatPrice } from '../utils/currency';
+import { getAmazonAffiliateUrl } from '../utils/amazon';
 
 interface ProductDetailModalProps {
   product: Product | null;
@@ -182,6 +183,18 @@ export const ProductDetailModal: React.FC<ProductDetailModalProps> = ({ product,
                 </>
               )}
             </button>
+
+            {/* Amazon Associate Link */}
+            <a
+              href={getAmazonAffiliateUrl(product.name)}
+              target="_blank"
+              rel="noopener noreferrer sponsored"
+              className="w-full py-3 rounded-xl font-bold text-xs sm:text-sm bg-[#FF9900] hover:bg-[#e68a00] text-slate-950 flex items-center justify-center gap-2 transition-all shadow-md shadow-amber-500/10 group"
+              title="Buy directly on Amazon.in"
+            >
+              <ExternalLink className="w-4 h-4 transition-transform group-hover:scale-110" />
+              <span>Buy on Amazon.in (Prime / Fast Delivery)</span>
+            </a>
 
             <div className="grid grid-cols-3 gap-2 text-center text-[11px] text-slate-500 pt-1">
               <div className="flex flex-col items-center gap-1">

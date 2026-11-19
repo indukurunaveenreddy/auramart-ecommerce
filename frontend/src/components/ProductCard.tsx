@@ -1,8 +1,9 @@
 import React from 'react';
-import { Star, ShoppingCart, Eye, AlertCircle, Check } from 'lucide-react';
+import { Star, ShoppingCart, Eye, AlertCircle, Check, ExternalLink } from 'lucide-react';
 import { Product } from '../types';
 import { useCart } from '../context/CartContext';
 import { formatPrice } from '../utils/currency';
+import { getAmazonAffiliateUrl } from '../utils/amazon';
 
 interface ProductCardProps {
   product: Product;
@@ -129,32 +130,45 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product, onOpenDetails
             </div>
           </div>
 
-          {/* Add to Cart button */}
-          <button
-            onClick={handleAddToCart}
-            disabled={isOutOfStock}
-            className={`p-2.5 rounded-xl font-semibold text-xs flex items-center justify-center transition-all ${
-              isOutOfStock
-                ? 'bg-slate-100 text-slate-400 cursor-not-allowed'
-                : addedAnim
-                ? 'bg-emerald-600 text-white scale-95 shadow-md shadow-emerald-500/30'
-                : 'bg-slate-900 hover:bg-emerald-600 text-white shadow-sm hover:shadow-md'
-            }`}
-            title={isOutOfStock ? 'Out of stock' : 'Add to cart'}
-          >
-            {addedAnim ? (
-              <Check className="w-4 h-4 text-white" />
-            ) : (
-              <div className="flex items-center gap-1">
-                <ShoppingCart className="w-4 h-4" />
-                {cartQty > 0 && (
-                  <span className="text-[10px] bg-white/20 px-1 rounded">
-                    {cartQty}
-                  </span>
-                )}
-              </div>
-            )}
-          </button>
+          {/* Actions: Direct Amazon Affiliate & Add to Cart */}
+          <div className="flex items-center gap-1.5">
+            <a
+              href={getAmazonAffiliateUrl(product.name)}
+              target="_blank"
+              rel="noopener noreferrer sponsored"
+              onClick={(e) => e.stopPropagation()}
+              className="p-2.5 rounded-xl text-amber-700 bg-amber-50 hover:bg-[#FF9900] hover:text-slate-950 border border-amber-200/70 transition-all flex items-center justify-center shadow-xs"
+              title="Buy directly on Amazon.in (Prime delivery)"
+            >
+              <ExternalLink className="w-4 h-4" />
+            </a>
+
+            <button
+              onClick={handleAddToCart}
+              disabled={isOutOfStock}
+              className={`p-2.5 rounded-xl font-semibold text-xs flex items-center justify-center transition-all ${
+                isOutOfStock
+                  ? 'bg-slate-100 text-slate-400 cursor-not-allowed'
+                  : addedAnim
+                  ? 'bg-emerald-600 text-white scale-95 shadow-md shadow-emerald-500/30'
+                  : 'bg-slate-900 hover:bg-emerald-600 text-white shadow-sm hover:shadow-md'
+              }`}
+              title={isOutOfStock ? 'Out of stock' : 'Add to cart'}
+            >
+              {addedAnim ? (
+                <Check className="w-4 h-4 text-white" />
+              ) : (
+                <div className="flex items-center gap-1">
+                  <ShoppingCart className="w-4 h-4" />
+                  {cartQty > 0 && (
+                    <span className="text-[10px] bg-white/20 px-1 rounded">
+                      {cartQty}
+                    </span>
+                  )}
+                </div>
+              )}
+            </button>
+          </div>
         </div>
       </div>
     </div>

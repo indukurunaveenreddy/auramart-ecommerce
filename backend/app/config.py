@@ -24,3 +24,6 @@ RAZORPAY_WEBHOOK_SECRET = os.getenv("RAZORPAY_WEBHOOK_SECRET", "rzp_webhook_secr
 # Direct UPI Configuration
 UPI_ID = os.getenv("UPI_ID", "8639866865@ybl")
 MERCHANT_NAME = "AuraMart Modern Commerce"
+
+# Amazon Associates Program Configuration
+AMAZON_ASSOCIATE_TAG = os.getenv("AMAZON_ASSOCIATE_TAG", "8639866865-21")

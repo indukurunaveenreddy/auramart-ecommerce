@@ -543,6 +543,13 @@ const MainContent: React.FC = () => {
               Crafted with <Heart className="w-3.5 h-3.5 text-rose-500 fill-rose-500" /> for high performance
             </p>
           </div>
+
+          {/* Amazon Associates Compliance Disclosure */}
+          <div className="mt-4 pt-3 border-t border-slate-800/50 text-center text-[11px] text-slate-400">
+            <p>
+              📦 <strong className="text-amber-400">Amazon Associates Program:</strong> AuraMart is a participant in the Amazon.in Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by linking to Amazon.in. Associate Tag: <span className="font-mono text-amber-300 font-semibold">8639866865-21</span>
+            </p>
+          </div>
         </div>
       </footer>
 
