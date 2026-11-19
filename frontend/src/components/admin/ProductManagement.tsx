@@ -3,6 +3,7 @@ import { Plus, Search, Edit3, Trash2, AlertTriangle, ArrowUpDown, Check, Refresh
 import { Product, Category } from '../../types';
 import { api } from '../../services/api';
 import { formatPrice } from '../../utils/currency';
+import { getProductFallbackImage } from '../../utils/images';
 
 interface ProductManagementProps {
   products: Product[];
@@ -138,7 +139,10 @@ export const ProductManagement: React.FC<ProductManagementProps> = ({
                           <img
                             src={p.image_url}
                             alt={p.name}
-                            className="w-11 h-11 rounded-lg object-cover bg-slate-100 flex-shrink-0"
+                            onError={(e) => {
+                              (e.currentTarget as HTMLImageElement).src = getProductFallbackImage(p.category?.slug, p.name);
+                            }}
+                            className="w-11 h-11 rounded-lg object-contain p-0.5 bg-slate-50 border border-slate-200/80 flex-shrink-0"
                           />
                           <div className="min-w-0 max-w-xs">
                             <p className="font-semibold text-slate-900 truncate">{p.name}</p>

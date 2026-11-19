@@ -1,9 +1,10 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { X, Star, ShoppingBag, Shield, Truck, RefreshCw, Check, AlertCircle, ExternalLink } from 'lucide-react';
 import { Product } from '../types';
 import { useCart } from '../context/CartContext';
 import { formatPrice } from '../utils/currency';
 import { getAmazonAffiliateUrl } from '../utils/amazon';
+import { getProductFallbackImage } from '../utils/images';
 import { AmazonIcon } from './AmazonLogo';
 
 interface ProductDetailModalProps {
@@ -15,6 +16,22 @@ export const ProductDetailModal: React.FC<ProductDetailModalProps> = ({ product,
   const { addToCart } = useCart();
   const [quantity, setQuantity] = useState(1);
   const [isAdded, setIsAdded] = useState(false);
+  const [imgSrc, setImgSrc] = useState(product?.image_url || '');
+  const [imgError, setImgError] = useState(false);
+
+  useEffect(() => {
+    if (product) {
+      setImgSrc(product.image_url);
+      setImgError(false);
+    }
+  }, [product?.image_url]);
+
+  const handleImageError = () => {
+    if (!imgError && product) {
+      setImgError(true);
+      setImgSrc(getProductFallbackImage(product.category?.slug, product.name));
+    }
+  };
 
   if (!product) return null;
 
@@ -48,12 +65,13 @@ export const ProductDetailModal: React.FC<ProductDetailModalProps> = ({ product,
           <X className="w-5 h-5" />
         </button>
 
-        {/* Product Image Column */}
-        <div className="md:w-1/2 bg-slate-100 relative min-h-[280px] md:min-h-full">
+        {/* Product Image Column: consistent container, clean background, object-contain */}
+        <div className="md:w-1/2 bg-slate-50 relative min-h-[280px] md:min-h-full flex items-center justify-center p-6 border-b md:border-b-0 md:border-r border-slate-100">
           <img
-            src={product.image_url}
+            src={imgSrc}
             alt={product.name}
-            className="w-full h-full object-cover"
+            onError={handleImageError}
+            className="w-full h-full max-h-[380px] object-contain drop-shadow-sm"
           />
           {discountPercent > 0 && (
             <span className="absolute top-4 left-4 bg-rose-600 text-white text-xs font-bold px-2.5 py-1 rounded-lg shadow-sm">

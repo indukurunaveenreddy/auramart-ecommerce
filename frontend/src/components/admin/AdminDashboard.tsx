@@ -14,6 +14,7 @@ import {
 import { AdminStats, Product, Category, Order } from '../../types';
 import { api } from '../../services/api';
 import { formatPrice } from '../../utils/currency';
+import { getProductFallbackImage } from '../../utils/images';
 import { ProductManagement } from './ProductManagement';
 import { OrderManagement } from './OrderManagement';
 import { ProductFormModal } from './ProductFormModal';
@@ -299,7 +300,14 @@ export const AdminDashboard: React.FC<{ onSwitchToShop: () => void }> = ({ onSwi
                   <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
                     {stats.popular_products.map((p) => (
                       <div key={p.id} className="p-3 bg-slate-50 rounded-2xl flex items-center gap-3 border border-slate-100">
-                        <img src={p.image_url} alt={p.name} className="w-12 h-12 rounded-xl object-cover bg-white" />
+                        <img 
+                          src={p.image_url} 
+                          alt={p.name} 
+                          onError={(e) => {
+                            (e.currentTarget as HTMLImageElement).src = getProductFallbackImage(p.category?.slug, p.name);
+                          }}
+                          className="w-12 h-12 rounded-xl object-contain p-1 bg-white border border-slate-200/60" 
+                        />
                         <div className="min-w-0 flex-1">
                           <p className="text-xs font-bold text-slate-900 truncate">{p.name}</p>
                           <p className="text-[11px] text-slate-500 font-semibold">{formatPrice(p.price)}</p>

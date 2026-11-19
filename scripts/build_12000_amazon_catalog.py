@@ -42,7 +42,7 @@ CLOTHING_SPECS = {
         "brands": ["Vero Moda", "ONLY", "AND", "Forever 21", "Marks & Spencer"],
         "images": [
             "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=600&q=80",
-            "https://images.unsplash.com/photo-1534126511673-b6899657816a?w=600&q=80"
+            "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=600&q=80"
         ],
         "default_price": 699, "base_desc": "Chic and versatile casual top with relaxed fit and premium soft drape fabric."
     },
@@ -86,7 +86,7 @@ CLOTHING_SPECS = {
         "brands": ["Vero Moda", "FabAlley", "Biba", "AND", "Zara"],
         "images": [
             "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=600&q=80",
-            "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=600&q=80"
+            "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=600&q=80"
         ],
         "default_price": 1399, "base_desc": "Elegant A-line floral printed midi dress tailored with breathable viscose fabric."
     },
@@ -111,7 +111,7 @@ CLOTHING_SPECS = {
         "sub": "Ethnic Kurta",
         "brands": ["Manyavar", "FabIndia", "Peter England", "Soch"],
         "images": [
-            "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=600&q=80"
+            "https://images.unsplash.com/photo-1610030469983-98e550d6193c?w=600&q=80"
         ],
         "default_price": 999, "base_desc": "Mandarin collar handcrafted pure cotton festive kurta with side pockets."
     },
@@ -119,7 +119,7 @@ CLOTHING_SPECS = {
         "sub": "Women's Kurtis",
         "brands": ["BIBA", "Aurelia", "W for Woman", "Global Desi"],
         "images": [
-            "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=600&q=80"
+            "https://images.unsplash.com/photo-1610030469983-98e550d6193c?w=600&q=80"
         ],
         "default_price": 899, "base_desc": "Straight cut printed cotton kurti with three-quarter sleeves and delicate yoke embroidery."
     },
@@ -128,7 +128,7 @@ CLOTHING_SPECS = {
         "brands": ["Fort Collins", "Woodland", "Wildcraft", "Columbia", "Puma"],
         "images": [
             "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=600&q=80",
-            "https://images.unsplash.com/photo-1544441893-675973e31985?w=600&q=80"
+            "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=600&q=80"
         ],
         "default_price": 2499, "base_desc": "Windproof and water-resistant insulated quilted winter jacket with secure zip pockets."
     },
@@ -177,7 +177,7 @@ CLOTHING_SPECS = {
         "sub": "Nightwear & Pyjamas",
         "brands": ["Zivame", "Enamor", "Marks & Spencer", "Jockey"],
         "images": [
-            "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=600&q=80"
+            "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?w=600&q=80"
         ],
         "default_price": 799, "base_desc": "Cozy breathable cotton sleepwear lounge set crafted for restful comfort."
     },
@@ -201,7 +201,7 @@ CLOTHING_SPECS = {
         "sub": "Winter Wear & Thermals",
         "brands": ["Monte Carlo", "Wildcraft", "Jockey", "Columbia"],
         "images": [
-            "https://images.unsplash.com/photo-1544441893-675973e31985?w=600&q=80"
+            "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=600&q=80"
         ],
         "default_price": 1499, "base_desc": "Thermal heat-lock winter wear essentials with soft brushed fleece inner layer."
     },
@@ -217,7 +217,7 @@ CLOTHING_SPECS = {
         "sub": "Ethnic Wear",
         "brands": ["Manyavar", "FabIndia", "BIBA", "Soch"],
         "images": [
-            "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=600&q=80"
+            "https://images.unsplash.com/photo-1610030469983-98e550d6193c?w=600&q=80"
         ],
         "default_price": 1899, "base_desc": "Festive heritage Indian ethnic ensemble adorned with classic embroidery work."
     },
@@ -225,7 +225,7 @@ CLOTHING_SPECS = {
         "sub": "Party Wear",
         "brands": ["Zara", "Vero Moda", "Louis Philippe", "AND"],
         "images": [
-            "https://images.unsplash.com/photo-1566174053879-31528523f8ae?w=600&q=80"
+            "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=600&q=80"
         ],
         "default_price": 2499, "base_desc": "Glamorous contemporary evening party outfit with premium satin finish and sleek cut."
     },
@@ -233,7 +233,7 @@ CLOTHING_SPECS = {
         "sub": "Casual Wear",
         "brands": ["Levi's", "Roadster", "Wrangler", "ONLY"],
         "images": [
-            "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=600&q=80"
+            "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?w=600&q=80"
         ],
         "default_price": 799, "base_desc": "Easygoing relaxed casual wear essential tailored from durable combed cotton."
     },
@@ -241,7 +241,7 @@ CLOTHING_SPECS = {
         "sub": "Formal Wear",
         "brands": ["Raymond", "Louis Philippe", "Van Heusen", "Arrow"],
         "images": [
-            "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=600&q=80"
+            "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?w=600&q=80"
         ],
         "default_price": 2199, "base_desc": "Executive formal tailored ensemble designed with pristine finish and structured fit."
     },
@@ -305,7 +305,7 @@ CLOTHING_SPECS = {
         "sub": "Blazers & Suits",
         "brands": ["Raymond", "Van Heusen", "Blackberrys", "Park Avenue"],
         "images": [
-            "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=600&q=80"
+            "https://images.unsplash.com/photo-1593030761757-71fae45fa0e7?w=600&q=80"
         ],
         "default_price": 3999, "base_desc": "Sophisticated slim fit single-breasted blazer with notch lapel and dual back vents."
     },
@@ -345,7 +345,7 @@ CLOTHING_SPECS = {
         "sub": "Maternity Wear",
         "brands": ["Momzjoy", "Mothercare", "Zivame"],
         "images": [
-            "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=600&q=80"
+            "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=600&q=80"
         ],
         "default_price": 899, "base_desc": "Comfortable nursing and maternity feeding dress with discreet side zippers and stretch fabric."
     },
@@ -369,7 +369,7 @@ CLOTHING_SPECS = {
         "sub": "Thermals & Warmers",
         "brands": ["Jockey", "Lux Inferno", "Dollar Ultra", "Bodycare"],
         "images": [
-            "https://images.unsplash.com/photo-1544441893-675973e31985?w=600&q=80"
+            "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=600&q=80"
         ],
         "default_price": 699, "base_desc": "Heat-trapping combed cotton ribbed thermal inner top and bottom set for severe winter."
     },
@@ -435,7 +435,7 @@ CLOTHING_SPECS = {
         "sub": "Men's Kurta",
         "brands": ["Manyavar", "FabIndia", "Peter England"],
         "images": [
-            "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=600&q=80"
+            "https://images.unsplash.com/photo-1610030469983-98e550d6193c?w=600&q=80"
         ],
         "default_price": 1099, "base_desc": "Traditional handloom pure cotton ethnic kurta with textured slub finish."
     },
@@ -443,7 +443,7 @@ CLOTHING_SPECS = {
         "sub": "Women's Kurta",
         "brands": ["BIBA", "Aurelia", "W for Woman"],
         "images": [
-            "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=600&q=80"
+            "https://images.unsplash.com/photo-1610030469983-98e550d6193c?w=600&q=80"
         ],
         "default_price": 999, "base_desc": "Vibrant floral printed ethnic A-line kurta featuring mirror work detailing."
     },
@@ -878,7 +878,7 @@ ACCESSORIES_SPECS = {
         "brands": ["Titan", "Fastrack", "Fossil", "Casio", "Timex"],
         "images": [
             "https://images.unsplash.com/photo-1524805444758-089113d48a6d?w=600&q=80",
-            "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=600&q=80"
+            "https://images.unsplash.com/photo-1524805444758-089113d48a6d?w=600&q=80"
         ],
         "default_price": 2499, "base_desc": "Precision quartz analog wrist watch featuring water resistance and stainless steel strap."
     },
@@ -936,7 +936,7 @@ ACCESSORIES_SPECS = {
         "sub": "Sun Hats & Fedoras",
         "brands": ["Marks & Spencer", "Zara", "FabIndia"],
         "images": [
-            "https://images.unsplash.com/photo-1533827432537-70133748f5c8?w=600&q=80"
+            "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?w=600&q=80"
         ],
         "default_price": 699, "base_desc": "Classic wide-brim UV-blocking straw sun hat for vacation and beach shielding."
     },
@@ -1105,7 +1105,7 @@ ACCESSORIES_SPECS = {
         "sub": "Watch Straps",
         "brands": ["Spigen", "Titan", "Casio"],
         "images": [
-            "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=600&q=80"
+            "https://images.unsplash.com/photo-1524805444758-089113d48a6d?w=600&q=80"
         ],
         "default_price": 499, "base_desc": "Breathable quick-release silicone watch strap band for standard smartwatches."
     },
@@ -1145,7 +1145,7 @@ ACCESSORIES_SPECS = {
         "sub": "Winter & Bike Gloves",
         "brands": ["Royal Enfield", "Wildcraft", "Probiker"],
         "images": [
-            "https://images.unsplash.com/photo-1544441893-675973e31985?w=600&q=80"
+            "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=600&q=80"
         ],
         "default_price": 599, "base_desc": "Touchscreen-compatible windproof thermal winter motorcycle riding gloves."
     },
@@ -1153,7 +1153,7 @@ ACCESSORIES_SPECS = {
         "sub": "Neckties",
         "brands": ["Louis Philippe", "Park Avenue", "Van Heusen"],
         "images": [
-            "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=600&q=80"
+            "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?w=600&q=80"
         ],
         "default_price": 699, "base_desc": "Luxurious woven microfiber formal necktie featuring elegant geometric jacquard motifs."
     },
@@ -1161,7 +1161,7 @@ ACCESSORIES_SPECS = {
         "sub": "Bow Ties",
         "brands": ["Park Avenue", "Raymond", "Blackberrys"],
         "images": [
-            "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=600&q=80"
+            "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?w=600&q=80"
         ],
         "default_price": 399, "base_desc": "Pre-tied satin tuxedo bow tie with adjustable neck strap for black-tie events."
     },
@@ -1273,7 +1273,7 @@ ACCESSORIES_SPECS = {
         "sub": "Fashion Accessories",
         "brands": ["Fastrack", "Fossil", "Titan"],
         "images": [
-            "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=600&q=80"
+            "https://images.unsplash.com/photo-1524805444758-089113d48a6d?w=600&q=80"
         ],
         "default_price": 799, "base_desc": "All-in-one curated modern fashion accessory styling kit."
     }

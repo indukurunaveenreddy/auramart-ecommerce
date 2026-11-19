@@ -27,6 +27,7 @@ import {
 import { api } from '../../services/api';
 import { AmazonProductItem, AmazonConfig, AmazonImportLog } from '../../types';
 import { formatPrice } from '../../utils/currency';
+import { getProductFallbackImage } from '../../utils/images';
 import { AmazonIcon } from '../AmazonLogo';
 
 interface AmazonImporterProps {
@@ -521,11 +522,14 @@ export const AmazonImporter: React.FC<AmazonImporterProps> = ({ onProductImporte
                     }`}
                   >
                     {/* Image & Badges */}
-                    <div className="relative aspect-square bg-slate-50 overflow-hidden">
+                    <div className="relative aspect-square bg-slate-50 overflow-hidden flex items-center justify-center p-2">
                       <img
                         src={item.image_url}
                         alt={item.name}
-                        className="w-full h-full object-cover"
+                        onError={(e) => {
+                          (e.currentTarget as HTMLImageElement).src = getProductFallbackImage(undefined, item.name);
+                        }}
+                        className="w-full h-full object-contain"
                         loading="lazy"
                       />
 
@@ -745,7 +749,10 @@ export const AmazonImporter: React.FC<AmazonImporterProps> = ({ onProductImporte
                             <img
                               src={p.image_url}
                               alt={p.name}
-                              className="w-10 h-10 rounded-lg object-cover bg-slate-100 shrink-0"
+                              onError={(e) => {
+                                (e.currentTarget as HTMLImageElement).src = getProductFallbackImage(undefined, p.name);
+                              }}
+                              className="w-10 h-10 rounded-lg object-contain p-0.5 bg-slate-50 border border-slate-200/60 shrink-0"
                             />
                             <div className="min-w-0 max-w-xs">
                               <span className="font-bold text-slate-900 block truncate" title={p.name}>

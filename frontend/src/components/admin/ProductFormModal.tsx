@@ -228,7 +228,7 @@ export const ProductFormModal: React.FC<ProductFormModalProps> = ({
                   <img
                     src={formData.image_url}
                     alt="Preview"
-                    className="w-12 h-12 rounded-lg object-cover bg-white"
+                    className="w-12 h-12 rounded-lg object-contain p-0.5 bg-white border border-slate-200"
                   />
                   <span className="text-xs text-slate-500">Image thumbnail preview</span>
                 </div>

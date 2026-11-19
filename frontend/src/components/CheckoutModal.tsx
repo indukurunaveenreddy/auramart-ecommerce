@@ -20,6 +20,7 @@ import { useAuth } from '../context/AuthContext';
 import { api } from '../services/api';
 import { Order, PaymentConfig } from '../types';
 import { formatPrice } from '../utils/currency';
+import { getProductFallbackImage } from '../utils/images';
 
 interface CheckoutModalProps {
   isOpen: boolean;
@@ -659,7 +660,10 @@ export const CheckoutModal: React.FC<CheckoutModalProps> = ({
                   <img
                     src={product.image_url}
                     alt={product.name}
-                    className="w-11 h-11 rounded-lg object-cover bg-white flex-shrink-0 border border-slate-200"
+                    onError={(e) => {
+                      (e.currentTarget as HTMLImageElement).src = getProductFallbackImage(product.category?.slug, product.name);
+                    }}
+                    className="w-11 h-11 rounded-lg object-contain p-0.5 bg-white flex-shrink-0 border border-slate-200"
                   />
                   <div className="flex-1 min-w-0">
                     <p className="font-semibold text-slate-800 truncate text-[11px]">{product.name}</p>

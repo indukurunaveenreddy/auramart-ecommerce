@@ -881,7 +881,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
     "stock": 121,
     "sku": "AMZ-B0DEB63C07",
     "category_id": 1,
-    "image_url": "https://images.unsplash.com/photo-1534126511673-b6899657816a?w=600&q=80",
+    "image_url": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=600&q=80",
     "is_featured": false,
     "is_active": true,
     "rating": 4.7,
@@ -908,7 +908,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
     "stock": 91,
     "sku": "AMZ-B0FCDDBD8B",
     "category_id": 1,
-    "image_url": "https://images.unsplash.com/photo-1534126511673-b6899657816a?w=600&q=80",
+    "image_url": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=600&q=80",
     "is_featured": false,
     "is_active": true,
     "rating": 4.5,
@@ -1016,7 +1016,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
     "stock": 128,
     "sku": "AMZ-B082A0EB6E",
     "category_id": 1,
-    "image_url": "https://images.unsplash.com/photo-1534126511673-b6899657816a?w=600&q=80",
+    "image_url": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=600&q=80",
     "is_featured": false,
     "is_active": true,
     "rating": 4.5,
@@ -1043,7 +1043,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
     "stock": 84,
     "sku": "AMZ-B0C21E5ED6",
     "category_id": 1,
-    "image_url": "https://images.unsplash.com/photo-1534126511673-b6899657816a?w=600&q=80",
+    "image_url": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=600&q=80",
     "is_featured": false,
     "is_active": true,
     "rating": 4.8,
@@ -1232,7 +1232,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
     "stock": 118,
     "sku": "AMZ-B0919D8514",
     "category_id": 1,
-    "image_url": "https://images.unsplash.com/photo-1534126511673-b6899657816a?w=600&q=80",
+    "image_url": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=600&q=80",
     "is_featured": false,
     "is_active": true,
     "rating": 4.9,
@@ -1394,7 +1394,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
     "stock": 51,
     "sku": "AMZ-B08E9BF207",
     "category_id": 1,
-    "image_url": "https://images.unsplash.com/photo-1534126511673-b6899657816a?w=600&q=80",
+    "image_url": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=600&q=80",
     "is_featured": false,
     "is_active": true,
     "rating": 4.7,
@@ -1421,7 +1421,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
     "stock": 110,
     "sku": "AMZ-B066D4A481",
     "category_id": 1,
-    "image_url": "https://images.unsplash.com/photo-1534126511673-b6899657816a?w=600&q=80",
+    "image_url": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=600&q=80",
     "is_featured": false,
     "is_active": true,
     "rating": 4.7,
@@ -1502,7 +1502,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
     "stock": 81,
     "sku": "AMZ-B013B2538B",
     "category_id": 1,
-    "image_url": "https://images.unsplash.com/photo-1534126511673-b6899657816a?w=600&q=80",
+    "image_url": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=600&q=80",
     "is_featured": false,
     "is_active": true,
     "rating": 4.8,
@@ -1556,7 +1556,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
     "stock": 38,
     "sku": "AMZ-B0D1EF4C6A",
     "category_id": 1,
-    "image_url": "https://images.unsplash.com/photo-1534126511673-b6899657816a?w=600&q=80",
+    "image_url": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=600&q=80",
     "is_featured": false,
     "is_active": true,
     "rating": 4.7,
@@ -1583,7 +1583,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
     "stock": 116,
     "sku": "AMZ-B0B2BFCC3E",
     "category_id": 1,
-    "image_url": "https://images.unsplash.com/photo-1534126511673-b6899657816a?w=600&q=80",
+    "image_url": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=600&q=80",
     "is_featured": false,
     "is_active": true,
     "rating": 4.4,
@@ -1610,7 +1610,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
     "stock": 141,
     "sku": "AMZ-B0ADC05453",
     "category_id": 1,
-    "image_url": "https://images.unsplash.com/photo-1534126511673-b6899657816a?w=600&q=80",
+    "image_url": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=600&q=80",
     "is_featured": false,
     "is_active": true,
     "rating": 4.8,
@@ -4769,7 +4769,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
     "stock": 49,
     "sku": "AMZ-B018D1317E",
     "category_id": 1,
-    "image_url": "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=600&q=80",
+    "image_url": "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=600&q=80",
     "is_featured": false,
     "is_active": true,
     "rating": 4.6,
@@ -4823,7 +4823,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
     "stock": 47,
     "sku": "AMZ-B0FA833CC1",
     "category_id": 1,
-    "image_url": "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=600&q=80",
+    "image_url": "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=600&q=80",
     "is_featured": false,
     "is_active": true,
     "rating": 4.3,
@@ -4850,7 +4850,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
     "stock": 130,
     "sku": "AMZ-B020578087",
     "category_id": 1,
-    "image_url": "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=600&q=80",
+    "image_url": "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=600&q=80",
     "is_featured": false,
     "is_active": true,
     "rating": 4.9,
@@ -4904,7 +4904,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
     "stock": 26,
     "sku": "AMZ-B04627D51F",
     "category_id": 1,
-    "image_url": "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=600&q=80",
+    "image_url": "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=600&q=80",
     "is_featured": true,
     "is_active": true,
     "rating": 4.4,
@@ -4931,7 +4931,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
     "stock": 130,
     "sku": "AMZ-B0E1B18572",
     "category_id": 1,
-    "image_url": "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=600&q=80",
+    "image_url": "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=600&q=80",
     "is_featured": false,
     "is_active": true,
     "rating": 4.6,
@@ -5066,7 +5066,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
     "stock": 118,
     "sku": "AMZ-B03509B912",
     "category_id": 1,
-    "image_url": "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=600&q=80",
+    "image_url": "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=600&q=80",
     "is_featured": false,
     "is_active": true,
     "rating": 4.3,
@@ -5093,7 +5093,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
     "stock": 145,
     "sku": "AMZ-B0EF17D593",
     "category_id": 1,
-    "image_url": "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=600&q=80",
+    "image_url": "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=600&q=80",
     "is_featured": false,
     "is_active": true,
     "rating": 4.9,
@@ -5147,7 +5147,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
     "stock": 150,
     "sku": "AMZ-B02FB4C24F",
     "category_id": 1,
-    "image_url": "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=600&q=80",
+    "image_url": "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=600&q=80",
     "is_featured": false,
     "is_active": true,
     "rating": 4.7,
@@ -5174,7 +5174,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
     "stock": 40,
     "sku": "AMZ-B0F534E00C",
     "category_id": 1,
-    "image_url": "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=600&q=80",
+    "image_url": "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=600&q=80",
     "is_featured": false,
     "is_active": true,
     "rating": 4.9,
@@ -5309,7 +5309,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
     "stock": 39,
     "sku": "AMZ-B0B48EF401",
     "category_id": 1,
-    "image_url": "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=600&q=80",
+    "image_url": "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=600&q=80",
     "is_featured": true,
     "is_active": true,
     "rating": 4.7,
@@ -5444,7 +5444,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
     "stock": 28,
     "sku": "AMZ-B010870A95",
     "category_id": 1,
-    "image_url": "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=600&q=80",
+    "image_url": "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=600&q=80",
     "is_featured": false,
     "is_active": true,
     "rating": 4.2,
@@ -10871,7 +10871,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
     "stock": 123,
     "sku": "AMZ-B00B590A05",
     "category_id": 2,
-    "image_url": "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=600&q=80",
+    "image_url": "https://images.unsplash.com/photo-1524805444758-089113d48a6d?w=600&q=80",
     "is_featured": false,
     "is_active": true,
     "rating": 4.4,
@@ -10925,7 +10925,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
     "stock": 26,
     "sku": "AMZ-B0DC8C3F8E",
     "category_id": 2,
-    "image_url": "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=600&q=80",
+    "image_url": "https://images.unsplash.com/photo-1524805444758-089113d48a6d?w=600&q=80",
     "is_featured": false,
     "is_active": true,
     "rating": 4.3,
@@ -10979,7 +10979,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
     "stock": 69,
     "sku": "AMZ-B0767DDEB9",
     "category_id": 2,
-    "image_url": "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=600&q=80",
+    "image_url": "https://images.unsplash.com/photo-1524805444758-089113d48a6d?w=600&q=80",
     "is_featured": false,
     "is_active": true,
     "rating": 4.7,
@@ -11006,7 +11006,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
     "stock": 133,
     "sku": "AMZ-B079FC98DE",
     "category_id": 2,
-    "image_url": "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=600&q=80",
+    "image_url": "https://images.unsplash.com/photo-1524805444758-089113d48a6d?w=600&q=80",
     "is_featured": false,
     "is_active": true,
     "rating": 4.2,
@@ -11033,7 +11033,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
     "stock": 148,
     "sku": "AMZ-B043BDD077",
     "category_id": 2,
-    "image_url": "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=600&q=80",
+    "image_url": "https://images.unsplash.com/photo-1524805444758-089113d48a6d?w=600&q=80",
     "is_featured": false,
     "is_active": true,
     "rating": 4.6,
@@ -11087,7 +11087,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
     "stock": 26,
     "sku": "AMZ-B05EF0D62E",
     "category_id": 2,
-    "image_url": "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=600&q=80",
+    "image_url": "https://images.unsplash.com/photo-1524805444758-089113d48a6d?w=600&q=80",
     "is_featured": false,
     "is_active": true,
     "rating": 4.8,
@@ -11114,7 +11114,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
     "stock": 149,
     "sku": "AMZ-B0E602D685",
     "category_id": 2,
-    "image_url": "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=600&q=80",
+    "image_url": "https://images.unsplash.com/photo-1524805444758-089113d48a6d?w=600&q=80",
     "is_featured": true,
     "is_active": true,
     "rating": 4.2,
@@ -11141,7 +11141,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
     "stock": 113,
     "sku": "AMZ-B012DE3508",
     "category_id": 2,
-    "image_url": "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=600&q=80",
+    "image_url": "https://images.unsplash.com/photo-1524805444758-089113d48a6d?w=600&q=80",
     "is_featured": true,
     "is_active": true,
     "rating": 4.5,
@@ -11195,7 +11195,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
     "stock": 35,
     "sku": "AMZ-B07BDD7062",
     "category_id": 2,
-    "image_url": "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=600&q=80",
+    "image_url": "https://images.unsplash.com/photo-1524805444758-089113d48a6d?w=600&q=80",
     "is_featured": false,
     "is_active": true,
     "rating": 4.6,
@@ -11330,7 +11330,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
     "stock": 121,
     "sku": "AMZ-B0F37ED9B2",
     "category_id": 2,
-    "image_url": "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=600&q=80",
+    "image_url": "https://images.unsplash.com/photo-1524805444758-089113d48a6d?w=600&q=80",
     "is_featured": false,
     "is_active": true,
     "rating": 4.2,
@@ -11357,7 +11357,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
     "stock": 109,
     "sku": "AMZ-B0A7A6E6B2",
     "category_id": 2,
-    "image_url": "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=600&q=80",
+    "image_url": "https://images.unsplash.com/photo-1524805444758-089113d48a6d?w=600&q=80",
     "is_featured": false,
     "is_active": true,
     "rating": 4.5,
@@ -11384,7 +11384,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
     "stock": 57,
     "sku": "AMZ-B0C211025B",
     "category_id": 2,
-    "image_url": "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=600&q=80",
+    "image_url": "https://images.unsplash.com/photo-1524805444758-089113d48a6d?w=600&q=80",
     "is_featured": false,
     "is_active": true,
     "rating": 4.6,
@@ -11438,7 +11438,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
     "stock": 137,
     "sku": "AMZ-B0E7E80092",
     "category_id": 2,
-    "image_url": "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=600&q=80",
+    "image_url": "https://images.unsplash.com/photo-1524805444758-089113d48a6d?w=600&q=80",
     "is_featured": false,
     "is_active": true,
     "rating": 4.7,
@@ -11465,7 +11465,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
     "stock": 98,
     "sku": "AMZ-B0CEEEFECD",
     "category_id": 2,
-    "image_url": "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=600&q=80",
+    "image_url": "https://images.unsplash.com/photo-1524805444758-089113d48a6d?w=600&q=80",
     "is_featured": false,
     "is_active": true,
     "rating": 4.3,
@@ -11492,7 +11492,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
     "stock": 40,
     "sku": "AMZ-B00B51541B",
     "category_id": 2,
-    "image_url": "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=600&q=80",
+    "image_url": "https://images.unsplash.com/photo-1524805444758-089113d48a6d?w=600&q=80",
     "is_featured": false,
     "is_active": true,
     "rating": 4.3,
@@ -21663,7 +21663,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12001,
     "name": "Prestige Hard Anodised 3-Litre Induction Bottom Pressure Cooker - Classic Edition",
-    "slug": "prestige-cookware-1001-12001",
+    "slug": "prestige-cookware-1001-12001-12001",
     "description": "Corrosion-resistant scratchproof hard anodised aluminium body with heavy-duty safety valve. Official Amazon India verified selection from Prestige.",
     "price": 1364.0,
     "compare_at_price": 2261.0,
@@ -21690,7 +21690,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12002,
     "name": "Hawkins Non-Stick Die-Cast Aluminium Fry Pan & Kadhai Set with Glass Lid - Premium Series",
-    "slug": "hawkins-cookware-1002-12002",
+    "slug": "hawkins-cookware-1002-12002-12002",
     "description": "5-layer granite non-stick coating allowing oil-free cooking on both gas and induction stoves. Official Amazon India verified selection from Hawkins.",
     "price": 1619.0,
     "compare_at_price": 2212.0,
@@ -21717,7 +21717,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12003,
     "name": "Pigeon Hard Anodised 3-Litre Induction Bottom Pressure Cooker - Pro",
-    "slug": "pigeon-cookware-1003-12003",
+    "slug": "pigeon-cookware-1003-12003-12003",
     "description": "Corrosion-resistant scratchproof hard anodised aluminium body with heavy-duty safety valve. Official Amazon India verified selection from Pigeon.",
     "price": 1182.0,
     "compare_at_price": 2096.0,
@@ -21744,7 +21744,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12004,
     "name": "Wonderchef Non-Stick Die-Cast Aluminium Fry Pan & Kadhai Set with Glass Lid - Special Edition",
-    "slug": "wonderchef-cookware-1004-12004",
+    "slug": "wonderchef-cookware-1004-12004-12004",
     "description": "5-layer granite non-stick coating allowing oil-free cooking on both gas and induction stoves. Official Amazon India verified selection from Wonderchef.",
     "price": 1664.0,
     "compare_at_price": 2569.0,
@@ -21771,7 +21771,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12005,
     "name": "Cello Hard Anodised 3-Litre Induction Bottom Pressure Cooker - Signature Edition",
-    "slug": "cello-cookware-1005-12005",
+    "slug": "cello-cookware-1005-12005-12005",
     "description": "Corrosion-resistant scratchproof hard anodised aluminium body with heavy-duty safety valve. Official Amazon India verified selection from Cello.",
     "price": 1403.0,
     "compare_at_price": 1965.0,
@@ -21798,7 +21798,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12006,
     "name": "Prestige Non-Stick Die-Cast Aluminium Fry Pan & Kadhai Set with Glass Lid - Deluxe",
-    "slug": "prestige-cookware-1006-12006",
+    "slug": "prestige-cookware-1006-12006-12006",
     "description": "5-layer granite non-stick coating allowing oil-free cooking on both gas and induction stoves. Official Amazon India verified selection from Prestige.",
     "price": 1604.0,
     "compare_at_price": 2170.0,
@@ -21825,7 +21825,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12007,
     "name": "Hawkins Hard Anodised 3-Litre Induction Bottom Pressure Cooker - Sport",
-    "slug": "hawkins-cookware-1007-12007",
+    "slug": "hawkins-cookware-1007-12007-12007",
     "description": "Corrosion-resistant scratchproof hard anodised aluminium body with heavy-duty safety valve. Official Amazon India verified selection from Hawkins.",
     "price": 1208.0,
     "compare_at_price": 2093.0,
@@ -21852,7 +21852,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12008,
     "name": "Pigeon Non-Stick Die-Cast Aluminium Fry Pan & Kadhai Set with Glass Lid - Select",
-    "slug": "pigeon-cookware-1008-12008",
+    "slug": "pigeon-cookware-1008-12008-12008",
     "description": "5-layer granite non-stick coating allowing oil-free cooking on both gas and induction stoves. Official Amazon India verified selection from Pigeon.",
     "price": 1799.0,
     "compare_at_price": 2627.0,
@@ -21879,7 +21879,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12009,
     "name": "Wonderchef Hard Anodised 3-Litre Induction Bottom Pressure Cooker - Classic Edition",
-    "slug": "wonderchef-cookware-1009-12009",
+    "slug": "wonderchef-cookware-1009-12009-12009",
     "description": "Corrosion-resistant scratchproof hard anodised aluminium body with heavy-duty safety valve. Official Amazon India verified selection from Wonderchef.",
     "price": 1546.0,
     "compare_at_price": 2245.0,
@@ -21906,7 +21906,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12010,
     "name": "Cello Non-Stick Die-Cast Aluminium Fry Pan & Kadhai Set with Glass Lid - Premium Series",
-    "slug": "cello-cookware-1010-12010",
+    "slug": "cello-cookware-1010-12010-12010",
     "description": "5-layer granite non-stick coating allowing oil-free cooking on both gas and induction stoves. Official Amazon India verified selection from Cello.",
     "price": 1739.0,
     "compare_at_price": 2524.0,
@@ -21933,7 +21933,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12011,
     "name": "Prestige Hard Anodised 3-Litre Induction Bottom Pressure Cooker - Pro",
-    "slug": "prestige-cookware-1011-12011",
+    "slug": "prestige-cookware-1011-12011-12011",
     "description": "Corrosion-resistant scratchproof hard anodised aluminium body with heavy-duty safety valve. Official Amazon India verified selection from Prestige.",
     "price": 1247.0,
     "compare_at_price": 2004.0,
@@ -21960,7 +21960,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12012,
     "name": "Hawkins Non-Stick Die-Cast Aluminium Fry Pan & Kadhai Set with Glass Lid - Special Edition",
-    "slug": "hawkins-cookware-1012-12012",
+    "slug": "hawkins-cookware-1012-12012-12012",
     "description": "5-layer granite non-stick coating allowing oil-free cooking on both gas and induction stoves. Official Amazon India verified selection from Hawkins.",
     "price": 1799.0,
     "compare_at_price": 2595.0,
@@ -21987,7 +21987,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12013,
     "name": "Pigeon Hard Anodised 3-Litre Induction Bottom Pressure Cooker - Signature Edition",
-    "slug": "pigeon-cookware-1013-12013",
+    "slug": "pigeon-cookware-1013-12013-12013",
     "description": "Corrosion-resistant scratchproof hard anodised aluminium body with heavy-duty safety valve. Official Amazon India verified selection from Pigeon.",
     "price": 1299.0,
     "compare_at_price": 1983.0,
@@ -22014,7 +22014,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12014,
     "name": "Wonderchef Non-Stick Die-Cast Aluminium Fry Pan & Kadhai Set with Glass Lid - Deluxe",
-    "slug": "wonderchef-cookware-1014-12014",
+    "slug": "wonderchef-cookware-1014-12014-12014",
     "description": "5-layer granite non-stick coating allowing oil-free cooking on both gas and induction stoves. Official Amazon India verified selection from Wonderchef.",
     "price": 1499.0,
     "compare_at_price": 2124.0,
@@ -22041,7 +22041,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12015,
     "name": "Cello Hard Anodised 3-Litre Induction Bottom Pressure Cooker - Sport",
-    "slug": "cello-cookware-1015-12015",
+    "slug": "cello-cookware-1015-12015-12015",
     "description": "Corrosion-resistant scratchproof hard anodised aluminium body with heavy-duty safety valve. Official Amazon India verified selection from Cello.",
     "price": 1442.0,
     "compare_at_price": 1987.0,
@@ -22068,7 +22068,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12016,
     "name": "Prestige Non-Stick Die-Cast Aluminium Fry Pan & Kadhai Set with Glass Lid - Select",
-    "slug": "prestige-cookware-1016-12016",
+    "slug": "prestige-cookware-1016-12016-12016",
     "description": "5-layer granite non-stick coating allowing oil-free cooking on both gas and induction stoves. Official Amazon India verified selection from Prestige.",
     "price": 1469.0,
     "compare_at_price": 2236.0,
@@ -22095,7 +22095,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12017,
     "name": "Hawkins Hard Anodised 3-Litre Induction Bottom Pressure Cooker - Classic Edition",
-    "slug": "hawkins-cookware-1017-12017",
+    "slug": "hawkins-cookware-1017-12017-12017",
     "description": "Corrosion-resistant scratchproof hard anodised aluminium body with heavy-duty safety valve. Official Amazon India verified selection from Hawkins.",
     "price": 1182.0,
     "compare_at_price": 1665.0,
@@ -22122,7 +22122,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12018,
     "name": "Pigeon Non-Stick Die-Cast Aluminium Fry Pan & Kadhai Set with Glass Lid - Premium Series",
-    "slug": "pigeon-cookware-1018-12018",
+    "slug": "pigeon-cookware-1018-12018-12018",
     "description": "5-layer granite non-stick coating allowing oil-free cooking on both gas and induction stoves. Official Amazon India verified selection from Pigeon.",
     "price": 1694.0,
     "compare_at_price": 2901.0,
@@ -22149,7 +22149,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12019,
     "name": "Wonderchef Hard Anodised 3-Litre Induction Bottom Pressure Cooker - Pro",
-    "slug": "wonderchef-cookware-1019-12019",
+    "slug": "wonderchef-cookware-1019-12019-12019",
     "description": "Corrosion-resistant scratchproof hard anodised aluminium body with heavy-duty safety valve. Official Amazon India verified selection from Wonderchef.",
     "price": 1234.0,
     "compare_at_price": 1832.0,
@@ -22176,7 +22176,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12020,
     "name": "Cello Non-Stick Die-Cast Aluminium Fry Pan & Kadhai Set with Glass Lid - Special Edition",
-    "slug": "cello-cookware-1020-12020",
+    "slug": "cello-cookware-1020-12020-12020",
     "description": "5-layer granite non-stick coating allowing oil-free cooking on both gas and induction stoves. Official Amazon India verified selection from Cello.",
     "price": 1634.0,
     "compare_at_price": 2940.0,
@@ -22203,7 +22203,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12021,
     "name": "Prestige Hard Anodised 3-Litre Induction Bottom Pressure Cooker - Signature Edition",
-    "slug": "prestige-cookware-1021-12021",
+    "slug": "prestige-cookware-1021-12021-12021",
     "description": "Corrosion-resistant scratchproof hard anodised aluminium body with heavy-duty safety valve. Official Amazon India verified selection from Prestige.",
     "price": 1312.0,
     "compare_at_price": 1925.0,
@@ -22230,7 +22230,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12022,
     "name": "Hawkins Non-Stick Die-Cast Aluminium Fry Pan & Kadhai Set with Glass Lid - Deluxe",
-    "slug": "hawkins-cookware-1022-12022",
+    "slug": "hawkins-cookware-1022-12022-12022",
     "description": "5-layer granite non-stick coating allowing oil-free cooking on both gas and induction stoves. Official Amazon India verified selection from Hawkins.",
     "price": 1634.0,
     "compare_at_price": 2727.0,
@@ -22257,7 +22257,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12023,
     "name": "Pigeon Hard Anodised 3-Litre Induction Bottom Pressure Cooker - Sport",
-    "slug": "pigeon-cookware-1023-12023",
+    "slug": "pigeon-cookware-1023-12023-12023",
     "description": "Corrosion-resistant scratchproof hard anodised aluminium body with heavy-duty safety valve. Official Amazon India verified selection from Pigeon.",
     "price": 1429.0,
     "compare_at_price": 2113.0,
@@ -22284,7 +22284,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12024,
     "name": "Wonderchef Non-Stick Die-Cast Aluminium Fry Pan & Kadhai Set with Glass Lid - Select",
-    "slug": "wonderchef-cookware-1024-12024",
+    "slug": "wonderchef-cookware-1024-12024-12024",
     "description": "5-layer granite non-stick coating allowing oil-free cooking on both gas and induction stoves. Official Amazon India verified selection from Wonderchef.",
     "price": 1739.0,
     "compare_at_price": 3037.0,
@@ -22311,7 +22311,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12025,
     "name": "Cello Hard Anodised 3-Litre Induction Bottom Pressure Cooker - Classic Edition",
-    "slug": "cello-cookware-1025-12025",
+    "slug": "cello-cookware-1025-12025-12025",
     "description": "Corrosion-resistant scratchproof hard anodised aluminium body with heavy-duty safety valve. Official Amazon India verified selection from Cello.",
     "price": 1481.0,
     "compare_at_price": 2480.0,
@@ -22338,7 +22338,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12026,
     "name": "Prestige Electric Automatic Rice Cooker 1.8 Litre with Keep Warm Function - Classic Edition",
-    "slug": "prestige-rice+cookers-1026-12026",
+    "slug": "prestige-rice+cookers-1026-12026-12026",
     "description": "Anodized aluminium cooking pan with measuring cup, steam tray, and serving scoop. Official Amazon India verified selection from Prestige.",
     "price": 1956.0,
     "compare_at_price": 3289.0,
@@ -22365,7 +22365,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12027,
     "name": "Panasonic Deluxe Multi-Cooker for Rice, Soup, and Steaming with Dual Thermostat - Premium Series",
-    "slug": "panasonic-rice+cookers-1027-12027",
+    "slug": "panasonic-rice+cookers-1027-12027-12027",
     "description": "Stainless steel close-fit lid with cool-touch heat-resistant handles. Official Amazon India verified selection from Panasonic.",
     "price": 2441.0,
     "compare_at_price": 3902.0,
@@ -22392,7 +22392,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12028,
     "name": "Bajaj Electric Automatic Rice Cooker 1.8 Litre with Keep Warm Function - Pro",
-    "slug": "bajaj-rice+cookers-1028-12028",
+    "slug": "bajaj-rice+cookers-1028-12028-12028",
     "description": "Anodized aluminium cooking pan with measuring cup, steam tray, and serving scoop. Official Amazon India verified selection from Bajaj.",
     "price": 2070.0,
     "compare_at_price": 2897.0,
@@ -22419,7 +22419,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12029,
     "name": "Usha Deluxe Multi-Cooker for Rice, Soup, and Steaming with Dual Thermostat - Special Edition",
-    "slug": "usha-rice+cookers-1029-12029",
+    "slug": "usha-rice+cookers-1029-12029-12029",
     "description": "Stainless steel close-fit lid with cool-touch heat-resistant handles. Official Amazon India verified selection from Usha.",
     "price": 2507.0,
     "compare_at_price": 4076.0,
@@ -22446,7 +22446,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12030,
     "name": "Havells Electric Automatic Rice Cooker 1.8 Litre with Keep Warm Function - Signature Edition",
-    "slug": "havells-rice+cookers-1030-12030",
+    "slug": "havells-rice+cookers-1030-12030-12030",
     "description": "Anodized aluminium cooking pan with measuring cup, steam tray, and serving scoop. Official Amazon India verified selection from Havells.",
     "price": 2127.0,
     "compare_at_price": 2919.0,
@@ -22473,7 +22473,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12031,
     "name": "Prestige Deluxe Multi-Cooker for Rice, Soup, and Steaming with Dual Thermostat - Deluxe",
-    "slug": "prestige-rice+cookers-1031-12031",
+    "slug": "prestige-rice+cookers-1031-12031-12031",
     "description": "Stainless steel close-fit lid with cool-touch heat-resistant handles. Official Amazon India verified selection from Prestige.",
     "price": 2485.0,
     "compare_at_price": 3619.0,
@@ -22500,7 +22500,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12032,
     "name": "Panasonic Electric Automatic Rice Cooker 1.8 Litre with Keep Warm Function - Sport",
-    "slug": "panasonic-rice+cookers-1032-12032",
+    "slug": "panasonic-rice+cookers-1032-12032-12032",
     "description": "Anodized aluminium cooking pan with measuring cup, steam tray, and serving scoop. Official Amazon India verified selection from Panasonic.",
     "price": 1975.0,
     "compare_at_price": 2990.0,
@@ -22527,7 +22527,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12033,
     "name": "Bajaj Deluxe Multi-Cooker for Rice, Soup, and Steaming with Dual Thermostat - Select",
-    "slug": "bajaj-rice+cookers-1033-12033",
+    "slug": "bajaj-rice+cookers-1033-12033-12033",
     "description": "Stainless steel close-fit lid with cool-touch heat-resistant handles. Official Amazon India verified selection from Bajaj.",
     "price": 2375.0,
     "compare_at_price": 3307.0,
@@ -22554,7 +22554,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12034,
     "name": "Usha Electric Automatic Rice Cooker 1.8 Litre with Keep Warm Function - Classic Edition",
-    "slug": "usha-rice+cookers-1034-12034",
+    "slug": "usha-rice+cookers-1034-12034-12034",
     "description": "Anodized aluminium cooking pan with measuring cup, steam tray, and serving scoop. Official Amazon India verified selection from Usha.",
     "price": 2013.0,
     "compare_at_price": 2851.0,
@@ -22581,7 +22581,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12035,
     "name": "Havells Deluxe Multi-Cooker for Rice, Soup, and Steaming with Dual Thermostat - Premium Series",
-    "slug": "havells-rice+cookers-1035-12035",
+    "slug": "havells-rice+cookers-1035-12035-12035",
     "description": "Stainless steel close-fit lid with cool-touch heat-resistant handles. Official Amazon India verified selection from Havells.",
     "price": 2485.0,
     "compare_at_price": 4073.0,
@@ -22608,7 +22608,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12036,
     "name": "Prestige Electric Automatic Rice Cooker 1.8 Litre with Keep Warm Function - Pro",
-    "slug": "prestige-rice+cookers-1036-12036",
+    "slug": "prestige-rice+cookers-1036-12036-12036",
     "description": "Anodized aluminium cooking pan with measuring cup, steam tray, and serving scoop. Official Amazon India verified selection from Prestige.",
     "price": 2184.0,
     "compare_at_price": 3609.0,
@@ -22635,7 +22635,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12037,
     "name": "Panasonic Deluxe Multi-Cooker for Rice, Soup, and Steaming with Dual Thermostat - Special Edition",
-    "slug": "panasonic-rice+cookers-1037-12037",
+    "slug": "panasonic-rice+cookers-1037-12037-12037",
     "description": "Stainless steel close-fit lid with cool-touch heat-resistant handles. Official Amazon India verified selection from Panasonic.",
     "price": 2441.0,
     "compare_at_price": 4107.0,
@@ -22662,7 +22662,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12038,
     "name": "Bajaj Electric Automatic Rice Cooker 1.8 Litre with Keep Warm Function - Signature Edition",
-    "slug": "bajaj-rice+cookers-1038-12038",
+    "slug": "bajaj-rice+cookers-1038-12038-12038",
     "description": "Anodized aluminium cooking pan with measuring cup, steam tray, and serving scoop. Official Amazon India verified selection from Bajaj.",
     "price": 2184.0,
     "compare_at_price": 3524.0,
@@ -22689,7 +22689,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12039,
     "name": "Usha Deluxe Multi-Cooker for Rice, Soup, and Steaming with Dual Thermostat - Deluxe",
-    "slug": "usha-rice+cookers-1039-12039",
+    "slug": "usha-rice+cookers-1039-12039-12039",
     "description": "Stainless steel close-fit lid with cool-touch heat-resistant handles. Official Amazon India verified selection from Usha.",
     "price": 2111.0,
     "compare_at_price": 3310.0,
@@ -22716,7 +22716,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12040,
     "name": "Havells Electric Automatic Rice Cooker 1.8 Litre with Keep Warm Function - Sport",
-    "slug": "havells-rice+cookers-1040-12040",
+    "slug": "havells-rice+cookers-1040-12040-12040",
     "description": "Anodized aluminium cooking pan with measuring cup, steam tray, and serving scoop. Official Amazon India verified selection from Havells.",
     "price": 2279.0,
     "compare_at_price": 3125.0,
@@ -22743,7 +22743,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12041,
     "name": "Prestige Deluxe Multi-Cooker for Rice, Soup, and Steaming with Dual Thermostat - Select",
-    "slug": "prestige-rice+cookers-1041-12041",
+    "slug": "prestige-rice+cookers-1041-12041-12041",
     "description": "Stainless steel close-fit lid with cool-touch heat-resistant handles. Official Amazon India verified selection from Prestige.",
     "price": 2397.0,
     "compare_at_price": 3777.0,
@@ -22770,7 +22770,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12042,
     "name": "Panasonic Electric Automatic Rice Cooker 1.8 Litre with Keep Warm Function - Classic Edition",
-    "slug": "panasonic-rice+cookers-1042-12042",
+    "slug": "panasonic-rice+cookers-1042-12042-12042",
     "description": "Anodized aluminium cooking pan with measuring cup, steam tray, and serving scoop. Official Amazon India verified selection from Panasonic.",
     "price": 1728.0,
     "compare_at_price": 2874.0,
@@ -22797,7 +22797,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12043,
     "name": "Bajaj Deluxe Multi-Cooker for Rice, Soup, and Steaming with Dual Thermostat - Premium Series",
-    "slug": "bajaj-rice+cookers-1043-12043",
+    "slug": "bajaj-rice+cookers-1043-12043-12043",
     "description": "Stainless steel close-fit lid with cool-touch heat-resistant handles. Official Amazon India verified selection from Bajaj.",
     "price": 2507.0,
     "compare_at_price": 4115.0,
@@ -22824,7 +22824,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12044,
     "name": "Usha Electric Automatic Rice Cooker 1.8 Litre with Keep Warm Function - Pro",
-    "slug": "usha-rice+cookers-1044-12044",
+    "slug": "usha-rice+cookers-1044-12044-12044",
     "description": "Anodized aluminium cooking pan with measuring cup, steam tray, and serving scoop. Official Amazon India verified selection from Usha.",
     "price": 1937.0,
     "compare_at_price": 3179.0,
@@ -22851,7 +22851,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12045,
     "name": "Havells Deluxe Multi-Cooker for Rice, Soup, and Steaming with Dual Thermostat - Special Edition",
-    "slug": "havells-rice+cookers-1045-12045",
+    "slug": "havells-rice+cookers-1045-12045-12045",
     "description": "Stainless steel close-fit lid with cool-touch heat-resistant handles. Official Amazon India verified selection from Havells.",
     "price": 2551.0,
     "compare_at_price": 4113.0,
@@ -22878,7 +22878,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12046,
     "name": "Prestige Electric Automatic Rice Cooker 1.8 Litre with Keep Warm Function - Signature Edition",
-    "slug": "prestige-rice+cookers-1046-12046",
+    "slug": "prestige-rice+cookers-1046-12046-12046",
     "description": "Anodized aluminium cooking pan with measuring cup, steam tray, and serving scoop. Official Amazon India verified selection from Prestige.",
     "price": 1728.0,
     "compare_at_price": 2607.0,
@@ -22905,7 +22905,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12047,
     "name": "Panasonic Deluxe Multi-Cooker for Rice, Soup, and Steaming with Dual Thermostat - Deluxe",
-    "slug": "panasonic-rice+cookers-1047-12047",
+    "slug": "panasonic-rice+cookers-1047-12047-12047",
     "description": "Stainless steel close-fit lid with cool-touch heat-resistant handles. Official Amazon India verified selection from Panasonic.",
     "price": 2617.0,
     "compare_at_price": 4592.0,
@@ -22932,7 +22932,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12048,
     "name": "Prestige 750W Heavy Duty Copper Motor Mixer Grinder with 3 Stainless Steel Jars - Classic Edition",
-    "slug": "prestige-mixer+grinders-1048-12048",
+    "slug": "prestige-mixer+grinders-1048-12048-12048",
     "description": "High-torque multi-speed kitchen mixer with overload protection and air-ventilation cooling. Official Amazon India verified selection from Prestige.",
     "price": 2799.0,
     "compare_at_price": 4773.0,
@@ -22959,7 +22959,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12049,
     "name": "Bajaj Compact 500W Smoothie Blender & Nutri-Bullet Grinder (2 Tritan Jars) - Premium Series",
-    "slug": "bajaj-mixer+grinders-1049-12049",
+    "slug": "bajaj-mixer+grinders-1049-12049-12049",
     "description": "Ultra-sharp surgical extraction blades pulverizing nuts, seeds, and fresh fruit smoothies. Official Amazon India verified selection from Bajaj.",
     "price": 1920.0,
     "compare_at_price": 2892.0,
@@ -22986,7 +22986,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12050,
     "name": "Philips 750W Heavy Duty Copper Motor Mixer Grinder with 3 Stainless Steel Jars - Pro",
-    "slug": "philips-mixer+grinders-1050-12050",
+    "slug": "philips-mixer+grinders-1050-12050-12050",
     "description": "High-torque multi-speed kitchen mixer with overload protection and air-ventilation cooling. Official Amazon India verified selection from Philips.",
     "price": 2349.0,
     "compare_at_price": 3354.0,
@@ -23013,7 +23013,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12051,
     "name": "Butterfly Compact 500W Smoothie Blender & Nutri-Bullet Grinder (2 Tritan Jars) - Special Edition",
-    "slug": "butterfly-mixer+grinders-1051-12051",
+    "slug": "butterfly-mixer+grinders-1051-12051-12051",
     "description": "Ultra-sharp surgical extraction blades pulverizing nuts, seeds, and fresh fruit smoothies. Official Amazon India verified selection from Butterfly.",
     "price": 1716.0,
     "compare_at_price": 2424.0,
@@ -23040,7 +23040,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12052,
     "name": "Sujata 750W Heavy Duty Copper Motor Mixer Grinder with 3 Stainless Steel Jars - Signature Edition",
-    "slug": "sujata-mixer+grinders-1052-12052",
+    "slug": "sujata-mixer+grinders-1052-12052-12052",
     "description": "High-torque multi-speed kitchen mixer with overload protection and air-ventilation cooling. Official Amazon India verified selection from Sujata.",
     "price": 2374.0,
     "compare_at_price": 4096.0,
@@ -23067,7 +23067,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12053,
     "name": "Prestige Compact 500W Smoothie Blender & Nutri-Bullet Grinder (2 Tritan Jars) - Deluxe",
-    "slug": "prestige-mixer+grinders-1053-12053",
+    "slug": "prestige-mixer+grinders-1053-12053-12053",
     "description": "Ultra-sharp surgical extraction blades pulverizing nuts, seeds, and fresh fruit smoothies. Official Amazon India verified selection from Prestige.",
     "price": 1750.0,
     "compare_at_price": 2577.0,
@@ -23094,7 +23094,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12054,
     "name": "Bajaj 750W Heavy Duty Copper Motor Mixer Grinder with 3 Stainless Steel Jars - Sport",
-    "slug": "bajaj-mixer+grinders-1054-12054",
+    "slug": "bajaj-mixer+grinders-1054-12054-12054",
     "description": "High-torque multi-speed kitchen mixer with overload protection and air-ventilation cooling. Official Amazon India verified selection from Bajaj.",
     "price": 2949.0,
     "compare_at_price": 4080.0,
@@ -23121,7 +23121,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12055,
     "name": "Philips Compact 500W Smoothie Blender & Nutri-Bullet Grinder (2 Tritan Jars) - Select",
-    "slug": "philips-mixer+grinders-1055-12055",
+    "slug": "philips-mixer+grinders-1055-12055-12055",
     "description": "Ultra-sharp surgical extraction blades pulverizing nuts, seeds, and fresh fruit smoothies. Official Amazon India verified selection from Philips.",
     "price": 1971.0,
     "compare_at_price": 2913.0,
@@ -23148,7 +23148,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12056,
     "name": "Butterfly 750W Heavy Duty Copper Motor Mixer Grinder with 3 Stainless Steel Jars - Classic Edition",
-    "slug": "butterfly-mixer+grinders-1056-12056",
+    "slug": "butterfly-mixer+grinders-1056-12056-12056",
     "description": "High-torque multi-speed kitchen mixer with overload protection and air-ventilation cooling. Official Amazon India verified selection from Butterfly.",
     "price": 2824.0,
     "compare_at_price": 4721.0,
@@ -23175,7 +23175,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12057,
     "name": "Sujata Compact 500W Smoothie Blender & Nutri-Bullet Grinder (2 Tritan Jars) - Premium Series",
-    "slug": "sujata-mixer+grinders-1057-12057",
+    "slug": "sujata-mixer+grinders-1057-12057-12057",
     "description": "Ultra-sharp surgical extraction blades pulverizing nuts, seeds, and fresh fruit smoothies. Official Amazon India verified selection from Sujata.",
     "price": 1614.0,
     "compare_at_price": 2315.0,
@@ -23202,7 +23202,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12058,
     "name": "Prestige 750W Heavy Duty Copper Motor Mixer Grinder with 3 Stainless Steel Jars - Pro",
-    "slug": "prestige-mixer+grinders-1058-12058",
+    "slug": "prestige-mixer+grinders-1058-12058-12058",
     "description": "High-torque multi-speed kitchen mixer with overload protection and air-ventilation cooling. Official Amazon India verified selection from Prestige.",
     "price": 2549.0,
     "compare_at_price": 4516.0,
@@ -23229,7 +23229,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12059,
     "name": "Bajaj Compact 500W Smoothie Blender & Nutri-Bullet Grinder (2 Tritan Jars) - Special Edition",
-    "slug": "bajaj-mixer+grinders-1059-12059",
+    "slug": "bajaj-mixer+grinders-1059-12059-12059",
     "description": "Ultra-sharp surgical extraction blades pulverizing nuts, seeds, and fresh fruit smoothies. Official Amazon India verified selection from Bajaj.",
     "price": 1784.0,
     "compare_at_price": 2869.0,
@@ -23256,7 +23256,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12060,
     "name": "Philips 750W Heavy Duty Copper Motor Mixer Grinder with 3 Stainless Steel Jars - Signature Edition",
-    "slug": "philips-mixer+grinders-1060-12060",
+    "slug": "philips-mixer+grinders-1060-12060-12060",
     "description": "High-torque multi-speed kitchen mixer with overload protection and air-ventilation cooling. Official Amazon India verified selection from Philips.",
     "price": 2999.0,
     "compare_at_price": 4384.0,
@@ -23283,7 +23283,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12061,
     "name": "Butterfly Compact 500W Smoothie Blender & Nutri-Bullet Grinder (2 Tritan Jars) - Deluxe",
-    "slug": "butterfly-mixer+grinders-1061-12061",
+    "slug": "butterfly-mixer+grinders-1061-12061-12061",
     "description": "Ultra-sharp surgical extraction blades pulverizing nuts, seeds, and fresh fruit smoothies. Official Amazon India verified selection from Butterfly.",
     "price": 1784.0,
     "compare_at_price": 2784.0,
@@ -23310,7 +23310,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12062,
     "name": "Sujata 750W Heavy Duty Copper Motor Mixer Grinder with 3 Stainless Steel Jars - Sport",
-    "slug": "sujata-mixer+grinders-1062-12062",
+    "slug": "sujata-mixer+grinders-1062-12062-12062",
     "description": "High-torque multi-speed kitchen mixer with overload protection and air-ventilation cooling. Official Amazon India verified selection from Sujata.",
     "price": 2974.0,
     "compare_at_price": 4708.0,
@@ -23337,7 +23337,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12063,
     "name": "Prestige Compact 500W Smoothie Blender & Nutri-Bullet Grinder (2 Tritan Jars) - Select",
-    "slug": "prestige-mixer+grinders-1063-12063",
+    "slug": "prestige-mixer+grinders-1063-12063-12063",
     "description": "Ultra-sharp surgical extraction blades pulverizing nuts, seeds, and fresh fruit smoothies. Official Amazon India verified selection from Prestige.",
     "price": 2022.0,
     "compare_at_price": 3001.0,
@@ -23364,7 +23364,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12064,
     "name": "Bajaj 750W Heavy Duty Copper Motor Mixer Grinder with 3 Stainless Steel Jars - Classic Edition",
-    "slug": "bajaj-mixer+grinders-1064-12064",
+    "slug": "bajaj-mixer+grinders-1064-12064-12064",
     "description": "High-torque multi-speed kitchen mixer with overload protection and air-ventilation cooling. Official Amazon India verified selection from Bajaj.",
     "price": 2249.0,
     "compare_at_price": 3423.0,
@@ -23391,7 +23391,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12065,
     "name": "Philips Compact 500W Smoothie Blender & Nutri-Bullet Grinder (2 Tritan Jars) - Premium Series",
-    "slug": "philips-mixer+grinders-1065-12065",
+    "slug": "philips-mixer+grinders-1065-12065-12065",
     "description": "Ultra-sharp surgical extraction blades pulverizing nuts, seeds, and fresh fruit smoothies. Official Amazon India verified selection from Philips.",
     "price": 1682.0,
     "compare_at_price": 2955.0,
@@ -23418,7 +23418,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12066,
     "name": "Butterfly 750W Heavy Duty Copper Motor Mixer Grinder with 3 Stainless Steel Jars - Pro",
-    "slug": "butterfly-mixer+grinders-1066-12066",
+    "slug": "butterfly-mixer+grinders-1066-12066-12066",
     "description": "High-torque multi-speed kitchen mixer with overload protection and air-ventilation cooling. Official Amazon India verified selection from Butterfly.",
     "price": 2674.0,
     "compare_at_price": 3749.0,
@@ -23445,7 +23445,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12067,
     "name": "Sujata Compact 500W Smoothie Blender & Nutri-Bullet Grinder (2 Tritan Jars) - Special Edition",
-    "slug": "sujata-mixer+grinders-1067-12067",
+    "slug": "sujata-mixer+grinders-1067-12067-12067",
     "description": "Ultra-sharp surgical extraction blades pulverizing nuts, seeds, and fresh fruit smoothies. Official Amazon India verified selection from Sujata.",
     "price": 1835.0,
     "compare_at_price": 2743.0,
@@ -23472,7 +23472,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12068,
     "name": "Prestige 750W Heavy Duty Copper Motor Mixer Grinder with 3 Stainless Steel Jars - Signature Edition",
-    "slug": "prestige-mixer+grinders-1068-12068",
+    "slug": "prestige-mixer+grinders-1068-12068-12068",
     "description": "High-torque multi-speed kitchen mixer with overload protection and air-ventilation cooling. Official Amazon India verified selection from Prestige.",
     "price": 2324.0,
     "compare_at_price": 3228.0,
@@ -23499,7 +23499,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12069,
     "name": "Bajaj Compact 500W Smoothie Blender & Nutri-Bullet Grinder (2 Tritan Jars) - Deluxe",
-    "slug": "bajaj-mixer+grinders-1069-12069",
+    "slug": "bajaj-mixer+grinders-1069-12069-12069",
     "description": "Ultra-sharp surgical extraction blades pulverizing nuts, seeds, and fresh fruit smoothies. Official Amazon India verified selection from Bajaj.",
     "price": 1648.0,
     "compare_at_price": 2783.0,
@@ -23526,7 +23526,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12070,
     "name": "Wakefit Ergonomic High-Back Mesh Office Chair with Adjustable Lumbar Support - Classic Edition",
-    "slug": "wakefit-furniture-1070-12070",
+    "slug": "wakefit-furniture-1070-12070-12070",
     "description": "Breathable mesh back with pneumatic height adjustment, 2D armrests, and 360-degree swivel wheels. Official Amazon India verified selection from Wakefit.",
     "price": 4994.0,
     "compare_at_price": 8436.0,
@@ -23553,7 +23553,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12071,
     "name": "Nilkamal Engineered Wood Multipurpose Home Study Desk with Storage Shelves - Premium Series",
-    "slug": "nilkamal-furniture-1071-12071",
+    "slug": "nilkamal-furniture-1071-12071-12071",
     "description": "Sturdy scratch-resistant writing workstation desk ideal for dual monitors and paperwork. Official Amazon India verified selection from Nilkamal.",
     "price": 3299.0,
     "compare_at_price": 4901.0,
@@ -23580,7 +23580,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12072,
     "name": "Green Soul Ergonomic High-Back Mesh Office Chair with Adjustable Lumbar Support - Pro",
-    "slug": "green-soul-furniture-1072-12072",
+    "slug": "green-soul-furniture-1072-12072-12072",
     "description": "Breathable mesh back with pneumatic height adjustment, 2D armrests, and 360-degree swivel wheels. Official Amazon India verified selection from Green Soul.",
     "price": 5354.0,
     "compare_at_price": 7413.0,
@@ -23607,7 +23607,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12073,
     "name": "Godrej Interio Engineered Wood Multipurpose Home Study Desk with Storage Shelves - Special Edition",
-    "slug": "godrej-interio-furniture-1073-12073",
+    "slug": "godrej-interio-furniture-1073-12073-12073",
     "description": "Sturdy scratch-resistant writing workstation desk ideal for dual monitors and paperwork. Official Amazon India verified selection from Godrej Interio.",
     "price": 3860.0,
     "compare_at_price": 6693.0,
@@ -23634,7 +23634,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12074,
     "name": "Sleepyhead Ergonomic High-Back Mesh Office Chair with Adjustable Lumbar Support - Signature Edition",
-    "slug": "sleepyhead-furniture-1074-12074",
+    "slug": "sleepyhead-furniture-1074-12074-12074",
     "description": "Breathable mesh back with pneumatic height adjustment, 2D armrests, and 360-degree swivel wheels. Official Amazon India verified selection from Sleepyhead.",
     "price": 4859.0,
     "compare_at_price": 7374.0,
@@ -23661,7 +23661,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12075,
     "name": "Wakefit Engineered Wood Multipurpose Home Study Desk with Storage Shelves - Deluxe",
-    "slug": "wakefit-furniture-1075-12075",
+    "slug": "wakefit-furniture-1075-12075-12075",
     "description": "Sturdy scratch-resistant writing workstation desk ideal for dual monitors and paperwork. Official Amazon India verified selection from Wakefit.",
     "price": 3167.0,
     "compare_at_price": 4336.0,
@@ -23688,7 +23688,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12076,
     "name": "Nilkamal Ergonomic High-Back Mesh Office Chair with Adjustable Lumbar Support - Sport",
-    "slug": "nilkamal-furniture-1076-12076",
+    "slug": "nilkamal-furniture-1076-12076-12076",
     "description": "Breathable mesh back with pneumatic height adjustment, 2D armrests, and 360-degree swivel wheels. Official Amazon India verified selection from Nilkamal.",
     "price": 4634.0,
     "compare_at_price": 8064.0,
@@ -23715,7 +23715,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12077,
     "name": "Green Soul Engineered Wood Multipurpose Home Study Desk with Storage Shelves - Select",
-    "slug": "green-soul-furniture-1077-12077",
+    "slug": "green-soul-furniture-1077-12077-12077",
     "description": "Sturdy scratch-resistant writing workstation desk ideal for dual monitors and paperwork. Official Amazon India verified selection from Green Soul.",
     "price": 3596.0,
     "compare_at_price": 6444.0,
@@ -23742,7 +23742,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12078,
     "name": "Godrej Interio Ergonomic High-Back Mesh Office Chair with Adjustable Lumbar Support - Classic Edition",
-    "slug": "godrej-interio-furniture-1078-12078",
+    "slug": "godrej-interio-furniture-1078-12078-12078",
     "description": "Breathable mesh back with pneumatic height adjustment, 2D armrests, and 360-degree swivel wheels. Official Amazon India verified selection from Godrej Interio.",
     "price": 4319.0,
     "compare_at_price": 6832.0,
@@ -23769,7 +23769,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12079,
     "name": "Sleepyhead Engineered Wood Multipurpose Home Study Desk with Storage Shelves - Premium Series",
-    "slug": "sleepyhead-furniture-1079-12079",
+    "slug": "sleepyhead-furniture-1079-12079-12079",
     "description": "Sturdy scratch-resistant writing workstation desk ideal for dual monitors and paperwork. Official Amazon India verified selection from Sleepyhead.",
     "price": 3200.0,
     "compare_at_price": 4728.0,
@@ -23796,7 +23796,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12080,
     "name": "Wakefit Ergonomic High-Back Mesh Office Chair with Adjustable Lumbar Support - Pro",
-    "slug": "wakefit-furniture-1080-12080",
+    "slug": "wakefit-furniture-1080-12080-12080",
     "description": "Breathable mesh back with pneumatic height adjustment, 2D armrests, and 360-degree swivel wheels. Official Amazon India verified selection from Wakefit.",
     "price": 5039.0,
     "compare_at_price": 8586.0,
@@ -23823,7 +23823,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12081,
     "name": "Nilkamal Engineered Wood Multipurpose Home Study Desk with Storage Shelves - Special Edition",
-    "slug": "nilkamal-furniture-1081-12081",
+    "slug": "nilkamal-furniture-1081-12081-12081",
     "description": "Sturdy scratch-resistant writing workstation desk ideal for dual monitors and paperwork. Official Amazon India verified selection from Nilkamal.",
     "price": 3101.0,
     "compare_at_price": 5279.0,
@@ -23850,7 +23850,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12082,
     "name": "Green Soul Ergonomic High-Back Mesh Office Chair with Adjustable Lumbar Support - Signature Edition",
-    "slug": "green-soul-furniture-1082-12082",
+    "slug": "green-soul-furniture-1082-12082-12082",
     "description": "Breathable mesh back with pneumatic height adjustment, 2D armrests, and 360-degree swivel wheels. Official Amazon India verified selection from Green Soul.",
     "price": 4319.0,
     "compare_at_price": 7578.0,
@@ -23877,7 +23877,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12083,
     "name": "Godrej Interio Engineered Wood Multipurpose Home Study Desk with Storage Shelves - Deluxe",
-    "slug": "godrej-interio-furniture-1083-12083",
+    "slug": "godrej-interio-furniture-1083-12083-12083",
     "description": "Sturdy scratch-resistant writing workstation desk ideal for dual monitors and paperwork. Official Amazon India verified selection from Godrej Interio.",
     "price": 3959.0,
     "compare_at_price": 6423.0,
@@ -23904,7 +23904,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12084,
     "name": "Sleepyhead Ergonomic High-Back Mesh Office Chair with Adjustable Lumbar Support - Sport",
-    "slug": "sleepyhead-furniture-1084-12084",
+    "slug": "sleepyhead-furniture-1084-12084-12084",
     "description": "Breathable mesh back with pneumatic height adjustment, 2D armrests, and 360-degree swivel wheels. Official Amazon India verified selection from Sleepyhead.",
     "price": 5129.0,
     "compare_at_price": 8741.0,
@@ -23931,7 +23931,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12085,
     "name": "Wakefit Engineered Wood Multipurpose Home Study Desk with Storage Shelves - Select",
-    "slug": "wakefit-furniture-1085-12085",
+    "slug": "wakefit-furniture-1085-12085-12085",
     "description": "Sturdy scratch-resistant writing workstation desk ideal for dual monitors and paperwork. Official Amazon India verified selection from Wakefit.",
     "price": 3794.0,
     "compare_at_price": 5973.0,
@@ -23958,7 +23958,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12086,
     "name": "Nilkamal Ergonomic High-Back Mesh Office Chair with Adjustable Lumbar Support - Classic Edition",
-    "slug": "nilkamal-furniture-1086-12086",
+    "slug": "nilkamal-furniture-1086-12086-12086",
     "description": "Breathable mesh back with pneumatic height adjustment, 2D armrests, and 360-degree swivel wheels. Official Amazon India verified selection from Nilkamal.",
     "price": 4139.0,
     "compare_at_price": 6674.0,
@@ -23985,7 +23985,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12087,
     "name": "Green Soul Engineered Wood Multipurpose Home Study Desk with Storage Shelves - Premium Series",
-    "slug": "green-soul-furniture-1087-12087",
+    "slug": "green-soul-furniture-1087-12087-12087",
     "description": "Sturdy scratch-resistant writing workstation desk ideal for dual monitors and paperwork. Official Amazon India verified selection from Green Soul.",
     "price": 3662.0,
     "compare_at_price": 5649.0,
@@ -24012,7 +24012,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12088,
     "name": "Godrej Interio Ergonomic High-Back Mesh Office Chair with Adjustable Lumbar Support - Pro",
-    "slug": "godrej-interio-furniture-1088-12088",
+    "slug": "godrej-interio-furniture-1088-12088-12088",
     "description": "Breathable mesh back with pneumatic height adjustment, 2D armrests, and 360-degree swivel wheels. Official Amazon India verified selection from Godrej Interio.",
     "price": 4814.0,
     "compare_at_price": 8164.0,
@@ -24039,7 +24039,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12089,
     "name": "Sleepyhead Engineered Wood Multipurpose Home Study Desk with Storage Shelves - Special Edition",
-    "slug": "sleepyhead-furniture-1089-12089",
+    "slug": "sleepyhead-furniture-1089-12089-12089",
     "description": "Sturdy scratch-resistant writing workstation desk ideal for dual monitors and paperwork. Official Amazon India verified selection from Sleepyhead.",
     "price": 3761.0,
     "compare_at_price": 5824.0,
@@ -24066,7 +24066,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12090,
     "name": "Wakefit Ergonomic High-Back Mesh Office Chair with Adjustable Lumbar Support - Signature Edition",
-    "slug": "wakefit-furniture-1090-12090",
+    "slug": "wakefit-furniture-1090-12090-12090",
     "description": "Breathable mesh back with pneumatic height adjustment, 2D armrests, and 360-degree swivel wheels. Official Amazon India verified selection from Wakefit.",
     "price": 5219.0,
     "compare_at_price": 9348.0,
@@ -24093,7 +24093,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12091,
     "name": "Nilkamal Engineered Wood Multipurpose Home Study Desk with Storage Shelves - Deluxe",
-    "slug": "nilkamal-furniture-1091-12091",
+    "slug": "nilkamal-furniture-1091-12091-12091",
     "description": "Sturdy scratch-resistant writing workstation desk ideal for dual monitors and paperwork. Official Amazon India verified selection from Nilkamal.",
     "price": 3794.0,
     "compare_at_price": 5935.0,
@@ -24120,7 +24120,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12092,
     "name": "Bombay Dyeing 100% Pure Glace Cotton Double King Bedsheet with 2 Pillow Covers - Classic Edition",
-    "slug": "bombay-dyeing-bedsheets-1092-12092",
+    "slug": "bombay-dyeing-bedsheets-1092-12092-12092",
     "description": "210 Thread Count soft breathable cotton sheet featuring fade-resistant reactive prints. Official Amazon India verified selection from Bombay Dyeing.",
     "price": 720.0,
     "compare_at_price": 1257.0,
@@ -24147,7 +24147,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12093,
     "name": "Spaces Elastic Fitted Waterproof Mattress Protector Bed Cover - Premium Series",
-    "slug": "spaces-bedsheets-1093-12093",
+    "slug": "spaces-bedsheets-1093-12093-12093",
     "description": "Terry cotton breathable surface with TPU waterproof barrier safeguarding against spills. Official Amazon India verified selection from Spaces.",
     "price": 775.0,
     "compare_at_price": 1232.0,
@@ -24174,7 +24174,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12094,
     "name": "Solimo 100% Pure Glace Cotton Double King Bedsheet with 2 Pillow Covers - Pro",
-    "slug": "solimo-bedsheets-1094-12094",
+    "slug": "solimo-bedsheets-1094-12094-12094",
     "description": "210 Thread Count soft breathable cotton sheet featuring fade-resistant reactive prints. Official Amazon India verified selection from Solimo.",
     "price": 832.0,
     "compare_at_price": 1364.0,
@@ -24201,7 +24201,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12095,
     "name": "Trident Elastic Fitted Waterproof Mattress Protector Bed Cover - Special Edition",
-    "slug": "trident-bedsheets-1095-12095",
+    "slug": "trident-bedsheets-1095-12095-12095",
     "description": "Terry cotton breathable surface with TPU waterproof barrier safeguarding against spills. Official Amazon India verified selection from Trident.",
     "price": 751.0,
     "compare_at_price": 1350.0,
@@ -24228,7 +24228,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12096,
     "name": "Story@Home 100% Pure Glace Cotton Double King Bedsheet with 2 Pillow Covers - Signature Edition",
-    "slug": "story@home-bedsheets-1096-12096",
+    "slug": "story@home-bedsheets-1096-12096-12096",
     "description": "210 Thread Count soft breathable cotton sheet featuring fade-resistant reactive prints. Official Amazon India verified selection from Story@Home.",
     "price": 720.0,
     "compare_at_price": 1281.0,
@@ -24255,7 +24255,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12097,
     "name": "Bombay Dyeing Elastic Fitted Waterproof Mattress Protector Bed Cover - Deluxe",
-    "slug": "bombay-dyeing-bedsheets-1097-12097",
+    "slug": "bombay-dyeing-bedsheets-1097-12097-12097",
     "description": "Terry cotton breathable surface with TPU waterproof barrier safeguarding against spills. Official Amazon India verified selection from Bombay Dyeing.",
     "price": 951.0,
     "compare_at_price": 1666.0,
@@ -24282,7 +24282,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12098,
     "name": "Spaces 100% Pure Glace Cotton Double King Bedsheet with 2 Pillow Covers - Sport",
-    "slug": "spaces-bedsheets-1098-12098",
+    "slug": "spaces-bedsheets-1098-12098-12098",
     "description": "210 Thread Count soft breathable cotton sheet featuring fade-resistant reactive prints. Official Amazon India verified selection from Spaces.",
     "price": 650.0,
     "compare_at_price": 1131.0,
@@ -24309,7 +24309,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12099,
     "name": "Solimo Elastic Fitted Waterproof Mattress Protector Bed Cover - Select",
-    "slug": "solimo-bedsheets-1099-12099",
+    "slug": "solimo-bedsheets-1099-12099-12099",
     "description": "Terry cotton breathable surface with TPU waterproof barrier safeguarding against spills. Official Amazon India verified selection from Solimo.",
     "price": 791.0,
     "compare_at_price": 1267.0,
@@ -24336,7 +24336,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12100,
     "name": "Trident 100% Pure Glace Cotton Double King Bedsheet with 2 Pillow Covers - Classic Edition",
-    "slug": "trident-bedsheets-1100-12100",
+    "slug": "trident-bedsheets-1100-12100-12100",
     "description": "210 Thread Count soft breathable cotton sheet featuring fade-resistant reactive prints. Official Amazon India verified selection from Trident.",
     "price": 783.0,
     "compare_at_price": 1177.0,
@@ -24363,7 +24363,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12101,
     "name": "Story@Home Elastic Fitted Waterproof Mattress Protector Bed Cover - Premium Series",
-    "slug": "story@home-bedsheets-1101-12101",
+    "slug": "story@home-bedsheets-1101-12101-12101",
     "description": "Terry cotton breathable surface with TPU waterproof barrier safeguarding against spills. Official Amazon India verified selection from Story@Home.",
     "price": 743.0,
     "compare_at_price": 1149.0,
@@ -24390,7 +24390,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12102,
     "name": "Bombay Dyeing 100% Pure Glace Cotton Double King Bedsheet with 2 Pillow Covers - Pro",
-    "slug": "bombay-dyeing-bedsheets-1102-12102",
+    "slug": "bombay-dyeing-bedsheets-1102-12102-12102",
     "description": "210 Thread Count soft breathable cotton sheet featuring fade-resistant reactive prints. Official Amazon India verified selection from Bombay Dyeing.",
     "price": 797.0,
     "compare_at_price": 1280.0,
@@ -24417,7 +24417,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12103,
     "name": "Spaces Elastic Fitted Waterproof Mattress Protector Bed Cover - Special Edition",
-    "slug": "spaces-bedsheets-1103-12103",
+    "slug": "spaces-bedsheets-1103-12103-12103",
     "description": "Terry cotton breathable surface with TPU waterproof barrier safeguarding against spills. Official Amazon India verified selection from Spaces.",
     "price": 783.0,
     "compare_at_price": 1297.0,
@@ -24444,7 +24444,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12104,
     "name": "Solimo 100% Pure Glace Cotton Double King Bedsheet with 2 Pillow Covers - Signature Edition",
-    "slug": "solimo-bedsheets-1104-12104",
+    "slug": "solimo-bedsheets-1104-12104-12104",
     "description": "210 Thread Count soft breathable cotton sheet featuring fade-resistant reactive prints. Official Amazon India verified selection from Solimo.",
     "price": 671.0,
     "compare_at_price": 1027.0,
@@ -24471,7 +24471,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12105,
     "name": "Trident Elastic Fitted Waterproof Mattress Protector Bed Cover - Deluxe",
-    "slug": "trident-bedsheets-1105-12105",
+    "slug": "trident-bedsheets-1105-12105-12105",
     "description": "Terry cotton breathable surface with TPU waterproof barrier safeguarding against spills. Official Amazon India verified selection from Trident.",
     "price": 807.0,
     "compare_at_price": 1402.0,
@@ -24498,7 +24498,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12106,
     "name": "Story@Home 100% Pure Glace Cotton Double King Bedsheet with 2 Pillow Covers - Sport",
-    "slug": "story@home-bedsheets-1106-12106",
+    "slug": "story@home-bedsheets-1106-12106-12106",
     "description": "210 Thread Count soft breathable cotton sheet featuring fade-resistant reactive prints. Official Amazon India verified selection from Story@Home.",
     "price": 797.0,
     "compare_at_price": 1121.0,
@@ -24525,7 +24525,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12107,
     "name": "Bombay Dyeing Elastic Fitted Waterproof Mattress Protector Bed Cover - Select",
-    "slug": "bombay-dyeing-bedsheets-1107-12107",
+    "slug": "bombay-dyeing-bedsheets-1107-12107-12107",
     "description": "Terry cotton breathable surface with TPU waterproof barrier safeguarding against spills. Official Amazon India verified selection from Bombay Dyeing.",
     "price": 839.0,
     "compare_at_price": 1364.0,
@@ -24552,7 +24552,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12108,
     "name": "Spaces 100% Pure Glace Cotton Double King Bedsheet with 2 Pillow Covers - Classic Edition",
-    "slug": "spaces-bedsheets-1108-12108",
+    "slug": "spaces-bedsheets-1108-12108-12108",
     "description": "210 Thread Count soft breathable cotton sheet featuring fade-resistant reactive prints. Official Amazon India verified selection from Spaces.",
     "price": 636.0,
     "compare_at_price": 982.0,
@@ -24579,7 +24579,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12109,
     "name": "Solimo Elastic Fitted Waterproof Mattress Protector Bed Cover - Premium Series",
-    "slug": "solimo-bedsheets-1109-12109",
+    "slug": "solimo-bedsheets-1109-12109-12109",
     "description": "Terry cotton breathable surface with TPU waterproof barrier safeguarding against spills. Official Amazon India verified selection from Solimo.",
     "price": 847.0,
     "compare_at_price": 1213.0,
@@ -24606,7 +24606,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12110,
     "name": "Trident 100% Pure Glace Cotton Double King Bedsheet with 2 Pillow Covers - Pro",
-    "slug": "trident-bedsheets-1110-12110",
+    "slug": "trident-bedsheets-1110-12110-12110",
     "description": "210 Thread Count soft breathable cotton sheet featuring fade-resistant reactive prints. Official Amazon India verified selection from Trident.",
     "price": 650.0,
     "compare_at_price": 1094.0,
@@ -24633,7 +24633,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12111,
     "name": "Story@Home Elastic Fitted Waterproof Mattress Protector Bed Cover - Special Edition",
-    "slug": "story@home-bedsheets-1111-12111",
+    "slug": "story@home-bedsheets-1111-12111-12111",
     "description": "Terry cotton breathable surface with TPU waterproof barrier safeguarding against spills. Official Amazon India verified selection from Story@Home.",
     "price": 895.0,
     "compare_at_price": 1227.0,
@@ -24660,7 +24660,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12112,
     "name": "Bombay Dyeing 100% Pure Glace Cotton Double King Bedsheet with 2 Pillow Covers - Signature Edition",
-    "slug": "bombay-dyeing-bedsheets-1112-12112",
+    "slug": "bombay-dyeing-bedsheets-1112-12112-12112",
     "description": "210 Thread Count soft breathable cotton sheet featuring fade-resistant reactive prints. Official Amazon India verified selection from Bombay Dyeing.",
     "price": 741.0,
     "compare_at_price": 1104.0,
@@ -24687,7 +24687,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12113,
     "name": "Spaces Elastic Fitted Waterproof Mattress Protector Bed Cover - Deluxe",
-    "slug": "spaces-bedsheets-1113-12113",
+    "slug": "spaces-bedsheets-1113-12113-12113",
     "description": "Terry cotton breathable surface with TPU waterproof barrier safeguarding against spills. Official Amazon India verified selection from Spaces.",
     "price": 831.0,
     "compare_at_price": 1201.0,
@@ -24714,7 +24714,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12114,
     "name": "Milton BPA-Free Modular Airtight Grocery Storage Container Set (Pack of 6) - Classic Edition",
-    "slug": "milton-kitchen+storage-1114-12114",
+    "slug": "milton-kitchen+storage-1114-12114-12114",
     "description": "Stackable transparent kitchen jars with 4-sided silicone locking seal clips. Official Amazon India verified selection from Milton.",
     "price": 657.0,
     "compare_at_price": 1055.0,
@@ -24741,7 +24741,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12115,
     "name": "Cello Stainless Steel 3-Tier Rolling Kitchen Trolley Cart with Wheels - Premium Series",
-    "slug": "cello-kitchen+storage-1115-12115",
+    "slug": "cello-kitchen+storage-1115-12115-12115",
     "description": "Rustproof multi-shelf storage rack for spices, onions, potatoes, and daily kitchen utensils. Official Amazon India verified selection from Cello.",
     "price": 1355.0,
     "compare_at_price": 2288.0,
@@ -24768,7 +24768,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12116,
     "name": "Borosil BPA-Free Modular Airtight Grocery Storage Container Set (Pack of 6) - Pro",
-    "slug": "borosil-kitchen+storage-1116-12116",
+    "slug": "borosil-kitchen+storage-1116-12116-12116",
     "description": "Stackable transparent kitchen jars with 4-sided silicone locking seal clips. Official Amazon India verified selection from Borosil.",
     "price": 818.0,
     "compare_at_price": 1248.0,
@@ -24795,7 +24795,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12117,
     "name": "Signoraware Stainless Steel 3-Tier Rolling Kitchen Trolley Cart with Wheels - Special Edition",
-    "slug": "signoraware-kitchen+storage-1117-12117",
+    "slug": "signoraware-kitchen+storage-1117-12117-12117",
     "description": "Rustproof multi-shelf storage rack for spices, onions, potatoes, and daily kitchen utensils. Official Amazon India verified selection from Signoraware.",
     "price": 1391.0,
     "compare_at_price": 2234.0,
@@ -24822,7 +24822,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12118,
     "name": "Tupperware BPA-Free Modular Airtight Grocery Storage Container Set (Pack of 6) - Signature Edition",
-    "slug": "tupperware-kitchen+storage-1118-12118",
+    "slug": "tupperware-kitchen+storage-1118-12118-12118",
     "description": "Stackable transparent kitchen jars with 4-sided silicone locking seal clips. Official Amazon India verified selection from Tupperware.",
     "price": 825.0,
     "compare_at_price": 1398.0,
@@ -24849,7 +24849,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12119,
     "name": "Milton Stainless Steel 3-Tier Rolling Kitchen Trolley Cart with Wheels - Deluxe",
-    "slug": "milton-kitchen+storage-1119-12119",
+    "slug": "milton-kitchen+storage-1119-12119-12119",
     "description": "Rustproof multi-shelf storage rack for spices, onions, potatoes, and daily kitchen utensils. Official Amazon India verified selection from Milton.",
     "price": 1211.0,
     "compare_at_price": 1943.0,
@@ -24876,7 +24876,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12120,
     "name": "Cello BPA-Free Modular Airtight Grocery Storage Container Set (Pack of 6) - Sport",
-    "slug": "cello-kitchen+storage-1120-12120",
+    "slug": "cello-kitchen+storage-1120-12120-12120",
     "description": "Stackable transparent kitchen jars with 4-sided silicone locking seal clips. Official Amazon India verified selection from Cello.",
     "price": 825.0,
     "compare_at_price": 1346.0,
@@ -24903,7 +24903,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12121,
     "name": "Borosil Stainless Steel 3-Tier Rolling Kitchen Trolley Cart with Wheels - Select",
-    "slug": "borosil-kitchen+storage-1121-12121",
+    "slug": "borosil-kitchen+storage-1121-12121-12121",
     "description": "Rustproof multi-shelf storage rack for spices, onions, potatoes, and daily kitchen utensils. Official Amazon India verified selection from Borosil.",
     "price": 1427.0,
     "compare_at_price": 2012.0,
@@ -24930,7 +24930,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12122,
     "name": "Signoraware BPA-Free Modular Airtight Grocery Storage Container Set (Pack of 6) - Classic Edition",
-    "slug": "signoraware-kitchen+storage-1122-12122",
+    "slug": "signoraware-kitchen+storage-1122-12122-12122",
     "description": "Stackable transparent kitchen jars with 4-sided silicone locking seal clips. Official Amazon India verified selection from Signoraware.",
     "price": 657.0,
     "compare_at_price": 1013.0,
@@ -24957,7 +24957,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12123,
     "name": "Tupperware Stainless Steel 3-Tier Rolling Kitchen Trolley Cart with Wheels - Premium Series",
-    "slug": "tupperware-kitchen+storage-1123-12123",
+    "slug": "tupperware-kitchen+storage-1123-12123-12123",
     "description": "Rustproof multi-shelf storage rack for spices, onions, potatoes, and daily kitchen utensils. Official Amazon India verified selection from Tupperware.",
     "price": 1151.0,
     "compare_at_price": 1654.0,
@@ -24984,7 +24984,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12124,
     "name": "Milton BPA-Free Modular Airtight Grocery Storage Container Set (Pack of 6) - Pro",
-    "slug": "milton-kitchen+storage-1124-12124",
+    "slug": "milton-kitchen+storage-1124-12124-12124",
     "description": "Stackable transparent kitchen jars with 4-sided silicone locking seal clips. Official Amazon India verified selection from Milton.",
     "price": 776.0,
     "compare_at_price": 1318.0,
@@ -25011,7 +25011,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12125,
     "name": "Cello Stainless Steel 3-Tier Rolling Kitchen Trolley Cart with Wheels - Special Edition",
-    "slug": "cello-kitchen+storage-1125-12125",
+    "slug": "cello-kitchen+storage-1125-12125-12125",
     "description": "Rustproof multi-shelf storage rack for spices, onions, potatoes, and daily kitchen utensils. Official Amazon India verified selection from Cello.",
     "price": 1415.0,
     "compare_at_price": 2301.0,
@@ -25038,7 +25038,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12126,
     "name": "Borosil BPA-Free Modular Airtight Grocery Storage Container Set (Pack of 6) - Signature Edition",
-    "slug": "borosil-kitchen+storage-1126-12126",
+    "slug": "borosil-kitchen+storage-1126-12126-12126",
     "description": "Stackable transparent kitchen jars with 4-sided silicone locking seal clips. Official Amazon India verified selection from Borosil.",
     "price": 790.0,
     "compare_at_price": 1214.0,
@@ -25065,7 +25065,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12127,
     "name": "Signoraware Stainless Steel 3-Tier Rolling Kitchen Trolley Cart with Wheels - Deluxe",
-    "slug": "signoraware-kitchen+storage-1127-12127",
+    "slug": "signoraware-kitchen+storage-1127-12127-12127",
     "description": "Rustproof multi-shelf storage rack for spices, onions, potatoes, and daily kitchen utensils. Official Amazon India verified selection from Signoraware.",
     "price": 1115.0,
     "compare_at_price": 1798.0,
@@ -25092,7 +25092,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12128,
     "name": "Tupperware BPA-Free Modular Airtight Grocery Storage Container Set (Pack of 6) - Sport",
-    "slug": "tupperware-kitchen+storage-1128-12128",
+    "slug": "tupperware-kitchen+storage-1128-12128-12128",
     "description": "Stackable transparent kitchen jars with 4-sided silicone locking seal clips. Official Amazon India verified selection from Tupperware.",
     "price": 776.0,
     "compare_at_price": 1116.0,
@@ -25119,7 +25119,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12129,
     "name": "Milton Stainless Steel 3-Tier Rolling Kitchen Trolley Cart with Wheels - Select",
-    "slug": "milton-kitchen+storage-1129-12129",
+    "slug": "milton-kitchen+storage-1129-12129-12129",
     "description": "Rustproof multi-shelf storage rack for spices, onions, potatoes, and daily kitchen utensils. Official Amazon India verified selection from Milton.",
     "price": 1331.0,
     "compare_at_price": 2031.0,
@@ -25146,7 +25146,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12130,
     "name": "Cello BPA-Free Modular Airtight Grocery Storage Container Set (Pack of 6) - Classic Edition",
-    "slug": "cello-kitchen+storage-1130-12130",
+    "slug": "cello-kitchen+storage-1130-12130-12130",
     "description": "Stackable transparent kitchen jars with 4-sided silicone locking seal clips. Official Amazon India verified selection from Cello.",
     "price": 713.0,
     "compare_at_price": 1264.0,
@@ -25173,7 +25173,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12131,
     "name": "Borosil Stainless Steel 3-Tier Rolling Kitchen Trolley Cart with Wheels - Premium Series",
-    "slug": "borosil-kitchen+storage-1131-12131",
+    "slug": "borosil-kitchen+storage-1131-12131-12131",
     "description": "Rustproof multi-shelf storage rack for spices, onions, potatoes, and daily kitchen utensils. Official Amazon India verified selection from Borosil.",
     "price": 1343.0,
     "compare_at_price": 2089.0,
@@ -25200,7 +25200,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12132,
     "name": "Signoraware BPA-Free Modular Airtight Grocery Storage Container Set (Pack of 6) - Pro",
-    "slug": "signoraware-kitchen+storage-1132-12132",
+    "slug": "signoraware-kitchen+storage-1132-12132-12132",
     "description": "Stackable transparent kitchen jars with 4-sided silicone locking seal clips. Official Amazon India verified selection from Signoraware.",
     "price": 636.0,
     "compare_at_price": 882.0,
@@ -25227,7 +25227,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12133,
     "name": "Tupperware Stainless Steel 3-Tier Rolling Kitchen Trolley Cart with Wheels - Special Edition",
-    "slug": "tupperware-kitchen+storage-1133-12133",
+    "slug": "tupperware-kitchen+storage-1133-12133-12133",
     "description": "Rustproof multi-shelf storage rack for spices, onions, potatoes, and daily kitchen utensils. Official Amazon India verified selection from Tupperware.",
     "price": 1295.0,
     "compare_at_price": 1940.0,
@@ -25254,7 +25254,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12134,
     "name": "Milton BPA-Free Modular Airtight Grocery Storage Container Set (Pack of 6) - Signature Edition",
-    "slug": "milton-kitchen+storage-1134-12134",
+    "slug": "milton-kitchen+storage-1134-12134-12134",
     "description": "Stackable transparent kitchen jars with 4-sided silicone locking seal clips. Official Amazon India verified selection from Milton.",
     "price": 790.0,
     "compare_at_price": 1345.0,
@@ -25281,7 +25281,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12135,
     "name": "Cello Stainless Steel 3-Tier Rolling Kitchen Trolley Cart with Wheels - Deluxe",
-    "slug": "cello-kitchen+storage-1135-12135",
+    "slug": "cello-kitchen+storage-1135-12135-12135",
     "description": "Rustproof multi-shelf storage rack for spices, onions, potatoes, and daily kitchen utensils. Official Amazon India verified selection from Cello.",
     "price": 1199.0,
     "compare_at_price": 2086.0,
@@ -25308,7 +25308,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12136,
     "name": "Milton Double Walled Vacuum Insulated Stainless Steel Thermos Flask 1000ml - Classic Edition",
-    "slug": "milton-water+bottles-1136-12136",
+    "slug": "milton-water+bottles-1136-12136-12136",
     "description": "Keeps drinks steaming hot for 18 hours or ice cold for 24 hours with leak-proof cap. Official Amazon India verified selection from Milton.",
     "price": 772.0,
     "compare_at_price": 1272.0,
@@ -25335,7 +25335,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12137,
     "name": "Cello Unbreakable BPA-Free Motivational Time Marker Gym Water Bottle 2 Litres - Premium Series",
-    "slug": "cello-water+bottles-1137-12137",
+    "slug": "cello-water+bottles-1137-12137-12137",
     "description": "Wide-mouth hydration jug with reminder timestamps, carry loop, and pop-up straw. Official Amazon India verified selection from Cello.",
     "price": 431.0,
     "compare_at_price": 584.0,
@@ -25362,7 +25362,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12138,
     "name": "Borosil Double Walled Vacuum Insulated Stainless Steel Thermos Flask 1000ml - Pro",
-    "slug": "borosil-water+bottles-1138-12138",
+    "slug": "borosil-water+bottles-1138-12138-12138",
     "description": "Keeps drinks steaming hot for 18 hours or ice cold for 24 hours with leak-proof cap. Official Amazon India verified selection from Borosil.",
     "price": 727.0,
     "compare_at_price": 1211.0,
@@ -25389,7 +25389,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12139,
     "name": "Speedex Unbreakable BPA-Free Motivational Time Marker Gym Water Bottle 2 Litres - Special Edition",
-    "slug": "speedex-water+bottles-1139-12139",
+    "slug": "speedex-water+bottles-1139-12139-12139",
     "description": "Wide-mouth hydration jug with reminder timestamps, carry loop, and pop-up straw. Official Amazon India verified selection from Speedex.",
     "price": 512.0,
     "compare_at_price": 843.0,
@@ -25416,7 +25416,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12140,
     "name": "Pigeon Double Walled Vacuum Insulated Stainless Steel Thermos Flask 1000ml - Signature Edition",
-    "slug": "pigeon-water+bottles-1140-12140",
+    "slug": "pigeon-water+bottles-1140-12140-12140",
     "description": "Keeps drinks steaming hot for 18 hours or ice cold for 24 hours with leak-proof cap. Official Amazon India verified selection from Pigeon.",
     "price": 649.0,
     "compare_at_price": 996.0,
@@ -25443,7 +25443,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12141,
     "name": "Milton Unbreakable BPA-Free Motivational Time Marker Gym Water Bottle 2 Litres - Deluxe",
-    "slug": "milton-water+bottles-1141-12141",
+    "slug": "milton-water+bottles-1141-12141-12141",
     "description": "Wide-mouth hydration jug with reminder timestamps, carry loop, and pop-up straw. Official Amazon India verified selection from Milton.",
     "price": 498.0,
     "compare_at_price": 751.0,
@@ -25470,7 +25470,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12142,
     "name": "Cello Double Walled Vacuum Insulated Stainless Steel Thermos Flask 1000ml - Sport",
-    "slug": "cello-water+bottles-1142-12142",
+    "slug": "cello-water+bottles-1142-12142-12142",
     "description": "Keeps drinks steaming hot for 18 hours or ice cold for 24 hours with leak-proof cap. Official Amazon India verified selection from Cello.",
     "price": 649.0,
     "compare_at_price": 1021.0,
@@ -25497,7 +25497,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12143,
     "name": "Borosil Unbreakable BPA-Free Motivational Time Marker Gym Water Bottle 2 Litres - Select",
-    "slug": "borosil-water+bottles-1143-12143",
+    "slug": "borosil-water+bottles-1143-12143-12143",
     "description": "Wide-mouth hydration jug with reminder timestamps, carry loop, and pop-up straw. Official Amazon India verified selection from Borosil.",
     "price": 498.0,
     "compare_at_price": 708.0,
@@ -25524,7 +25524,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12144,
     "name": "Speedex Double Walled Vacuum Insulated Stainless Steel Thermos Flask 1000ml - Classic Edition",
-    "slug": "speedex-water+bottles-1144-12144",
+    "slug": "speedex-water+bottles-1144-12144-12144",
     "description": "Keeps drinks steaming hot for 18 hours or ice cold for 24 hours with leak-proof cap. Official Amazon India verified selection from Speedex.",
     "price": 681.0,
     "compare_at_price": 1206.0,
@@ -25551,7 +25551,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12145,
     "name": "Pigeon Unbreakable BPA-Free Motivational Time Marker Gym Water Bottle 2 Litres - Premium Series",
-    "slug": "pigeon-water+bottles-1145-12145",
+    "slug": "pigeon-water+bottles-1145-12145-12145",
     "description": "Wide-mouth hydration jug with reminder timestamps, carry loop, and pop-up straw. Official Amazon India verified selection from Pigeon.",
     "price": 427.0,
     "compare_at_price": 599.0,
@@ -25578,7 +25578,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12146,
     "name": "Milton Double Walled Vacuum Insulated Stainless Steel Thermos Flask 1000ml - Pro",
-    "slug": "milton-water+bottles-1146-12146",
+    "slug": "milton-water+bottles-1146-12146-12146",
     "description": "Keeps drinks steaming hot for 18 hours or ice cold for 24 hours with leak-proof cap. Official Amazon India verified selection from Milton.",
     "price": 714.0,
     "compare_at_price": 1236.0,
@@ -25605,7 +25605,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12147,
     "name": "Cello Unbreakable BPA-Free Motivational Time Marker Gym Water Bottle 2 Litres - Special Edition",
-    "slug": "cello-water+bottles-1147-12147",
+    "slug": "cello-water+bottles-1147-12147-12147",
     "description": "Wide-mouth hydration jug with reminder timestamps, carry loop, and pop-up straw. Official Amazon India verified selection from Cello.",
     "price": 480.0,
     "compare_at_price": 801.0,
@@ -25632,7 +25632,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12148,
     "name": "Borosil Double Walled Vacuum Insulated Stainless Steel Thermos Flask 1000ml - Signature Edition",
-    "slug": "borosil-water+bottles-1148-12148",
+    "slug": "borosil-water+bottles-1148-12148-12148",
     "description": "Keeps drinks steaming hot for 18 hours or ice cold for 24 hours with leak-proof cap. Official Amazon India verified selection from Borosil.",
     "price": 766.0,
     "compare_at_price": 1166.0,
@@ -25659,7 +25659,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12149,
     "name": "Speedex Unbreakable BPA-Free Motivational Time Marker Gym Water Bottle 2 Litres - Deluxe",
-    "slug": "speedex-water+bottles-1149-12149",
+    "slug": "speedex-water+bottles-1149-12149-12149",
     "description": "Wide-mouth hydration jug with reminder timestamps, carry loop, and pop-up straw. Official Amazon India verified selection from Speedex.",
     "price": 436.0,
     "compare_at_price": 647.0,
@@ -25686,7 +25686,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12150,
     "name": "Pigeon Double Walled Vacuum Insulated Stainless Steel Thermos Flask 1000ml - Sport",
-    "slug": "pigeon-water+bottles-1150-12150",
+    "slug": "pigeon-water+bottles-1150-12150-12150",
     "description": "Keeps drinks steaming hot for 18 hours or ice cold for 24 hours with leak-proof cap. Official Amazon India verified selection from Pigeon.",
     "price": 727.0,
     "compare_at_price": 1262.0,
@@ -25713,7 +25713,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12151,
     "name": "Milton Unbreakable BPA-Free Motivational Time Marker Gym Water Bottle 2 Litres - Select",
-    "slug": "milton-water+bottles-1151-12151",
+    "slug": "milton-water+bottles-1151-12151-12151",
     "description": "Wide-mouth hydration jug with reminder timestamps, carry loop, and pop-up straw. Official Amazon India verified selection from Milton.",
     "price": 449.0,
     "compare_at_price": 763.0,
@@ -25740,7 +25740,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12152,
     "name": "Cello Double Walled Vacuum Insulated Stainless Steel Thermos Flask 1000ml - Classic Edition",
-    "slug": "cello-water+bottles-1152-12152",
+    "slug": "cello-water+bottles-1152-12152-12152",
     "description": "Keeps drinks steaming hot for 18 hours or ice cold for 24 hours with leak-proof cap. Official Amazon India verified selection from Cello.",
     "price": 636.0,
     "compare_at_price": 1109.0,
@@ -25767,7 +25767,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12153,
     "name": "Borosil Unbreakable BPA-Free Motivational Time Marker Gym Water Bottle 2 Litres - Premium Series",
-    "slug": "borosil-water+bottles-1153-12153",
+    "slug": "borosil-water+bottles-1153-12153-12153",
     "description": "Wide-mouth hydration jug with reminder timestamps, carry loop, and pop-up straw. Official Amazon India verified selection from Borosil.",
     "price": 422.0,
     "compare_at_price": 756.0,
@@ -25794,7 +25794,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12154,
     "name": "Speedex Double Walled Vacuum Insulated Stainless Steel Thermos Flask 1000ml - Pro",
-    "slug": "speedex-water+bottles-1154-12154",
+    "slug": "speedex-water+bottles-1154-12154-12154",
     "description": "Keeps drinks steaming hot for 18 hours or ice cold for 24 hours with leak-proof cap. Official Amazon India verified selection from Speedex.",
     "price": 630.0,
     "compare_at_price": 973.0,
@@ -25821,7 +25821,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12155,
     "name": "Pigeon Unbreakable BPA-Free Motivational Time Marker Gym Water Bottle 2 Litres - Special Edition",
-    "slug": "pigeon-water+bottles-1155-12155",
+    "slug": "pigeon-water+bottles-1155-12155-12155",
     "description": "Wide-mouth hydration jug with reminder timestamps, carry loop, and pop-up straw. Official Amazon India verified selection from Pigeon.",
     "price": 440.0,
     "compare_at_price": 740.0,
@@ -25848,7 +25848,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12156,
     "name": "Milton Double Walled Vacuum Insulated Stainless Steel Thermos Flask 1000ml - Signature Edition",
-    "slug": "milton-water+bottles-1156-12156",
+    "slug": "milton-water+bottles-1156-12156-12156",
     "description": "Keeps drinks steaming hot for 18 hours or ice cold for 24 hours with leak-proof cap. Official Amazon India verified selection from Milton.",
     "price": 694.0,
     "compare_at_price": 1175.0,
@@ -25875,7 +25875,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12157,
     "name": "Cello Unbreakable BPA-Free Motivational Time Marker Gym Water Bottle 2 Litres - Deluxe",
-    "slug": "cello-water+bottles-1157-12157",
+    "slug": "cello-water+bottles-1157-12157-12157",
     "description": "Wide-mouth hydration jug with reminder timestamps, carry loop, and pop-up straw. Official Amazon India verified selection from Cello.",
     "price": 427.0,
     "compare_at_price": 746.0,
@@ -25902,7 +25902,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12158,
     "name": "Eureka Forbes 2-in-1 Handheld Cordless Stick Vacuum Cleaner with HEPA Filter - Classic Edition",
-    "slug": "eureka-forbes-vacuum+cleaners-1158-12158",
+    "slug": "eureka-forbes-vacuum+cleaners-1158-12158-12158",
     "description": "High-suction 800W cyclone motor with multiple crevice nozzles for home, sofa, and car interior. Official Amazon India verified selection from Eureka Forbes.",
     "price": 2621.0,
     "compare_at_price": 4588.0,
@@ -25929,7 +25929,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12159,
     "name": "Philips Wet & Dry Multi-Surface High Power Drum Vacuum Cleaner 15 Litres - Premium Series",
-    "slug": "philips-vacuum+cleaners-1159-12159",
+    "slug": "philips-vacuum+cleaners-1159-12159-12159",
     "description": "Blower function equipped heavy-duty vacuum for deep carpet and liquid spill cleanups. Official Amazon India verified selection from Philips.",
     "price": 4250.0,
     "compare_at_price": 6649.0,
@@ -25956,7 +25956,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12160,
     "name": "Agaro 2-in-1 Handheld Cordless Stick Vacuum Cleaner with HEPA Filter - Pro",
-    "slug": "agaro-vacuum+cleaners-1160-12160",
+    "slug": "agaro-vacuum+cleaners-1160-12160-12160",
     "description": "High-suction 800W cyclone motor with multiple crevice nozzles for home, sofa, and car interior. Official Amazon India verified selection from Agaro.",
     "price": 2621.0,
     "compare_at_price": 3580.0,
@@ -25983,7 +25983,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12161,
     "name": "Inalsa Wet & Dry Multi-Surface High Power Drum Vacuum Cleaner 15 Litres - Special Edition",
-    "slug": "inalsa-vacuum+cleaners-1161-12161",
+    "slug": "inalsa-vacuum+cleaners-1161-12161-12161",
     "description": "Blower function equipped heavy-duty vacuum for deep carpet and liquid spill cleanups. Official Amazon India verified selection from Inalsa.",
     "price": 4055.0,
     "compare_at_price": 6302.0,
@@ -26010,7 +26010,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12162,
     "name": "Dyson 2-in-1 Handheld Cordless Stick Vacuum Cleaner with HEPA Filter - Signature Edition",
-    "slug": "dyson-vacuum+cleaners-1162-12162",
+    "slug": "dyson-vacuum+cleaners-1162-12162-12162",
     "description": "High-suction 800W cyclone motor with multiple crevice nozzles for home, sofa, and car interior. Official Amazon India verified selection from Dyson.",
     "price": 2736.0,
     "compare_at_price": 4610.0,
@@ -26037,7 +26037,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12163,
     "name": "Eureka Forbes Wet & Dry Multi-Surface High Power Drum Vacuum Cleaner 15 Litres - Deluxe",
-    "slug": "eureka-forbes-vacuum+cleaners-1163-12163",
+    "slug": "eureka-forbes-vacuum+cleaners-1163-12163-12163",
     "description": "Blower function equipped heavy-duty vacuum for deep carpet and liquid spill cleanups. Official Amazon India verified selection from Eureka Forbes.",
     "price": 4523.0,
     "compare_at_price": 6808.0,
@@ -26064,7 +26064,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12164,
     "name": "Philips 2-in-1 Handheld Cordless Stick Vacuum Cleaner with HEPA Filter - Sport",
-    "slug": "philips-vacuum+cleaners-1164-12164",
+    "slug": "philips-vacuum+cleaners-1164-12164-12164",
     "description": "High-suction 800W cyclone motor with multiple crevice nozzles for home, sofa, and car interior. Official Amazon India verified selection from Philips.",
     "price": 2667.0,
     "compare_at_price": 4309.0,
@@ -26091,7 +26091,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12165,
     "name": "Agaro Wet & Dry Multi-Surface High Power Drum Vacuum Cleaner 15 Litres - Select",
-    "slug": "agaro-vacuum+cleaners-1165-12165",
+    "slug": "agaro-vacuum+cleaners-1165-12165-12165",
     "description": "Blower function equipped heavy-duty vacuum for deep carpet and liquid spill cleanups. Official Amazon India verified selection from Agaro.",
     "price": 3977.0,
     "compare_at_price": 6855.0,
@@ -26118,7 +26118,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12166,
     "name": "Inalsa 2-in-1 Handheld Cordless Stick Vacuum Cleaner with HEPA Filter - Classic Edition",
-    "slug": "inalsa-vacuum+cleaners-1166-12166",
+    "slug": "inalsa-vacuum+cleaners-1166-12166-12166",
     "description": "High-suction 800W cyclone motor with multiple crevice nozzles for home, sofa, and car interior. Official Amazon India verified selection from Inalsa.",
     "price": 2575.0,
     "compare_at_price": 4443.0,
@@ -26145,7 +26145,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12167,
     "name": "Dyson Wet & Dry Multi-Surface High Power Drum Vacuum Cleaner 15 Litres - Premium Series",
-    "slug": "dyson-vacuum+cleaners-1167-12167",
+    "slug": "dyson-vacuum+cleaners-1167-12167-12167",
     "description": "Blower function equipped heavy-duty vacuum for deep carpet and liquid spill cleanups. Official Amazon India verified selection from Dyson.",
     "price": 3626.0,
     "compare_at_price": 6235.0,
@@ -26172,7 +26172,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12168,
     "name": "Eureka Forbes 2-in-1 Handheld Cordless Stick Vacuum Cleaner with HEPA Filter - Pro",
-    "slug": "eureka-forbes-vacuum+cleaners-1168-12168",
+    "slug": "eureka-forbes-vacuum+cleaners-1168-12168-12168",
     "description": "High-suction 800W cyclone motor with multiple crevice nozzles for home, sofa, and car interior. Official Amazon India verified selection from Eureka Forbes.",
     "price": 2069.0,
     "compare_at_price": 3441.0,
@@ -26199,7 +26199,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12169,
     "name": "Philips Wet & Dry Multi-Surface High Power Drum Vacuum Cleaner 15 Litres - Special Edition",
-    "slug": "philips-vacuum+cleaners-1169-12169",
+    "slug": "philips-vacuum+cleaners-1169-12169-12169",
     "description": "Blower function equipped heavy-duty vacuum for deep carpet and liquid spill cleanups. Official Amazon India verified selection from Philips.",
     "price": 4679.0,
     "compare_at_price": 8042.0,
@@ -26226,7 +26226,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12170,
     "name": "Agaro 2-in-1 Handheld Cordless Stick Vacuum Cleaner with HEPA Filter - Signature Edition",
-    "slug": "agaro-vacuum+cleaners-1170-12170",
+    "slug": "agaro-vacuum+cleaners-1170-12170-12170",
     "description": "High-suction 800W cyclone motor with multiple crevice nozzles for home, sofa, and car interior. Official Amazon India verified selection from Agaro.",
     "price": 2598.0,
     "compare_at_price": 4675.0,
@@ -26253,7 +26253,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12171,
     "name": "Inalsa Wet & Dry Multi-Surface High Power Drum Vacuum Cleaner 15 Litres - Deluxe",
-    "slug": "inalsa-vacuum+cleaners-1171-12171",
+    "slug": "inalsa-vacuum+cleaners-1171-12171-12171",
     "description": "Blower function equipped heavy-duty vacuum for deep carpet and liquid spill cleanups. Official Amazon India verified selection from Inalsa.",
     "price": 4250.0,
     "compare_at_price": 7345.0,
@@ -26280,7 +26280,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12172,
     "name": "Dyson 2-in-1 Handheld Cordless Stick Vacuum Cleaner with HEPA Filter - Sport",
-    "slug": "dyson-vacuum+cleaners-1172-12172",
+    "slug": "dyson-vacuum+cleaners-1172-12172-12172",
     "description": "High-suction 800W cyclone motor with multiple crevice nozzles for home, sofa, and car interior. Official Amazon India verified selection from Dyson.",
     "price": 2161.0,
     "compare_at_price": 3746.0,
@@ -26307,7 +26307,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12173,
     "name": "Eureka Forbes Wet & Dry Multi-Surface High Power Drum Vacuum Cleaner 15 Litres - Select",
-    "slug": "eureka-forbes-vacuum+cleaners-1173-12173",
+    "slug": "eureka-forbes-vacuum+cleaners-1173-12173-12173",
     "description": "Blower function equipped heavy-duty vacuum for deep carpet and liquid spill cleanups. Official Amazon India verified selection from Eureka Forbes.",
     "price": 4133.0,
     "compare_at_price": 7061.0,
@@ -26334,7 +26334,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12174,
     "name": "Philips 2-in-1 Handheld Cordless Stick Vacuum Cleaner with HEPA Filter - Classic Edition",
-    "slug": "philips-vacuum+cleaners-1174-12174",
+    "slug": "philips-vacuum+cleaners-1174-12174-12174",
     "description": "High-suction 800W cyclone motor with multiple crevice nozzles for home, sofa, and car interior. Official Amazon India verified selection from Philips.",
     "price": 2552.0,
     "compare_at_price": 3647.0,
@@ -26361,7 +26361,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12175,
     "name": "Agaro Wet & Dry Multi-Surface High Power Drum Vacuum Cleaner 15 Litres - Premium Series",
-    "slug": "agaro-vacuum+cleaners-1175-12175",
+    "slug": "agaro-vacuum+cleaners-1175-12175-12175",
     "description": "Blower function equipped heavy-duty vacuum for deep carpet and liquid spill cleanups. Official Amazon India verified selection from Agaro.",
     "price": 4367.0,
     "compare_at_price": 6608.0,
@@ -26388,7 +26388,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12176,
     "name": "Inalsa 2-in-1 Handheld Cordless Stick Vacuum Cleaner with HEPA Filter - Pro",
-    "slug": "inalsa-vacuum+cleaners-1176-12176",
+    "slug": "inalsa-vacuum+cleaners-1176-12176-12176",
     "description": "High-suction 800W cyclone motor with multiple crevice nozzles for home, sofa, and car interior. Official Amazon India verified selection from Inalsa.",
     "price": 2161.0,
     "compare_at_price": 3564.0,
@@ -26415,7 +26415,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12177,
     "name": "Dyson Wet & Dry Multi-Surface High Power Drum Vacuum Cleaner 15 Litres - Special Edition",
-    "slug": "dyson-vacuum+cleaners-1177-12177",
+    "slug": "dyson-vacuum+cleaners-1177-12177-12177",
     "description": "Blower function equipped heavy-duty vacuum for deep carpet and liquid spill cleanups. Official Amazon India verified selection from Dyson.",
     "price": 4250.0,
     "compare_at_price": 7643.0,
@@ -26442,7 +26442,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12178,
     "name": "Eureka Forbes 2-in-1 Handheld Cordless Stick Vacuum Cleaner with HEPA Filter - Signature Edition",
-    "slug": "eureka-forbes-vacuum+cleaners-1178-12178",
+    "slug": "eureka-forbes-vacuum+cleaners-1178-12178-12178",
     "description": "High-suction 800W cyclone motor with multiple crevice nozzles for home, sofa, and car interior. Official Amazon India verified selection from Eureka Forbes.",
     "price": 2207.0,
     "compare_at_price": 3320.0,
@@ -26469,7 +26469,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12179,
     "name": "Philips Wet & Dry Multi-Surface High Power Drum Vacuum Cleaner 15 Litres - Deluxe",
-    "slug": "philips-vacuum+cleaners-1179-12179",
+    "slug": "philips-vacuum+cleaners-1179-12179-12179",
     "description": "Blower function equipped heavy-duty vacuum for deep carpet and liquid spill cleanups. Official Amazon India verified selection from Philips.",
     "price": 4211.0,
     "compare_at_price": 5857.0,
@@ -26496,7 +26496,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12180,
     "name": "Solimo Handcrafted Metal Floating Wall Art Sculpture with LED Backlight - Classic Edition",
-    "slug": "solimo-home+decor-1180-12180",
+    "slug": "solimo-home+decor-1180-12180-12180",
     "description": "Modern geometric botanical wall hanging providing warm ambient luxury in living rooms. Official Amazon India verified selection from Solimo.",
     "price": 1559.0,
     "compare_at_price": 2352.0,
@@ -26523,7 +26523,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12181,
     "name": "Home Centre Nordic Minimalist Solid Ceramic Flower Vase for Tabletop & Shelf - Premium Series",
-    "slug": "home-centre-home+decor-1181-12181",
+    "slug": "home-centre-home+decor-1181-12181-12181",
     "description": "Matte textured aesthetic ceramic vase perfect for pampas grass and fresh blooms. Official Amazon India verified selection from Home Centre.",
     "price": 575.0,
     "compare_at_price": 913.0,
@@ -26550,7 +26550,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12182,
     "name": "Chumbak Handcrafted Metal Floating Wall Art Sculpture with LED Backlight - Pro",
-    "slug": "chumbak-home+decor-1182-12182",
+    "slug": "chumbak-home+decor-1182-12182-12182",
     "description": "Modern geometric botanical wall hanging providing warm ambient luxury in living rooms. Official Amazon India verified selection from Chumbak.",
     "price": 1546.0,
     "compare_at_price": 2745.0,
@@ -26577,7 +26577,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12183,
     "name": "Webelkart Nordic Minimalist Solid Ceramic Flower Vase for Tabletop & Shelf - Special Edition",
-    "slug": "webelkart-home+decor-1183-12183",
+    "slug": "webelkart-home+decor-1183-12183-12183",
     "description": "Matte textured aesthetic ceramic vase perfect for pampas grass and fresh blooms. Official Amazon India verified selection from Webelkart.",
     "price": 689.0,
     "compare_at_price": 1046.0,
@@ -26604,7 +26604,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12184,
     "name": "CraftVatika Handcrafted Metal Floating Wall Art Sculpture with LED Backlight - Signature Edition",
-    "slug": "craftvatika-home+decor-1184-12184",
+    "slug": "craftvatika-home+decor-1184-12184-12184",
     "description": "Modern geometric botanical wall hanging providing warm ambient luxury in living rooms. Official Amazon India verified selection from CraftVatika.",
     "price": 1429.0,
     "compare_at_price": 2025.0,
@@ -26631,7 +26631,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12185,
     "name": "Solimo Nordic Minimalist Solid Ceramic Flower Vase for Tabletop & Shelf - Deluxe",
-    "slug": "solimo-home+decor-1185-12185",
+    "slug": "solimo-home+decor-1185-12185-12185",
     "description": "Matte textured aesthetic ceramic vase perfect for pampas grass and fresh blooms. Official Amazon India verified selection from Solimo.",
     "price": 707.0,
     "compare_at_price": 1183.0,
@@ -26658,7 +26658,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12186,
     "name": "Home Centre Handcrafted Metal Floating Wall Art Sculpture with LED Backlight - Sport",
-    "slug": "home-centre-home+decor-1186-12186",
+    "slug": "home-centre-home+decor-1186-12186-12186",
     "description": "Modern geometric botanical wall hanging providing warm ambient luxury in living rooms. Official Amazon India verified selection from Home Centre.",
     "price": 1520.0,
     "compare_at_price": 2330.0,
@@ -26685,7 +26685,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12187,
     "name": "Chumbak Nordic Minimalist Solid Ceramic Flower Vase for Tabletop & Shelf - Select",
-    "slug": "chumbak-home+decor-1187-12187",
+    "slug": "chumbak-home+decor-1187-12187-12187",
     "description": "Matte textured aesthetic ceramic vase perfect for pampas grass and fresh blooms. Official Amazon India verified selection from Chumbak.",
     "price": 623.0,
     "compare_at_price": 853.0,
@@ -26712,7 +26712,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12188,
     "name": "Webelkart Handcrafted Metal Floating Wall Art Sculpture with LED Backlight - Classic Edition",
-    "slug": "webelkart-home+decor-1188-12188",
+    "slug": "webelkart-home+decor-1188-12188-12188",
     "description": "Modern geometric botanical wall hanging providing warm ambient luxury in living rooms. Official Amazon India verified selection from Webelkart.",
     "price": 1546.0,
     "compare_at_price": 2423.0,
@@ -26739,7 +26739,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12189,
     "name": "CraftVatika Nordic Minimalist Solid Ceramic Flower Vase for Tabletop & Shelf - Premium Series",
-    "slug": "craftvatika-home+decor-1189-12189",
+    "slug": "craftvatika-home+decor-1189-12189-12189",
     "description": "Matte textured aesthetic ceramic vase perfect for pampas grass and fresh blooms. Official Amazon India verified selection from CraftVatika.",
     "price": 539.0,
     "compare_at_price": 882.0,
@@ -26766,7 +26766,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12190,
     "name": "Solimo Handcrafted Metal Floating Wall Art Sculpture with LED Backlight - Pro",
-    "slug": "solimo-home+decor-1190-12190",
+    "slug": "solimo-home+decor-1190-12190-12190",
     "description": "Modern geometric botanical wall hanging providing warm ambient luxury in living rooms. Official Amazon India verified selection from Solimo.",
     "price": 1221.0,
     "compare_at_price": 2123.0,
@@ -26793,7 +26793,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12191,
     "name": "Home Centre Nordic Minimalist Solid Ceramic Flower Vase for Tabletop & Shelf - Special Edition",
-    "slug": "home-centre-home+decor-1191-12191",
+    "slug": "home-centre-home+decor-1191-12191-12191",
     "description": "Matte textured aesthetic ceramic vase perfect for pampas grass and fresh blooms. Official Amazon India verified selection from Home Centre.",
     "price": 677.0,
     "compare_at_price": 1014.0,
@@ -26820,7 +26820,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12192,
     "name": "Chumbak Handcrafted Metal Floating Wall Art Sculpture with LED Backlight - Signature Edition",
-    "slug": "chumbak-home+decor-1192-12192",
+    "slug": "chumbak-home+decor-1192-12192-12192",
     "description": "Modern geometric botanical wall hanging providing warm ambient luxury in living rooms. Official Amazon India verified selection from Chumbak.",
     "price": 1221.0,
     "compare_at_price": 2187.0,
@@ -26847,7 +26847,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12193,
     "name": "Webelkart Nordic Minimalist Solid Ceramic Flower Vase for Tabletop & Shelf - Deluxe",
-    "slug": "webelkart-home+decor-1193-12193",
+    "slug": "webelkart-home+decor-1193-12193-12193",
     "description": "Matte textured aesthetic ceramic vase perfect for pampas grass and fresh blooms. Official Amazon India verified selection from Webelkart.",
     "price": 683.0,
     "compare_at_price": 1034.0,
@@ -26874,7 +26874,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12194,
     "name": "CraftVatika Handcrafted Metal Floating Wall Art Sculpture with LED Backlight - Sport",
-    "slug": "craftvatika-home+decor-1194-12194",
+    "slug": "craftvatika-home+decor-1194-12194-12194",
     "description": "Modern geometric botanical wall hanging providing warm ambient luxury in living rooms. Official Amazon India verified selection from CraftVatika.",
     "price": 1312.0,
     "compare_at_price": 2156.0,
@@ -26901,7 +26901,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12195,
     "name": "Solimo Nordic Minimalist Solid Ceramic Flower Vase for Tabletop & Shelf - Select",
-    "slug": "solimo-home+decor-1195-12195",
+    "slug": "solimo-home+decor-1195-12195-12195",
     "description": "Matte textured aesthetic ceramic vase perfect for pampas grass and fresh blooms. Official Amazon India verified selection from Solimo.",
     "price": 707.0,
     "compare_at_price": 1054.0,
@@ -26928,7 +26928,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12196,
     "name": "Home Centre Handcrafted Metal Floating Wall Art Sculpture with LED Backlight - Classic Edition",
-    "slug": "home-centre-home+decor-1196-12196",
+    "slug": "home-centre-home+decor-1196-12196-12196",
     "description": "Modern geometric botanical wall hanging providing warm ambient luxury in living rooms. Official Amazon India verified selection from Home Centre.",
     "price": 1507.0,
     "compare_at_price": 2529.0,
@@ -26955,7 +26955,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12197,
     "name": "Chumbak Nordic Minimalist Solid Ceramic Flower Vase for Tabletop & Shelf - Premium Series",
-    "slug": "chumbak-home+decor-1197-12197",
+    "slug": "chumbak-home+decor-1197-12197-12197",
     "description": "Matte textured aesthetic ceramic vase perfect for pampas grass and fresh blooms. Official Amazon India verified selection from Chumbak.",
     "price": 617.0,
     "compare_at_price": 1014.0,
@@ -26982,7 +26982,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12198,
     "name": "Webelkart Handcrafted Metal Floating Wall Art Sculpture with LED Backlight - Pro",
-    "slug": "webelkart-home+decor-1198-12198",
+    "slug": "webelkart-home+decor-1198-12198-12198",
     "description": "Modern geometric botanical wall hanging providing warm ambient luxury in living rooms. Official Amazon India verified selection from Webelkart.",
     "price": 1208.0,
     "compare_at_price": 2083.0,
@@ -27009,7 +27009,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12199,
     "name": "CraftVatika Nordic Minimalist Solid Ceramic Flower Vase for Tabletop & Shelf - Special Edition",
-    "slug": "craftvatika-home+decor-1199-12199",
+    "slug": "craftvatika-home+decor-1199-12199-12199",
     "description": "Matte textured aesthetic ceramic vase perfect for pampas grass and fresh blooms. Official Amazon India verified selection from CraftVatika.",
     "price": 689.0,
     "compare_at_price": 1001.0,
@@ -27036,7 +27036,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12200,
     "name": "Solimo Handcrafted Metal Floating Wall Art Sculpture with LED Backlight - Signature Edition",
-    "slug": "solimo-home+decor-1200-12200",
+    "slug": "solimo-home+decor-1200-12200-12200",
     "description": "Modern geometric botanical wall hanging providing warm ambient luxury in living rooms. Official Amazon India verified selection from Solimo.",
     "price": 1416.0,
     "compare_at_price": 2070.0,
@@ -27063,7 +27063,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12201,
     "name": "Nivea Oil-Free Ultralight Hydrating Water Gel Face Moisturizer 50g - Classic Edition",
-    "slug": "nivea-moisturizer-1201-12201",
+    "slug": "nivea-moisturizer-1201-12201-12201",
     "description": "72-hour moisture lock with Hyaluronic Acid and Ceramide complex for all skin types. Official Amazon India verified selection from Nivea.",
     "price": 453.0,
     "compare_at_price": 809.0,
@@ -27090,7 +27090,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12202,
     "name": "Neutrogena Deep Nourishing Cold Cream with Vitamin E & Jojoba Oil 200ml - Premium Series",
-    "slug": "neutrogena-moisturizer-1202-12202",
+    "slug": "neutrogena-moisturizer-1202-12202-12202",
     "description": "Rich hydrating winter body lotion eliminating skin flakiness and dryness. Official Amazon India verified selection from Neutrogena.",
     "price": 281.0,
     "compare_at_price": 455.0,
@@ -27117,7 +27117,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12203,
     "name": "Pond's Oil-Free Ultralight Hydrating Water Gel Face Moisturizer 50g - Pro",
-    "slug": "pond's-moisturizer-1203-12203",
+    "slug": "pond's-moisturizer-1203-12203-12203",
     "description": "72-hour moisture lock with Hyaluronic Acid and Ceramide complex for all skin types. Official Amazon India verified selection from Pond's.",
     "price": 480.0,
     "compare_at_price": 819.0,
@@ -27144,7 +27144,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12204,
     "name": "Dot & Key Deep Nourishing Cold Cream with Vitamin E & Jojoba Oil 200ml - Special Edition",
-    "slug": "dot-&-key-moisturizer-1204-12204",
+    "slug": "dot-&-key-moisturizer-1204-12204-12204",
     "description": "Rich hydrating winter body lotion eliminating skin flakiness and dryness. Official Amazon India verified selection from Dot & Key.",
     "price": 341.0,
     "compare_at_price": 461.0,
@@ -27171,7 +27171,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12205,
     "name": "Plum Oil-Free Ultralight Hydrating Water Gel Face Moisturizer 50g - Signature Edition",
-    "slug": "plum-moisturizer-1205-12205",
+    "slug": "plum-moisturizer-1205-12205-12205",
     "description": "72-hour moisture lock with Hyaluronic Acid and Ceramide complex for all skin types. Official Amazon India verified selection from Plum.",
     "price": 436.0,
     "compare_at_price": 634.0,
@@ -27198,7 +27198,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12206,
     "name": "Nivea Deep Nourishing Cold Cream with Vitamin E & Jojoba Oil 200ml - Deluxe",
-    "slug": "nivea-moisturizer-1206-12206",
+    "slug": "nivea-moisturizer-1206-12206-12206",
     "description": "Rich hydrating winter body lotion eliminating skin flakiness and dryness. Official Amazon India verified selection from Nivea.",
     "price": 299.0,
     "compare_at_price": 406.0,
@@ -27225,7 +27225,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12207,
     "name": "Neutrogena Oil-Free Ultralight Hydrating Water Gel Face Moisturizer 50g - Sport",
-    "slug": "neutrogena-moisturizer-1207-12207",
+    "slug": "neutrogena-moisturizer-1207-12207-12207",
     "description": "72-hour moisture lock with Hyaluronic Acid and Ceramide complex for all skin types. Official Amazon India verified selection from Neutrogena.",
     "price": 445.0,
     "compare_at_price": 767.0,
@@ -27252,7 +27252,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12208,
     "name": "Pond's Deep Nourishing Cold Cream with Vitamin E & Jojoba Oil 200ml - Select",
-    "slug": "pond's-moisturizer-1208-12208",
+    "slug": "pond's-moisturizer-1208-12208-12208",
     "description": "Rich hydrating winter body lotion eliminating skin flakiness and dryness. Official Amazon India verified selection from Pond's.",
     "price": 293.0,
     "compare_at_price": 407.0,
@@ -27279,7 +27279,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12209,
     "name": "Dot & Key Oil-Free Ultralight Hydrating Water Gel Face Moisturizer 50g - Classic Edition",
-    "slug": "dot-&-key-moisturizer-1209-12209",
+    "slug": "dot-&-key-moisturizer-1209-12209-12209",
     "description": "72-hour moisture lock with Hyaluronic Acid and Ceramide complex for all skin types. Official Amazon India verified selection from Dot & Key.",
     "price": 458.0,
     "compare_at_price": 735.0,
@@ -27306,7 +27306,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12210,
     "name": "Plum Deep Nourishing Cold Cream with Vitamin E & Jojoba Oil 200ml - Premium Series",
-    "slug": "plum-moisturizer-1210-12210",
+    "slug": "plum-moisturizer-1210-12210-12210",
     "description": "Rich hydrating winter body lotion eliminating skin flakiness and dryness. Official Amazon India verified selection from Plum.",
     "price": 320.0,
     "compare_at_price": 451.0,
@@ -27333,7 +27333,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12211,
     "name": "Nivea Oil-Free Ultralight Hydrating Water Gel Face Moisturizer 50g - Pro",
-    "slug": "nivea-moisturizer-1211-12211",
+    "slug": "nivea-moisturizer-1211-12211-12211",
     "description": "72-hour moisture lock with Hyaluronic Acid and Ceramide complex for all skin types. Official Amazon India verified selection from Nivea.",
     "price": 404.0,
     "compare_at_price": 712.0,
@@ -27360,7 +27360,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12212,
     "name": "Neutrogena Deep Nourishing Cold Cream with Vitamin E & Jojoba Oil 200ml - Special Edition",
-    "slug": "neutrogena-moisturizer-1212-12212",
+    "slug": "neutrogena-moisturizer-1212-12212-12212",
     "description": "Rich hydrating winter body lotion eliminating skin flakiness and dryness. Official Amazon India verified selection from Neutrogena.",
     "price": 290.0,
     "compare_at_price": 400.0,
@@ -27387,7 +27387,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12213,
     "name": "Pond's Oil-Free Ultralight Hydrating Water Gel Face Moisturizer 50g - Signature Edition",
-    "slug": "pond's-moisturizer-1213-12213",
+    "slug": "pond's-moisturizer-1213-12213-12213",
     "description": "72-hour moisture lock with Hyaluronic Acid and Ceramide complex for all skin types. Official Amazon India verified selection from Pond's.",
     "price": 462.0,
     "compare_at_price": 777.0,
@@ -27414,7 +27414,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12214,
     "name": "Dot & Key Deep Nourishing Cold Cream with Vitamin E & Jojoba Oil 200ml - Deluxe",
-    "slug": "dot-&-key-moisturizer-1214-12214",
+    "slug": "dot-&-key-moisturizer-1214-12214-12214",
     "description": "Rich hydrating winter body lotion eliminating skin flakiness and dryness. Official Amazon India verified selection from Dot & Key.",
     "price": 344.0,
     "compare_at_price": 589.0,
@@ -27441,7 +27441,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12215,
     "name": "Plum Oil-Free Ultralight Hydrating Water Gel Face Moisturizer 50g - Sport",
-    "slug": "plum-moisturizer-1215-12215",
+    "slug": "plum-moisturizer-1215-12215-12215",
     "description": "72-hour moisture lock with Hyaluronic Acid and Ceramide complex for all skin types. Official Amazon India verified selection from Plum.",
     "price": 525.0,
     "compare_at_price": 849.0,
@@ -27468,7 +27468,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12216,
     "name": "Nivea Deep Nourishing Cold Cream with Vitamin E & Jojoba Oil 200ml - Select",
-    "slug": "nivea-moisturizer-1216-12216",
+    "slug": "nivea-moisturizer-1216-12216-12216",
     "description": "Rich hydrating winter body lotion eliminating skin flakiness and dryness. Official Amazon India verified selection from Nivea.",
     "price": 302.0,
     "compare_at_price": 410.0,
@@ -27495,7 +27495,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12217,
     "name": "Neutrogena Oil-Free Ultralight Hydrating Water Gel Face Moisturizer 50g - Classic Edition",
-    "slug": "neutrogena-moisturizer-1217-12217",
+    "slug": "neutrogena-moisturizer-1217-12217-12217",
     "description": "72-hour moisture lock with Hyaluronic Acid and Ceramide complex for all skin types. Official Amazon India verified selection from Neutrogena.",
     "price": 427.0,
     "compare_at_price": 709.0,
@@ -27522,7 +27522,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12218,
     "name": "Pond's Deep Nourishing Cold Cream with Vitamin E & Jojoba Oil 200ml - Premium Series",
-    "slug": "pond's-moisturizer-1218-12218",
+    "slug": "pond's-moisturizer-1218-12218-12218",
     "description": "Rich hydrating winter body lotion eliminating skin flakiness and dryness. Official Amazon India verified selection from Pond's.",
     "price": 284.0,
     "compare_at_price": 394.0,
@@ -27549,7 +27549,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12219,
     "name": "Dot & Key Oil-Free Ultralight Hydrating Water Gel Face Moisturizer 50g - Pro",
-    "slug": "dot-&-key-moisturizer-1219-12219",
+    "slug": "dot-&-key-moisturizer-1219-12219-12219",
     "description": "72-hour moisture lock with Hyaluronic Acid and Ceramide complex for all skin types. Official Amazon India verified selection from Dot & Key.",
     "price": 476.0,
     "compare_at_price": 709.0,
@@ -27576,7 +27576,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12220,
     "name": "Plum Deep Nourishing Cold Cream with Vitamin E & Jojoba Oil 200ml - Special Edition",
-    "slug": "plum-moisturizer-1220-12220",
+    "slug": "plum-moisturizer-1220-12220-12220",
     "description": "Rich hydrating winter body lotion eliminating skin flakiness and dryness. Official Amazon India verified selection from Plum.",
     "price": 329.0,
     "compare_at_price": 446.0,
@@ -27603,7 +27603,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12221,
     "name": "L'Oreal Paris Keratin Smooth Anti-Frizz Hair Repair Shampoo 650ml - Classic Edition",
-    "slug": "l'oreal-paris-shampoo-1221-12221",
+    "slug": "l'oreal-paris-shampoo-1221-12221-12221",
     "description": "Argan oil infused salon formula gently cleansing and providing 48 hours of straight shiny hair. Official Amazon India verified selection from L'Oreal Paris.",
     "price": 554.0,
     "compare_at_price": 841.0,
@@ -27630,7 +27630,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12222,
     "name": "Dove Onion & Biotin Hair Fall Control Gentle Sulphate-Free Shampoo 400ml - Premium Series",
-    "slug": "dove-shampoo-1222-12222",
+    "slug": "dove-shampoo-1222-12222-12222",
     "description": "Plant keratin formulation strengthening hair roots and stimulating scalp microcirculation. Official Amazon India verified selection from Dove.",
     "price": 479.0,
     "compare_at_price": 718.0,
@@ -27657,7 +27657,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12223,
     "name": "Tresemme Keratin Smooth Anti-Frizz Hair Repair Shampoo 650ml - Pro",
-    "slug": "tresemme-shampoo-1223-12223",
+    "slug": "tresemme-shampoo-1223-12223-12223",
     "description": "Argan oil infused salon formula gently cleansing and providing 48 hours of straight shiny hair. Official Amazon India verified selection from Tresemme.",
     "price": 534.0,
     "compare_at_price": 868.0,
@@ -27684,7 +27684,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12224,
     "name": "Mamaearth Onion & Biotin Hair Fall Control Gentle Sulphate-Free Shampoo 400ml - Special Edition",
-    "slug": "mamaearth-shampoo-1224-12224",
+    "slug": "mamaearth-shampoo-1224-12224-12224",
     "description": "Plant keratin formulation strengthening hair roots and stimulating scalp microcirculation. Official Amazon India verified selection from Mamaearth.",
     "price": 471.0,
     "compare_at_price": 804.0,
@@ -27711,7 +27711,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12225,
     "name": "Head & Shoulders Keratin Smooth Anti-Frizz Hair Repair Shampoo 650ml - Signature Edition",
-    "slug": "head-&-shoulders-shampoo-1225-12225",
+    "slug": "head-&-shoulders-shampoo-1225-12225-12225",
     "description": "Argan oil infused salon formula gently cleansing and providing 48 hours of straight shiny hair. Official Amazon India verified selection from Head & Shoulders.",
     "price": 519.0,
     "compare_at_price": 749.0,
@@ -27738,7 +27738,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12226,
     "name": "L'Oreal Paris Onion & Biotin Hair Fall Control Gentle Sulphate-Free Shampoo 400ml - Deluxe",
-    "slug": "l'oreal-paris-shampoo-1226-12226",
+    "slug": "l'oreal-paris-shampoo-1226-12226-12226",
     "description": "Plant keratin formulation strengthening hair roots and stimulating scalp microcirculation. Official Amazon India verified selection from L'Oreal Paris.",
     "price": 375.0,
     "compare_at_price": 657.0,
@@ -27765,7 +27765,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12227,
     "name": "Dove Keratin Smooth Anti-Frizz Hair Repair Shampoo 650ml - Sport",
-    "slug": "dove-shampoo-1227-12227",
+    "slug": "dove-shampoo-1227-12227-12227",
     "description": "Argan oil infused salon formula gently cleansing and providing 48 hours of straight shiny hair. Official Amazon India verified selection from Dove.",
     "price": 544.0,
     "compare_at_price": 965.0,
@@ -27792,7 +27792,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12228,
     "name": "Tresemme Onion & Biotin Hair Fall Control Gentle Sulphate-Free Shampoo 400ml - Select",
-    "slug": "tresemme-shampoo-1228-12228",
+    "slug": "tresemme-shampoo-1228-12228-12228",
     "description": "Plant keratin formulation strengthening hair roots and stimulating scalp microcirculation. Official Amazon India verified selection from Tresemme.",
     "price": 383.0,
     "compare_at_price": 537.0,
@@ -27819,7 +27819,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12229,
     "name": "Mamaearth Keratin Smooth Anti-Frizz Hair Repair Shampoo 650ml - Classic Edition",
-    "slug": "mamaearth-shampoo-1229-12229",
+    "slug": "mamaearth-shampoo-1229-12229-12229",
     "description": "Argan oil infused salon formula gently cleansing and providing 48 hours of straight shiny hair. Official Amazon India verified selection from Mamaearth.",
     "price": 524.0,
     "compare_at_price": 724.0,
@@ -27846,7 +27846,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12230,
     "name": "Head & Shoulders Onion & Biotin Hair Fall Control Gentle Sulphate-Free Shampoo 400ml - Premium Series",
-    "slug": "head-&-shoulders-shampoo-1230-12230",
+    "slug": "head-&-shoulders-shampoo-1230-12230-12230",
     "description": "Plant keratin formulation strengthening hair roots and stimulating scalp microcirculation. Official Amazon India verified selection from Head & Shoulders.",
     "price": 415.0,
     "compare_at_price": 663.0,
@@ -27873,7 +27873,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12231,
     "name": "L'Oreal Paris Keratin Smooth Anti-Frizz Hair Repair Shampoo 650ml - Pro",
-    "slug": "l'oreal-paris-shampoo-1231-12231",
+    "slug": "l'oreal-paris-shampoo-1231-12231-12231",
     "description": "Argan oil infused salon formula gently cleansing and providing 48 hours of straight shiny hair. Official Amazon India verified selection from L'Oreal Paris.",
     "price": 599.0,
     "compare_at_price": 1047.0,
@@ -27900,7 +27900,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12232,
     "name": "Dove Onion & Biotin Hair Fall Control Gentle Sulphate-Free Shampoo 400ml - Special Edition",
-    "slug": "dove-shampoo-1232-12232",
+    "slug": "dove-shampoo-1232-12232-12232",
     "description": "Plant keratin formulation strengthening hair roots and stimulating scalp microcirculation. Official Amazon India verified selection from Dove.",
     "price": 419.0,
     "compare_at_price": 602.0,
@@ -27927,7 +27927,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12233,
     "name": "Tresemme Keratin Smooth Anti-Frizz Hair Repair Shampoo 650ml - Signature Edition",
-    "slug": "tresemme-shampoo-1233-12233",
+    "slug": "tresemme-shampoo-1233-12233-12233",
     "description": "Argan oil infused salon formula gently cleansing and providing 48 hours of straight shiny hair. Official Amazon India verified selection from Tresemme.",
     "price": 539.0,
     "compare_at_price": 839.0,
@@ -27954,7 +27954,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12234,
     "name": "Mamaearth Onion & Biotin Hair Fall Control Gentle Sulphate-Free Shampoo 400ml - Deluxe",
-    "slug": "mamaearth-shampoo-1234-12234",
+    "slug": "mamaearth-shampoo-1234-12234-12234",
     "description": "Plant keratin formulation strengthening hair roots and stimulating scalp microcirculation. Official Amazon India verified selection from Mamaearth.",
     "price": 379.0,
     "compare_at_price": 638.0,
@@ -27981,7 +27981,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12235,
     "name": "Head & Shoulders Keratin Smooth Anti-Frizz Hair Repair Shampoo 650ml - Sport",
-    "slug": "head-&-shoulders-shampoo-1235-12235",
+    "slug": "head-&-shoulders-shampoo-1235-12235-12235",
     "description": "Argan oil infused salon formula gently cleansing and providing 48 hours of straight shiny hair. Official Amazon India verified selection from Head & Shoulders.",
     "price": 514.0,
     "compare_at_price": 739.0,
@@ -28008,7 +28008,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12236,
     "name": "L'Oreal Paris Onion & Biotin Hair Fall Control Gentle Sulphate-Free Shampoo 400ml - Select",
-    "slug": "l'oreal-paris-shampoo-1236-12236",
+    "slug": "l'oreal-paris-shampoo-1236-12236-12236",
     "description": "Plant keratin formulation strengthening hair roots and stimulating scalp microcirculation. Official Amazon India verified selection from L'Oreal Paris.",
     "price": 383.0,
     "compare_at_price": 575.0,
@@ -28035,7 +28035,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12237,
     "name": "Dove Keratin Smooth Anti-Frizz Hair Repair Shampoo 650ml - Classic Edition",
-    "slug": "dove-shampoo-1237-12237",
+    "slug": "dove-shampoo-1237-12237-12237",
     "description": "Argan oil infused salon formula gently cleansing and providing 48 hours of straight shiny hair. Official Amazon India verified selection from Dove.",
     "price": 564.0,
     "compare_at_price": 955.0,
@@ -28062,7 +28062,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12238,
     "name": "Tresemme Onion & Biotin Hair Fall Control Gentle Sulphate-Free Shampoo 400ml - Premium Series",
-    "slug": "tresemme-shampoo-1238-12238",
+    "slug": "tresemme-shampoo-1238-12238-12238",
     "description": "Plant keratin formulation strengthening hair roots and stimulating scalp microcirculation. Official Amazon India verified selection from Tresemme.",
     "price": 447.0,
     "compare_at_price": 722.0,
@@ -28089,7 +28089,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12239,
     "name": "Mamaearth Keratin Smooth Anti-Frizz Hair Repair Shampoo 650ml - Pro",
-    "slug": "mamaearth-shampoo-1239-12239",
+    "slug": "mamaearth-shampoo-1239-12239-12239",
     "description": "Argan oil infused salon formula gently cleansing and providing 48 hours of straight shiny hair. Official Amazon India verified selection from Mamaearth.",
     "price": 564.0,
     "compare_at_price": 919.0,
@@ -28116,7 +28116,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12240,
     "name": "Head & Shoulders Onion & Biotin Hair Fall Control Gentle Sulphate-Free Shampoo 400ml - Special Edition",
-    "slug": "head-&-shoulders-shampoo-1240-12240",
+    "slug": "head-&-shoulders-shampoo-1240-12240-12240",
     "description": "Plant keratin formulation strengthening hair roots and stimulating scalp microcirculation. Official Amazon India verified selection from Head & Shoulders.",
     "price": 363.0,
     "compare_at_price": 639.0,
@@ -28143,7 +28143,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12241,
     "name": "Minimalist SPF 50 PA++++ Lightweight Water Gel Sunscreen 50g - Classic Edition",
-    "slug": "minimalist-sunscreen-1241-12241",
+    "slug": "minimalist-sunscreen-1241-12241-12241",
     "description": "Broad-spectrum UV protection with zero white cast, blue light shield, and hyaluronic acid glow. Official Amazon India verified selection from Minimalist.",
     "price": 462.0,
     "compare_at_price": 679.0,
@@ -28170,7 +28170,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12242,
     "name": "The Derma Co 1% Hyaluronic Tinted Matte Sunscreen Gel with Cica Extract 50g - Premium Series",
-    "slug": "the-derma-co-sunscreen-1242-12242",
+    "slug": "the-derma-co-sunscreen-1242-12242-12242",
     "description": "Dermatologist formulated oil-free non-comedogenic sunscreen safe for acne-prone skin. Official Amazon India verified selection from The Derma Co.",
     "price": 514.0,
     "compare_at_price": 906.0,
@@ -28197,7 +28197,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12243,
     "name": "Aqualogica SPF 50 PA++++ Lightweight Water Gel Sunscreen 50g - Pro",
-    "slug": "aqualogica-sunscreen-1243-12243",
+    "slug": "aqualogica-sunscreen-1243-12243-12243",
     "description": "Broad-spectrum UV protection with zero white cast, blue light shield, and hyaluronic acid glow. Official Amazon India verified selection from Aqualogica.",
     "price": 440.0,
     "compare_at_price": 632.0,
@@ -28224,7 +28224,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12244,
     "name": "Dot & Key 1% Hyaluronic Tinted Matte Sunscreen Gel with Cica Extract 50g - Special Edition",
-    "slug": "dot-&-key-sunscreen-1244-12244",
+    "slug": "dot-&-key-sunscreen-1244-12244-12244",
     "description": "Dermatologist formulated oil-free non-comedogenic sunscreen safe for acne-prone skin. Official Amazon India verified selection from Dot & Key.",
     "price": 524.0,
     "compare_at_price": 770.0,
@@ -28251,7 +28251,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12245,
     "name": "La Shield SPF 50 PA++++ Lightweight Water Gel Sunscreen 50g - Signature Edition",
-    "slug": "la-shield-sunscreen-1245-12245",
+    "slug": "la-shield-sunscreen-1245-12245-12245",
     "description": "Broad-spectrum UV protection with zero white cast, blue light shield, and hyaluronic acid glow. Official Amazon India verified selection from La Shield.",
     "price": 476.0,
     "compare_at_price": 705.0,
@@ -28278,7 +28278,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12246,
     "name": "Minimalist 1% Hyaluronic Tinted Matte Sunscreen Gel with Cica Extract 50g - Deluxe",
-    "slug": "minimalist-sunscreen-1246-12246",
+    "slug": "minimalist-sunscreen-1246-12246-12246",
     "description": "Dermatologist formulated oil-free non-comedogenic sunscreen safe for acne-prone skin. Official Amazon India verified selection from Minimalist.",
     "price": 544.0,
     "compare_at_price": 836.0,
@@ -28305,7 +28305,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12247,
     "name": "The Derma Co SPF 50 PA++++ Lightweight Water Gel Sunscreen 50g - Sport",
-    "slug": "the-derma-co-sunscreen-1247-12247",
+    "slug": "the-derma-co-sunscreen-1247-12247-12247",
     "description": "Broad-spectrum UV protection with zero white cast, blue light shield, and hyaluronic acid glow. Official Amazon India verified selection from The Derma Co.",
     "price": 422.0,
     "compare_at_price": 600.0,
@@ -28332,7 +28332,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12248,
     "name": "Aqualogica 1% Hyaluronic Tinted Matte Sunscreen Gel with Cica Extract 50g - Select",
-    "slug": "aqualogica-sunscreen-1248-12248",
+    "slug": "aqualogica-sunscreen-1248-12248-12248",
     "description": "Dermatologist formulated oil-free non-comedogenic sunscreen safe for acne-prone skin. Official Amazon India verified selection from Aqualogica.",
     "price": 449.0,
     "compare_at_price": 630.0,
@@ -28359,7 +28359,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12249,
     "name": "Dot & Key SPF 50 PA++++ Lightweight Water Gel Sunscreen 50g - Classic Edition",
-    "slug": "dot-&-key-sunscreen-1249-12249",
+    "slug": "dot-&-key-sunscreen-1249-12249-12249",
     "description": "Broad-spectrum UV protection with zero white cast, blue light shield, and hyaluronic acid glow. Official Amazon India verified selection from Dot & Key.",
     "price": 539.0,
     "compare_at_price": 878.0,
@@ -28386,7 +28386,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12250,
     "name": "La Shield 1% Hyaluronic Tinted Matte Sunscreen Gel with Cica Extract 50g - Premium Series",
-    "slug": "la-shield-sunscreen-1250-12250",
+    "slug": "la-shield-sunscreen-1250-12250-12250",
     "description": "Dermatologist formulated oil-free non-comedogenic sunscreen safe for acne-prone skin. Official Amazon India verified selection from La Shield.",
     "price": 489.0,
     "compare_at_price": 690.0,
@@ -28413,7 +28413,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12251,
     "name": "Minimalist SPF 50 PA++++ Lightweight Water Gel Sunscreen 50g - Pro",
-    "slug": "minimalist-sunscreen-1251-12251",
+    "slug": "minimalist-sunscreen-1251-12251-12251",
     "description": "Broad-spectrum UV protection with zero white cast, blue light shield, and hyaluronic acid glow. Official Amazon India verified selection from Minimalist.",
     "price": 458.0,
     "compare_at_price": 756.0,
@@ -28440,7 +28440,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12252,
     "name": "The Derma Co 1% Hyaluronic Tinted Matte Sunscreen Gel with Cica Extract 50g - Special Edition",
-    "slug": "the-derma-co-sunscreen-1252-12252",
+    "slug": "the-derma-co-sunscreen-1252-12252-12252",
     "description": "Dermatologist formulated oil-free non-comedogenic sunscreen safe for acne-prone skin. Official Amazon India verified selection from The Derma Co.",
     "price": 489.0,
     "compare_at_price": 717.0,
@@ -28467,7 +28467,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12253,
     "name": "Aqualogica SPF 50 PA++++ Lightweight Water Gel Sunscreen 50g - Signature Edition",
-    "slug": "aqualogica-sunscreen-1253-12253",
+    "slug": "aqualogica-sunscreen-1253-12253-12253",
     "description": "Broad-spectrum UV protection with zero white cast, blue light shield, and hyaluronic acid glow. Official Amazon India verified selection from Aqualogica.",
     "price": 458.0,
     "compare_at_price": 738.0,
@@ -28494,7 +28494,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12254,
     "name": "Dot & Key 1% Hyaluronic Tinted Matte Sunscreen Gel with Cica Extract 50g - Deluxe",
-    "slug": "dot-&-key-sunscreen-1254-12254",
+    "slug": "dot-&-key-sunscreen-1254-12254-12254",
     "description": "Dermatologist formulated oil-free non-comedogenic sunscreen safe for acne-prone skin. Official Amazon India verified selection from Dot & Key.",
     "price": 554.0,
     "compare_at_price": 970.0,
@@ -28521,7 +28521,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12255,
     "name": "La Shield SPF 50 PA++++ Lightweight Water Gel Sunscreen 50g - Sport",
-    "slug": "la-shield-sunscreen-1255-12255",
+    "slug": "la-shield-sunscreen-1255-12255-12255",
     "description": "Broad-spectrum UV protection with zero white cast, blue light shield, and hyaluronic acid glow. Official Amazon India verified selection from La Shield.",
     "price": 440.0,
     "compare_at_price": 654.0,
@@ -28548,7 +28548,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12256,
     "name": "Minimalist 1% Hyaluronic Tinted Matte Sunscreen Gel with Cica Extract 50g - Select",
-    "slug": "minimalist-sunscreen-1256-12256",
+    "slug": "minimalist-sunscreen-1256-12256-12256",
     "description": "Dermatologist formulated oil-free non-comedogenic sunscreen safe for acne-prone skin. Official Amazon India verified selection from Minimalist.",
     "price": 569.0,
     "compare_at_price": 848.0,
@@ -28575,7 +28575,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12257,
     "name": "The Derma Co SPF 50 PA++++ Lightweight Water Gel Sunscreen 50g - Classic Edition",
-    "slug": "the-derma-co-sunscreen-1257-12257",
+    "slug": "the-derma-co-sunscreen-1257-12257-12257",
     "description": "Broad-spectrum UV protection with zero white cast, blue light shield, and hyaluronic acid glow. Official Amazon India verified selection from The Derma Co.",
     "price": 485.0,
     "compare_at_price": 842.0,
@@ -28602,7 +28602,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12258,
     "name": "Aqualogica 1% Hyaluronic Tinted Matte Sunscreen Gel with Cica Extract 50g - Premium Series",
-    "slug": "aqualogica-sunscreen-1258-12258",
+    "slug": "aqualogica-sunscreen-1258-12258-12258",
     "description": "Dermatologist formulated oil-free non-comedogenic sunscreen safe for acne-prone skin. Official Amazon India verified selection from Aqualogica.",
     "price": 549.0,
     "compare_at_price": 789.0,
@@ -28629,7 +28629,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12259,
     "name": "Dot & Key SPF 50 PA++++ Lightweight Water Gel Sunscreen 50g - Pro",
-    "slug": "dot-&-key-sunscreen-1259-12259",
+    "slug": "dot-&-key-sunscreen-1259-12259-12259",
     "description": "Broad-spectrum UV protection with zero white cast, blue light shield, and hyaluronic acid glow. Official Amazon India verified selection from Dot & Key.",
     "price": 525.0,
     "compare_at_price": 819.0,
@@ -28656,7 +28656,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12260,
     "name": "La Shield 1% Hyaluronic Tinted Matte Sunscreen Gel with Cica Extract 50g - Special Edition",
-    "slug": "la-shield-sunscreen-1260-12260",
+    "slug": "la-shield-sunscreen-1260-12260-12260",
     "description": "Dermatologist formulated oil-free non-comedogenic sunscreen safe for acne-prone skin. Official Amazon India verified selection from La Shield.",
     "price": 549.0,
     "compare_at_price": 912.0,
@@ -28683,7 +28683,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12261,
     "name": "Fogg Luxury Long-Lasting Eau De Parfum Spray 100ml for Men - Classic Edition",
-    "slug": "fogg-perfumes-1261-12261",
+    "slug": "fogg-perfumes-1261-12261-12261",
     "description": "Masculine woody citrus fragrance with notes of Italian bergamot, leather, and smoked amber. Official Amazon India verified selection from Fogg.",
     "price": 823.0,
     "compare_at_price": 1276.0,
@@ -28710,7 +28710,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12262,
     "name": "Wild Stone Floral & Sweet Vanilla Women's Eau De Parfum 100ml - Premium Series",
-    "slug": "wild-stone-perfumes-1262-12262",
+    "slug": "wild-stone-perfumes-1262-12262-12262",
     "description": "Elegantly bottled sensual floral fragrance with top notes of jasmine and velvety musk. Official Amazon India verified selection from Wild Stone.",
     "price": 951.0,
     "compare_at_price": 1414.0,
@@ -28737,7 +28737,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12263,
     "name": "Bella Vita Luxury Long-Lasting Eau De Parfum Spray 100ml for Men - Pro",
-    "slug": "bella-vita-perfumes-1263-12263",
+    "slug": "bella-vita-perfumes-1263-12263-12263",
     "description": "Masculine woody citrus fragrance with notes of Italian bergamot, leather, and smoked amber. Official Amazon India verified selection from Bella Vita.",
     "price": 767.0,
     "compare_at_price": 1040.0,
@@ -28764,7 +28764,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12264,
     "name": "Park Avenue Floral & Sweet Vanilla Women's Eau De Parfum 100ml - Special Edition",
-    "slug": "park-avenue-perfumes-1264-12264",
+    "slug": "park-avenue-perfumes-1264-12264-12264",
     "description": "Elegantly bottled sensual floral fragrance with top notes of jasmine and velvety musk. Official Amazon India verified selection from Park Avenue.",
     "price": 1010.0,
     "compare_at_price": 1521.0,
@@ -28791,7 +28791,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12265,
     "name": "Ajmal Luxury Long-Lasting Eau De Parfum Spray 100ml for Men - Signature Edition",
-    "slug": "ajmal-perfumes-1265-12265",
+    "slug": "ajmal-perfumes-1265-12265-12265",
     "description": "Masculine woody citrus fragrance with notes of Italian bergamot, leather, and smoked amber. Official Amazon India verified selection from Ajmal.",
     "price": 855.0,
     "compare_at_price": 1241.0,
@@ -28818,7 +28818,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12266,
     "name": "Fogg Floral & Sweet Vanilla Women's Eau De Parfum 100ml - Deluxe",
-    "slug": "fogg-perfumes-1266-12266",
+    "slug": "fogg-perfumes-1266-12266-12266",
     "description": "Elegantly bottled sensual floral fragrance with top notes of jasmine and velvety musk. Official Amazon India verified selection from Fogg.",
     "price": 815.0,
     "compare_at_price": 1254.0,
@@ -28845,7 +28845,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12267,
     "name": "Wild Stone Luxury Long-Lasting Eau De Parfum Spray 100ml for Men - Sport",
-    "slug": "wild-stone-perfumes-1267-12267",
+    "slug": "wild-stone-perfumes-1267-12267-12267",
     "description": "Masculine woody citrus fragrance with notes of Italian bergamot, leather, and smoked amber. Official Amazon India verified selection from Wild Stone.",
     "price": 727.0,
     "compare_at_price": 1053.0,
@@ -28872,7 +28872,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12268,
     "name": "Bella Vita Floral & Sweet Vanilla Women's Eau De Parfum 100ml - Select",
-    "slug": "bella-vita-perfumes-1268-12268",
+    "slug": "bella-vita-perfumes-1268-12268-12268",
     "description": "Elegantly bottled sensual floral fragrance with top notes of jasmine and velvety musk. Official Amazon India verified selection from Bella Vita.",
     "price": 959.0,
     "compare_at_price": 1295.0,
@@ -28899,7 +28899,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12269,
     "name": "Park Avenue Luxury Long-Lasting Eau De Parfum Spray 100ml for Men - Classic Edition",
-    "slug": "park-avenue-perfumes-1269-12269",
+    "slug": "park-avenue-perfumes-1269-12269-12269",
     "description": "Masculine woody citrus fragrance with notes of Italian bergamot, leather, and smoked amber. Official Amazon India verified selection from Park Avenue.",
     "price": 815.0,
     "compare_at_price": 1347.0,
@@ -28926,7 +28926,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12270,
     "name": "Ajmal Floral & Sweet Vanilla Women's Eau De Parfum 100ml - Premium Series",
-    "slug": "ajmal-perfumes-1270-12270",
+    "slug": "ajmal-perfumes-1270-12270-12270",
     "description": "Elegantly bottled sensual floral fragrance with top notes of jasmine and velvety musk. Official Amazon India verified selection from Ajmal.",
     "price": 1002.0,
     "compare_at_price": 1675.0,
@@ -28953,7 +28953,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12271,
     "name": "Fogg Luxury Long-Lasting Eau De Parfum Spray 100ml for Men - Pro",
-    "slug": "fogg-perfumes-1271-12271",
+    "slug": "fogg-perfumes-1271-12271-12271",
     "description": "Masculine woody citrus fragrance with notes of Italian bergamot, leather, and smoked amber. Official Amazon India verified selection from Fogg.",
     "price": 927.0,
     "compare_at_price": 1487.0,
@@ -28980,7 +28980,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12272,
     "name": "Wild Stone Floral & Sweet Vanilla Women's Eau De Parfum 100ml - Special Edition",
-    "slug": "wild-stone-perfumes-1272-12272",
+    "slug": "wild-stone-perfumes-1272-12272-12272",
     "description": "Elegantly bottled sensual floral fragrance with top notes of jasmine and velvety musk. Official Amazon India verified selection from Wild Stone.",
     "price": 900.0,
     "compare_at_price": 1286.0,
@@ -29007,7 +29007,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12273,
     "name": "Bella Vita Luxury Long-Lasting Eau De Parfum Spray 100ml for Men - Signature Edition",
-    "slug": "bella-vita-perfumes-1273-12273",
+    "slug": "bella-vita-perfumes-1273-12273-12273",
     "description": "Masculine woody citrus fragrance with notes of Italian bergamot, leather, and smoked amber. Official Amazon India verified selection from Bella Vita.",
     "price": 887.0,
     "compare_at_price": 1492.0,
@@ -29034,7 +29034,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12274,
     "name": "Park Avenue Floral & Sweet Vanilla Women's Eau De Parfum 100ml - Deluxe",
-    "slug": "park-avenue-perfumes-1274-12274",
+    "slug": "park-avenue-perfumes-1274-12274-12274",
     "description": "Elegantly bottled sensual floral fragrance with top notes of jasmine and velvety musk. Official Amazon India verified selection from Park Avenue.",
     "price": 976.0,
     "compare_at_price": 1417.0,
@@ -29061,7 +29061,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12275,
     "name": "Ajmal Luxury Long-Lasting Eau De Parfum Spray 100ml for Men - Sport",
-    "slug": "ajmal-perfumes-1275-12275",
+    "slug": "ajmal-perfumes-1275-12275-12275",
     "description": "Masculine woody citrus fragrance with notes of Italian bergamot, leather, and smoked amber. Official Amazon India verified selection from Ajmal.",
     "price": 959.0,
     "compare_at_price": 1598.0,
@@ -29088,7 +29088,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12276,
     "name": "Fogg Floral & Sweet Vanilla Women's Eau De Parfum 100ml - Select",
-    "slug": "fogg-perfumes-1276-12276",
+    "slug": "fogg-perfumes-1276-12276-12276",
     "description": "Elegantly bottled sensual floral fragrance with top notes of jasmine and velvety musk. Official Amazon India verified selection from Fogg.",
     "price": 764.0,
     "compare_at_price": 1165.0,
@@ -29115,7 +29115,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12277,
     "name": "Wild Stone Luxury Long-Lasting Eau De Parfum Spray 100ml for Men - Classic Edition",
-    "slug": "wild-stone-perfumes-1277-12277",
+    "slug": "wild-stone-perfumes-1277-12277-12277",
     "description": "Masculine woody citrus fragrance with notes of Italian bergamot, leather, and smoked amber. Official Amazon India verified selection from Wild Stone.",
     "price": 871.0,
     "compare_at_price": 1197.0,
@@ -29142,7 +29142,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12278,
     "name": "Bella Vita Floral & Sweet Vanilla Women's Eau De Parfum 100ml - Premium Series",
-    "slug": "bella-vita-perfumes-1278-12278",
+    "slug": "bella-vita-perfumes-1278-12278-12278",
     "description": "Elegantly bottled sensual floral fragrance with top notes of jasmine and velvety musk. Official Amazon India verified selection from Bella Vita.",
     "price": 824.0,
     "compare_at_price": 1313.0,
@@ -29169,7 +29169,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12279,
     "name": "Park Avenue Luxury Long-Lasting Eau De Parfum Spray 100ml for Men - Pro",
-    "slug": "park-avenue-perfumes-1279-12279",
+    "slug": "park-avenue-perfumes-1279-12279-12279",
     "description": "Masculine woody citrus fragrance with notes of Italian bergamot, leather, and smoked amber. Official Amazon India verified selection from Park Avenue.",
     "price": 735.0,
     "compare_at_price": 1147.0,
@@ -29196,7 +29196,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12280,
     "name": "Ajmal Floral & Sweet Vanilla Women's Eau De Parfum 100ml - Special Edition",
-    "slug": "ajmal-perfumes-1280-12280",
+    "slug": "ajmal-perfumes-1280-12280-12280",
     "description": "Elegantly bottled sensual floral fragrance with top notes of jasmine and velvety musk. Official Amazon India verified selection from Ajmal.",
     "price": 883.0,
     "compare_at_price": 1264.0,
@@ -29223,7 +29223,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12281,
     "name": "Maybelline 16-Hour Transfer-Proof Matte Ink Liquid Lipstick - Classic Edition",
-    "slug": "maybelline-makeup-1281-12281",
+    "slug": "maybelline-makeup-1281-12281-12281",
     "description": "Intense pigment waterproof velvety liquid lipstick with precision arrow applicator. Official Amazon India verified selection from Maybelline.",
     "price": 439.0,
     "compare_at_price": 689.0,
@@ -29250,7 +29250,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12282,
     "name": "Lakme Waterproof Hypercurl Volumizing Smudge-Proof Mascara - Premium Series",
-    "slug": "lakme-makeup-1282-12282",
+    "slug": "lakme-makeup-1282-12282-12282",
     "description": "Curled wand coating each lash from root to tip for 36-hour thick glamorous volume. Official Amazon India verified selection from Lakme.",
     "price": 346.0,
     "compare_at_price": 494.0,
@@ -29277,7 +29277,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12283,
     "name": "Sugar 16-Hour Transfer-Proof Matte Ink Liquid Lipstick - Pro",
-    "slug": "sugar-makeup-1283-12283",
+    "slug": "sugar-makeup-1283-12283-12283",
     "description": "Intense pigment waterproof velvety liquid lipstick with precision arrow applicator. Official Amazon India verified selection from Sugar.",
     "price": 411.0,
     "compare_at_price": 651.0,
@@ -29304,7 +29304,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12284,
     "name": "Colorbar Waterproof Hypercurl Volumizing Smudge-Proof Mascara - Special Edition",
-    "slug": "colorbar-makeup-1284-12284",
+    "slug": "colorbar-makeup-1284-12284-12284",
     "description": "Curled wand coating each lash from root to tip for 36-hour thick glamorous volume. Official Amazon India verified selection from Colorbar.",
     "price": 394.0,
     "compare_at_price": 643.0,
@@ -29331,7 +29331,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12285,
     "name": "Swiss Beauty 16-Hour Transfer-Proof Matte Ink Liquid Lipstick - Signature Edition",
-    "slug": "swiss-beauty-makeup-1285-12285",
+    "slug": "swiss-beauty-makeup-1285-12285-12285",
     "description": "Intense pigment waterproof velvety liquid lipstick with precision arrow applicator. Official Amazon India verified selection from Swiss Beauty.",
     "price": 447.0,
     "compare_at_price": 633.0,
@@ -29358,7 +29358,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12286,
     "name": "Maybelline Waterproof Hypercurl Volumizing Smudge-Proof Mascara - Deluxe",
-    "slug": "maybelline-makeup-1286-12286",
+    "slug": "maybelline-makeup-1286-12286-12286",
     "description": "Curled wand coating each lash from root to tip for 36-hour thick glamorous volume. Official Amazon India verified selection from Maybelline.",
     "price": 408.0,
     "compare_at_price": 621.0,
@@ -29385,7 +29385,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12287,
     "name": "Lakme 16-Hour Transfer-Proof Matte Ink Liquid Lipstick - Sport",
-    "slug": "lakme-makeup-1287-12287",
+    "slug": "lakme-makeup-1287-12287-12287",
     "description": "Intense pigment waterproof velvety liquid lipstick with precision arrow applicator. Official Amazon India verified selection from Lakme.",
     "price": 379.0,
     "compare_at_price": 562.0,
@@ -29412,7 +29412,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12288,
     "name": "Sugar Waterproof Hypercurl Volumizing Smudge-Proof Mascara - Select",
-    "slug": "sugar-makeup-1288-12288",
+    "slug": "sugar-makeup-1288-12288-12288",
     "description": "Curled wand coating each lash from root to tip for 36-hour thick glamorous volume. Official Amazon India verified selection from Sugar.",
     "price": 325.0,
     "compare_at_price": 564.0,
@@ -29439,7 +29439,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12289,
     "name": "Colorbar 16-Hour Transfer-Proof Matte Ink Liquid Lipstick - Classic Edition",
-    "slug": "colorbar-makeup-1289-12289",
+    "slug": "colorbar-makeup-1289-12289-12289",
     "description": "Intense pigment waterproof velvety liquid lipstick with precision arrow applicator. Official Amazon India verified selection from Colorbar.",
     "price": 415.0,
     "compare_at_price": 565.0,
@@ -29466,7 +29466,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12290,
     "name": "Swiss Beauty Waterproof Hypercurl Volumizing Smudge-Proof Mascara - Premium Series",
-    "slug": "swiss-beauty-makeup-1290-12290",
+    "slug": "swiss-beauty-makeup-1290-12290-12290",
     "description": "Curled wand coating each lash from root to tip for 36-hour thick glamorous volume. Official Amazon India verified selection from Swiss Beauty.",
     "price": 314.0,
     "compare_at_price": 451.0,
@@ -29493,7 +29493,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12291,
     "name": "Maybelline 16-Hour Transfer-Proof Matte Ink Liquid Lipstick - Pro",
-    "slug": "maybelline-makeup-1291-12291",
+    "slug": "maybelline-makeup-1291-12291-12291",
     "description": "Intense pigment waterproof velvety liquid lipstick with precision arrow applicator. Official Amazon India verified selection from Maybelline.",
     "price": 471.0,
     "compare_at_price": 842.0,
@@ -29520,7 +29520,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12292,
     "name": "Lakme Waterproof Hypercurl Volumizing Smudge-Proof Mascara - Special Edition",
-    "slug": "lakme-makeup-1292-12292",
+    "slug": "lakme-makeup-1292-12292-12292",
     "description": "Curled wand coating each lash from root to tip for 36-hour thick glamorous volume. Official Amazon India verified selection from Lakme.",
     "price": 415.0,
     "compare_at_price": 642.0,
@@ -29547,7 +29547,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12293,
     "name": "Sugar 16-Hour Transfer-Proof Matte Ink Liquid Lipstick - Signature Edition",
-    "slug": "sugar-makeup-1293-12293",
+    "slug": "sugar-makeup-1293-12293-12293",
     "description": "Intense pigment waterproof velvety liquid lipstick with precision arrow applicator. Official Amazon India verified selection from Sugar.",
     "price": 423.0,
     "compare_at_price": 712.0,
@@ -29574,7 +29574,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12294,
     "name": "Colorbar Waterproof Hypercurl Volumizing Smudge-Proof Mascara - Deluxe",
-    "slug": "colorbar-makeup-1294-12294",
+    "slug": "colorbar-makeup-1294-12294-12294",
     "description": "Curled wand coating each lash from root to tip for 36-hour thick glamorous volume. Official Amazon India verified selection from Colorbar.",
     "price": 370.0,
     "compare_at_price": 582.0,
@@ -29601,7 +29601,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12295,
     "name": "Swiss Beauty 16-Hour Transfer-Proof Matte Ink Liquid Lipstick - Sport",
-    "slug": "swiss-beauty-makeup-1295-12295",
+    "slug": "swiss-beauty-makeup-1295-12295-12295",
     "description": "Intense pigment waterproof velvety liquid lipstick with precision arrow applicator. Official Amazon India verified selection from Swiss Beauty.",
     "price": 423.0,
     "compare_at_price": 746.0,
@@ -29628,7 +29628,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12296,
     "name": "Maybelline Waterproof Hypercurl Volumizing Smudge-Proof Mascara - Select",
-    "slug": "maybelline-makeup-1296-12296",
+    "slug": "maybelline-makeup-1296-12296-12296",
     "description": "Curled wand coating each lash from root to tip for 36-hour thick glamorous volume. Official Amazon India verified selection from Maybelline.",
     "price": 318.0,
     "compare_at_price": 557.0,
@@ -29655,7 +29655,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12297,
     "name": "Lakme 16-Hour Transfer-Proof Matte Ink Liquid Lipstick - Classic Edition",
-    "slug": "lakme-makeup-1297-12297",
+    "slug": "lakme-makeup-1297-12297-12297",
     "description": "Intense pigment waterproof velvety liquid lipstick with precision arrow applicator. Official Amazon India verified selection from Lakme.",
     "price": 475.0,
     "compare_at_price": 729.0,
@@ -29682,7 +29682,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12298,
     "name": "Sugar Waterproof Hypercurl Volumizing Smudge-Proof Mascara - Premium Series",
-    "slug": "sugar-makeup-1298-12298",
+    "slug": "sugar-makeup-1298-12298-12298",
     "description": "Curled wand coating each lash from root to tip for 36-hour thick glamorous volume. Official Amazon India verified selection from Sugar.",
     "price": 387.0,
     "compare_at_price": 557.0,
@@ -29709,7 +29709,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12299,
     "name": "Himalaya Purifying Neem & Tea Tree Foaming Face Wash 200ml - Classic Edition",
-    "slug": "himalaya-face+wash-1299-12299",
+    "slug": "himalaya-face+wash-1299-12299-12299",
     "description": "Soap-free herbal formulation that clears excess oil and prevents pimples and blackheads. Official Amazon India verified selection from Himalaya.",
     "price": 271.0,
     "compare_at_price": 472.0,
@@ -29736,7 +29736,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12300,
     "name": "Garnier Vitamin C Glow Boosting Gel Cleanser with Mandarin Peel 150ml - Premium Series",
-    "slug": "garnier-face+wash-1300-12300",
+    "slug": "garnier-face+wash-1300-12300-12300",
     "description": "Antioxidant face cleanser brightening dull skin tone and fading dark spots. Official Amazon India verified selection from Garnier.",
     "price": 329.0,
     "compare_at_price": 481.0,
@@ -29763,7 +29763,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12301,
     "name": "Mamaearth Purifying Neem & Tea Tree Foaming Face Wash 200ml - Pro",
-    "slug": "mamaearth-face+wash-1301-12301",
+    "slug": "mamaearth-face+wash-1301-12301-12301",
     "description": "Soap-free herbal formulation that clears excess oil and prevents pimples and blackheads. Official Amazon India verified selection from Mamaearth.",
     "price": 251.0,
     "compare_at_price": 447.0,
@@ -29790,7 +29790,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12302,
     "name": "Clean & Clear Vitamin C Glow Boosting Gel Cleanser with Mandarin Peel 150ml - Special Edition",
-    "slug": "clean-&-clear-face+wash-1302-12302",
+    "slug": "clean-&-clear-face+wash-1302-12302-12302",
     "description": "Antioxidant face cleanser brightening dull skin tone and fading dark spots. Official Amazon India verified selection from Clean & Clear.",
     "price": 314.0,
     "compare_at_price": 541.0,
@@ -29817,7 +29817,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12303,
     "name": "Plum Purifying Neem & Tea Tree Foaming Face Wash 200ml - Signature Edition",
-    "slug": "plum-face+wash-1303-12303",
+    "slug": "plum-face+wash-1303-12303-12303",
     "description": "Soap-free herbal formulation that clears excess oil and prevents pimples and blackheads. Official Amazon India verified selection from Plum.",
     "price": 266.0,
     "compare_at_price": 373.0,
@@ -29844,7 +29844,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12304,
     "name": "Himalaya Vitamin C Glow Boosting Gel Cleanser with Mandarin Peel 150ml - Deluxe",
-    "slug": "himalaya-face+wash-1304-12304",
+    "slug": "himalaya-face+wash-1304-12304-12304",
     "description": "Antioxidant face cleanser brightening dull skin tone and fading dark spots. Official Amazon India verified selection from Himalaya.",
     "price": 284.0,
     "compare_at_price": 465.0,
@@ -29871,7 +29871,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12305,
     "name": "Garnier Purifying Neem & Tea Tree Foaming Face Wash 200ml - Sport",
-    "slug": "garnier-face+wash-1305-12305",
+    "slug": "garnier-face+wash-1305-12305-12305",
     "description": "Soap-free herbal formulation that clears excess oil and prevents pimples and blackheads. Official Amazon India verified selection from Garnier.",
     "price": 249.0,
     "compare_at_price": 345.0,
@@ -29898,7 +29898,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12306,
     "name": "Mamaearth Vitamin C Glow Boosting Gel Cleanser with Mandarin Peel 150ml - Select",
-    "slug": "mamaearth-face+wash-1306-12306",
+    "slug": "mamaearth-face+wash-1306-12306-12306",
     "description": "Antioxidant face cleanser brightening dull skin tone and fading dark spots. Official Amazon India verified selection from Mamaearth.",
     "price": 302.0,
     "compare_at_price": 478.0,
@@ -29925,7 +29925,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12307,
     "name": "Clean & Clear Purifying Neem & Tea Tree Foaming Face Wash 200ml - Classic Edition",
-    "slug": "clean-&-clear-face+wash-1307-12307",
+    "slug": "clean-&-clear-face+wash-1307-12307-12307",
     "description": "Soap-free herbal formulation that clears excess oil and prevents pimples and blackheads. Official Amazon India verified selection from Clean & Clear.",
     "price": 232.0,
     "compare_at_price": 345.0,
@@ -29952,7 +29952,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12308,
     "name": "Plum Vitamin C Glow Boosting Gel Cleanser with Mandarin Peel 150ml - Premium Series",
-    "slug": "plum-face+wash-1308-12308",
+    "slug": "plum-face+wash-1308-12308-12308",
     "description": "Antioxidant face cleanser brightening dull skin tone and fading dark spots. Official Amazon India verified selection from Plum.",
     "price": 299.0,
     "compare_at_price": 522.0,
@@ -29979,7 +29979,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12309,
     "name": "Himalaya Purifying Neem & Tea Tree Foaming Face Wash 200ml - Pro",
-    "slug": "himalaya-face+wash-1309-12309",
+    "slug": "himalaya-face+wash-1309-12309-12309",
     "description": "Soap-free herbal formulation that clears excess oil and prevents pimples and blackheads. Official Amazon India verified selection from Himalaya.",
     "price": 256.0,
     "compare_at_price": 374.0,
@@ -30006,7 +30006,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12310,
     "name": "Garnier Vitamin C Glow Boosting Gel Cleanser with Mandarin Peel 150ml - Special Edition",
-    "slug": "garnier-face+wash-1310-12310",
+    "slug": "garnier-face+wash-1310-12310-12310",
     "description": "Antioxidant face cleanser brightening dull skin tone and fading dark spots. Official Amazon India verified selection from Garnier.",
     "price": 317.0,
     "compare_at_price": 519.0,
@@ -30033,7 +30033,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12311,
     "name": "Mamaearth Purifying Neem & Tea Tree Foaming Face Wash 200ml - Signature Edition",
-    "slug": "mamaearth-face+wash-1311-12311",
+    "slug": "mamaearth-face+wash-1311-12311-12311",
     "description": "Soap-free herbal formulation that clears excess oil and prevents pimples and blackheads. Official Amazon India verified selection from Mamaearth.",
     "price": 299.0,
     "compare_at_price": 519.0,
@@ -30060,7 +30060,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12312,
     "name": "Clean & Clear Vitamin C Glow Boosting Gel Cleanser with Mandarin Peel 150ml - Deluxe",
-    "slug": "clean-&-clear-face+wash-1312-12312",
+    "slug": "clean-&-clear-face+wash-1312-12312-12312",
     "description": "Antioxidant face cleanser brightening dull skin tone and fading dark spots. Official Amazon India verified selection from Clean & Clear.",
     "price": 317.0,
     "compare_at_price": 554.0,
@@ -30087,7 +30087,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12313,
     "name": "Plum Purifying Neem & Tea Tree Foaming Face Wash 200ml - Sport",
-    "slug": "plum-face+wash-1313-12313",
+    "slug": "plum-face+wash-1313-12313-12313",
     "description": "Soap-free herbal formulation that clears excess oil and prevents pimples and blackheads. Official Amazon India verified selection from Plum.",
     "price": 276.0,
     "compare_at_price": 450.0,
@@ -30114,7 +30114,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12314,
     "name": "Himalaya Vitamin C Glow Boosting Gel Cleanser with Mandarin Peel 150ml - Select",
-    "slug": "himalaya-face+wash-1314-12314",
+    "slug": "himalaya-face+wash-1314-12314-12314",
     "description": "Antioxidant face cleanser brightening dull skin tone and fading dark spots. Official Amazon India verified selection from Himalaya.",
     "price": 290.0,
     "compare_at_price": 499.0,
@@ -30141,7 +30141,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12315,
     "name": "Garnier Purifying Neem & Tea Tree Foaming Face Wash 200ml - Classic Edition",
-    "slug": "garnier-face+wash-1315-12315",
+    "slug": "garnier-face+wash-1315-12315-12315",
     "description": "Soap-free herbal formulation that clears excess oil and prevents pimples and blackheads. Official Amazon India verified selection from Garnier.",
     "price": 299.0,
     "compare_at_price": 505.0,
@@ -30168,7 +30168,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12316,
     "name": "Mamaearth Vitamin C Glow Boosting Gel Cleanser with Mandarin Peel 150ml - Premium Series",
-    "slug": "mamaearth-face+wash-1316-12316",
+    "slug": "mamaearth-face+wash-1316-12316-12316",
     "description": "Antioxidant face cleanser brightening dull skin tone and fading dark spots. Official Amazon India verified selection from Mamaearth.",
     "price": 317.0,
     "compare_at_price": 460.0,
@@ -30195,7 +30195,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12317,
     "name": "Vaseline Pure Cocoa Butter Deep Restoring Moisturizing Body Lotion 400ml - Classic Edition",
-    "slug": "vaseline-body+lotion-1317-12317",
+    "slug": "vaseline-body+lotion-1317-12317-12317",
     "description": "Infused with micro-droplets of healing jelly giving glowing healthy radiant skin. Official Amazon India verified selection from Vaseline.",
     "price": 322.0,
     "compare_at_price": 477.0,
@@ -30222,7 +30222,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12318,
     "name": "Nivea Aloe Fresh Soothing Hydrating Summer Body Gel Lotion 400ml - Premium Series",
-    "slug": "nivea-body+lotion-1318-12318",
+    "slug": "nivea-body+lotion-1318-12318-12318",
     "description": "Non-sticky quick absorbing 100% natural pure aloe vera gel for refreshing cool moisture. Official Amazon India verified selection from Nivea.",
     "price": 338.0,
     "compare_at_price": 559.0,
@@ -30249,7 +30249,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12319,
     "name": "Parachute Pure Cocoa Butter Deep Restoring Moisturizing Body Lotion 400ml - Pro",
-    "slug": "parachute-body+lotion-1319-12319",
+    "slug": "parachute-body+lotion-1319-12319-12319",
     "description": "Infused with micro-droplets of healing jelly giving glowing healthy radiant skin. Official Amazon India verified selection from Parachute.",
     "price": 351.0,
     "compare_at_price": 565.0,
@@ -30276,7 +30276,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12320,
     "name": "BoroPlus Aloe Fresh Soothing Hydrating Summer Body Gel Lotion 400ml - Special Edition",
-    "slug": "boroplus-body+lotion-1320-12320",
+    "slug": "boroplus-body+lotion-1320-12320-12320",
     "description": "Non-sticky quick absorbing 100% natural pure aloe vera gel for refreshing cool moisture. Official Amazon India verified selection from BoroPlus.",
     "price": 272.0,
     "compare_at_price": 412.0,
@@ -30303,7 +30303,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12321,
     "name": "Joy Pure Cocoa Butter Deep Restoring Moisturizing Body Lotion 400ml - Signature Edition",
-    "slug": "joy-body+lotion-1321-12321",
+    "slug": "joy-body+lotion-1321-12321-12321",
     "description": "Infused with micro-droplets of healing jelly giving glowing healthy radiant skin. Official Amazon India verified selection from Joy.",
     "price": 384.0,
     "compare_at_price": 617.0,
@@ -30330,7 +30330,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12322,
     "name": "Vaseline Aloe Fresh Soothing Hydrating Summer Body Gel Lotion 400ml - Deluxe",
-    "slug": "vaseline-body+lotion-1322-12322",
+    "slug": "vaseline-body+lotion-1322-12322-12322",
     "description": "Non-sticky quick absorbing 100% natural pure aloe vera gel for refreshing cool moisture. Official Amazon India verified selection from Vaseline.",
     "price": 284.0,
     "compare_at_price": 388.0,
@@ -30357,7 +30357,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12323,
     "name": "Nivea Pure Cocoa Butter Deep Restoring Moisturizing Body Lotion 400ml - Sport",
-    "slug": "nivea-body+lotion-1323-12323",
+    "slug": "nivea-body+lotion-1323-12323-12323",
     "description": "Infused with micro-droplets of healing jelly giving glowing healthy radiant skin. Official Amazon India verified selection from Nivea.",
     "price": 351.0,
     "compare_at_price": 502.0,
@@ -30384,7 +30384,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12324,
     "name": "Parachute Aloe Fresh Soothing Hydrating Summer Body Gel Lotion 400ml - Select",
-    "slug": "parachute-body+lotion-1324-12324",
+    "slug": "parachute-body+lotion-1324-12324-12324",
     "description": "Non-sticky quick absorbing 100% natural pure aloe vera gel for refreshing cool moisture. Official Amazon India verified selection from Parachute.",
     "price": 356.0,
     "compare_at_price": 516.0,
@@ -30411,7 +30411,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12325,
     "name": "BoroPlus Pure Cocoa Butter Deep Restoring Moisturizing Body Lotion 400ml - Classic Edition",
-    "slug": "boroplus-body+lotion-1325-12325",
+    "slug": "boroplus-body+lotion-1325-12325-12325",
     "description": "Infused with micro-droplets of healing jelly giving glowing healthy radiant skin. Official Amazon India verified selection from BoroPlus.",
     "price": 390.0,
     "compare_at_price": 635.0,
@@ -30438,7 +30438,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12326,
     "name": "Joy Aloe Fresh Soothing Hydrating Summer Body Gel Lotion 400ml - Premium Series",
-    "slug": "joy-body+lotion-1326-12326",
+    "slug": "joy-body+lotion-1326-12326-12326",
     "description": "Non-sticky quick absorbing 100% natural pure aloe vera gel for refreshing cool moisture. Official Amazon India verified selection from Joy.",
     "price": 314.0,
     "compare_at_price": 517.0,
@@ -30465,7 +30465,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12327,
     "name": "Vaseline Pure Cocoa Butter Deep Restoring Moisturizing Body Lotion 400ml - Pro",
-    "slug": "vaseline-body+lotion-1327-12327",
+    "slug": "vaseline-body+lotion-1327-12327-12327",
     "description": "Infused with micro-droplets of healing jelly giving glowing healthy radiant skin. Official Amazon India verified selection from Vaseline.",
     "price": 351.0,
     "compare_at_price": 582.0,
@@ -30492,7 +30492,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12328,
     "name": "Nivea Aloe Fresh Soothing Hydrating Summer Body Gel Lotion 400ml - Special Edition",
-    "slug": "nivea-body+lotion-1328-12328",
+    "slug": "nivea-body+lotion-1328-12328-12328",
     "description": "Non-sticky quick absorbing 100% natural pure aloe vera gel for refreshing cool moisture. Official Amazon India verified selection from Nivea.",
     "price": 350.0,
     "compare_at_price": 601.0,
@@ -30519,7 +30519,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12329,
     "name": "Parachute Pure Cocoa Butter Deep Restoring Moisturizing Body Lotion 400ml - Signature Edition",
-    "slug": "parachute-body+lotion-1329-12329",
+    "slug": "parachute-body+lotion-1329-12329-12329",
     "description": "Infused with micro-droplets of healing jelly giving glowing healthy radiant skin. Official Amazon India verified selection from Parachute.",
     "price": 315.0,
     "compare_at_price": 476.0,
@@ -30546,7 +30546,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12330,
     "name": "BoroPlus Aloe Fresh Soothing Hydrating Summer Body Gel Lotion 400ml - Deluxe",
-    "slug": "boroplus-body+lotion-1330-12330",
+    "slug": "boroplus-body+lotion-1330-12330-12330",
     "description": "Non-sticky quick absorbing 100% natural pure aloe vera gel for refreshing cool moisture. Official Amazon India verified selection from BoroPlus.",
     "price": 305.0,
     "compare_at_price": 459.0,
@@ -30573,7 +30573,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12331,
     "name": "Joy Pure Cocoa Butter Deep Restoring Moisturizing Body Lotion 400ml - Sport",
-    "slug": "joy-body+lotion-1331-12331",
+    "slug": "joy-body+lotion-1331-12331-12331",
     "description": "Infused with micro-droplets of healing jelly giving glowing healthy radiant skin. Official Amazon India verified selection from Joy.",
     "price": 328.0,
     "compare_at_price": 464.0,
@@ -30600,7 +30600,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12332,
     "name": "Vaseline Aloe Fresh Soothing Hydrating Summer Body Gel Lotion 400ml - Select",
-    "slug": "vaseline-body+lotion-1332-12332",
+    "slug": "vaseline-body+lotion-1332-12332-12332",
     "description": "Non-sticky quick absorbing 100% natural pure aloe vera gel for refreshing cool moisture. Official Amazon India verified selection from Vaseline.",
     "price": 305.0,
     "compare_at_price": 542.0,
@@ -30627,7 +30627,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12333,
     "name": "Nivea Pure Cocoa Butter Deep Restoring Moisturizing Body Lotion 400ml - Classic Edition",
-    "slug": "nivea-body+lotion-1333-12333",
+    "slug": "nivea-body+lotion-1333-12333-12333",
     "description": "Infused with micro-droplets of healing jelly giving glowing healthy radiant skin. Official Amazon India verified selection from Nivea.",
     "price": 351.0,
     "compare_at_price": 591.0,
@@ -30654,7 +30654,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12334,
     "name": "Parachute Bringha Ayurvedic Anti-Hairfall Oil with Selfie Applicator 100ml - Classic Edition",
-    "slug": "parachute-hair+oil-1334-12334",
+    "slug": "parachute-hair+oil-1334-12334-12334",
     "description": "Contains 11 herbs and essential oils cooked in virgin coconut milk to grow new hair. Official Amazon India verified selection from Parachute.",
     "price": 375.0,
     "compare_at_price": 590.0,
@@ -30681,7 +30681,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12335,
     "name": "Dabur Pure Cold-Pressed Castor Oil for Hair Growth & Thickness 200ml - Premium Series",
-    "slug": "dabur-hair+oil-1335-12335",
+    "slug": "dabur-hair+oil-1335-12335-12335",
     "description": "Hexane-free nutrient-dense natural oil providing deep follicle nourishment and shine. Official Amazon India verified selection from Dabur.",
     "price": 259.0,
     "compare_at_price": 428.0,
@@ -30708,7 +30708,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12336,
     "name": "Indulekha Bringha Ayurvedic Anti-Hairfall Oil with Selfie Applicator 100ml - Pro",
-    "slug": "indulekha-hair+oil-1336-12336",
+    "slug": "indulekha-hair+oil-1336-12336-12336",
     "description": "Contains 11 herbs and essential oils cooked in virgin coconut milk to grow new hair. Official Amazon India verified selection from Indulekha.",
     "price": 431.0,
     "compare_at_price": 627.0,
@@ -30735,7 +30735,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12337,
     "name": "Bajaj Pure Cold-Pressed Castor Oil for Hair Growth & Thickness 200ml - Special Edition",
-    "slug": "bajaj-hair+oil-1337-12337",
+    "slug": "bajaj-hair+oil-1337-12337-12337",
     "description": "Hexane-free nutrient-dense natural oil providing deep follicle nourishment and shine. Official Amazon India verified selection from Bajaj.",
     "price": 281.0,
     "compare_at_price": 411.0,
@@ -30762,7 +30762,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12338,
     "name": "Soulflower Bringha Ayurvedic Anti-Hairfall Oil with Selfie Applicator 100ml - Signature Edition",
-    "slug": "soulflower-hair+oil-1338-12338",
+    "slug": "soulflower-hair+oil-1338-12338-12338",
     "description": "Contains 11 herbs and essential oils cooked in virgin coconut milk to grow new hair. Official Amazon India verified selection from Soulflower.",
     "price": 411.0,
     "compare_at_price": 731.0,
@@ -30789,7 +30789,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12339,
     "name": "Parachute Pure Cold-Pressed Castor Oil for Hair Growth & Thickness 200ml - Deluxe",
-    "slug": "parachute-hair+oil-1339-12339",
+    "slug": "parachute-hair+oil-1339-12339-12339",
     "description": "Hexane-free nutrient-dense natural oil providing deep follicle nourishment and shine. Official Amazon India verified selection from Parachute.",
     "price": 242.0,
     "compare_at_price": 332.0,
@@ -30816,7 +30816,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12340,
     "name": "Dabur Bringha Ayurvedic Anti-Hairfall Oil with Selfie Applicator 100ml - Sport",
-    "slug": "dabur-hair+oil-1340-12340",
+    "slug": "dabur-hair+oil-1340-12340-12340",
     "description": "Contains 11 herbs and essential oils cooked in virgin coconut milk to grow new hair. Official Amazon India verified selection from Dabur.",
     "price": 467.0,
     "compare_at_price": 718.0,
@@ -30843,7 +30843,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12341,
     "name": "Indulekha Pure Cold-Pressed Castor Oil for Hair Growth & Thickness 200ml - Select",
-    "slug": "indulekha-hair+oil-1341-12341",
+    "slug": "indulekha-hair+oil-1341-12341-12341",
     "description": "Hexane-free nutrient-dense natural oil providing deep follicle nourishment and shine. Official Amazon India verified selection from Indulekha.",
     "price": 239.0,
     "compare_at_price": 327.0,
@@ -30870,7 +30870,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12342,
     "name": "Bajaj Bringha Ayurvedic Anti-Hairfall Oil with Selfie Applicator 100ml - Classic Edition",
-    "slug": "bajaj-hair+oil-1342-12342",
+    "slug": "bajaj-hair+oil-1342-12342-12342",
     "description": "Contains 11 herbs and essential oils cooked in virgin coconut milk to grow new hair. Official Amazon India verified selection from Bajaj.",
     "price": 423.0,
     "compare_at_price": 612.0,
@@ -30897,7 +30897,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12343,
     "name": "Soulflower Pure Cold-Pressed Castor Oil for Hair Growth & Thickness 200ml - Premium Series",
-    "slug": "soulflower-hair+oil-1343-12343",
+    "slug": "soulflower-hair+oil-1343-12343-12343",
     "description": "Hexane-free nutrient-dense natural oil providing deep follicle nourishment and shine. Official Amazon India verified selection from Soulflower.",
     "price": 256.0,
     "compare_at_price": 411.0,
@@ -30924,7 +30924,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12344,
     "name": "Parachute Bringha Ayurvedic Anti-Hairfall Oil with Selfie Applicator 100ml - Pro",
-    "slug": "parachute-hair+oil-1344-12344",
+    "slug": "parachute-hair+oil-1344-12344-12344",
     "description": "Contains 11 herbs and essential oils cooked in virgin coconut milk to grow new hair. Official Amazon India verified selection from Parachute.",
     "price": 399.0,
     "compare_at_price": 641.0,
@@ -30951,7 +30951,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12345,
     "name": "Dabur Pure Cold-Pressed Castor Oil for Hair Growth & Thickness 200ml - Special Edition",
-    "slug": "dabur-hair+oil-1345-12345",
+    "slug": "dabur-hair+oil-1345-12345-12345",
     "description": "Hexane-free nutrient-dense natural oil providing deep follicle nourishment and shine. Official Amazon India verified selection from Dabur.",
     "price": 239.0,
     "compare_at_price": 328.0,
@@ -30978,7 +30978,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12346,
     "name": "Indulekha Bringha Ayurvedic Anti-Hairfall Oil with Selfie Applicator 100ml - Signature Edition",
-    "slug": "indulekha-hair+oil-1346-12346",
+    "slug": "indulekha-hair+oil-1346-12346-12346",
     "description": "Contains 11 herbs and essential oils cooked in virgin coconut milk to grow new hair. Official Amazon India verified selection from Indulekha.",
     "price": 403.0,
     "compare_at_price": 560.0,
@@ -31005,7 +31005,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12347,
     "name": "Bajaj Pure Cold-Pressed Castor Oil for Hair Growth & Thickness 200ml - Deluxe",
-    "slug": "bajaj-hair+oil-1347-12347",
+    "slug": "bajaj-hair+oil-1347-12347-12347",
     "description": "Hexane-free nutrient-dense natural oil providing deep follicle nourishment and shine. Official Amazon India verified selection from Bajaj.",
     "price": 234.0,
     "compare_at_price": 407.0,
@@ -31032,7 +31032,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12348,
     "name": "Soulflower Bringha Ayurvedic Anti-Hairfall Oil with Selfie Applicator 100ml - Sport",
-    "slug": "soulflower-hair+oil-1348-12348",
+    "slug": "soulflower-hair+oil-1348-12348-12348",
     "description": "Contains 11 herbs and essential oils cooked in virgin coconut milk to grow new hair. Official Amazon India verified selection from Soulflower.",
     "price": 435.0,
     "compare_at_price": 682.0,
@@ -31059,7 +31059,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12349,
     "name": "Parachute Pure Cold-Pressed Castor Oil for Hair Growth & Thickness 200ml - Select",
-    "slug": "parachute-hair+oil-1349-12349",
+    "slug": "parachute-hair+oil-1349-12349-12349",
     "description": "Hexane-free nutrient-dense natural oil providing deep follicle nourishment and shine. Official Amazon India verified selection from Parachute.",
     "price": 227.0,
     "compare_at_price": 326.0,
@@ -31086,7 +31086,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12350,
     "name": "Dabur Bringha Ayurvedic Anti-Hairfall Oil with Selfie Applicator 100ml - Classic Edition",
-    "slug": "dabur-hair+oil-1350-12350",
+    "slug": "dabur-hair+oil-1350-12350-12350",
     "description": "Contains 11 herbs and essential oils cooked in virgin coconut milk to grow new hair. Official Amazon India verified selection from Dabur.",
     "price": 479.0,
     "compare_at_price": 853.0,
@@ -31113,7 +31113,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12351,
     "name": "MRF Kashmir Willow Full Size Cricket Bat with Thick Edge Profile - Classic Edition",
-    "slug": "mrf-cricket+equipment-1351-12351",
+    "slug": "mrf-cricket+equipment-1351-12351-12351",
     "description": "Handcrafted grade-1 willow with Singapore cane handle for power hitting and light pickup. Official Amazon India verified selection from MRF.",
     "price": 1679.0,
     "compare_at_price": 2694.0,
@@ -31140,7 +31140,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12352,
     "name": "SG Alum Tanned Leather Cricket Ball (Box of 2 Balls) - Premium Series",
-    "slug": "sg-cricket+equipment-1352-12352",
+    "slug": "sg-cricket+equipment-1352-12352-12352",
     "description": "Four-piece hand stitched seam leather match ball tested for shape retention. Official Amazon India verified selection from SG.",
     "price": 449.0,
     "compare_at_price": 807.0,
@@ -31167,7 +31167,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12353,
     "name": "SS Kashmir Willow Full Size Cricket Bat with Thick Edge Profile - Pro",
-    "slug": "ss-cricket+equipment-1353-12353",
+    "slug": "ss-cricket+equipment-1353-12353-12353",
     "description": "Handcrafted grade-1 willow with Singapore cane handle for power hitting and light pickup. Official Amazon India verified selection from SS.",
     "price": 1634.0,
     "compare_at_price": 2437.0,
@@ -31194,7 +31194,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12354,
     "name": "Kookaburra Alum Tanned Leather Cricket Ball (Box of 2 Balls) - Special Edition",
-    "slug": "kookaburra-cricket+equipment-1354-12354",
+    "slug": "kookaburra-cricket+equipment-1354-12354-12354",
     "description": "Four-piece hand stitched seam leather match ball tested for shape retention. Official Amazon India verified selection from Kookaburra.",
     "price": 459.0,
     "compare_at_price": 784.0,
@@ -31221,7 +31221,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12355,
     "name": "DSC Kashmir Willow Full Size Cricket Bat with Thick Edge Profile - Signature Edition",
-    "slug": "dsc-cricket+equipment-1355-12355",
+    "slug": "dsc-cricket+equipment-1355-12355-12355",
     "description": "Handcrafted grade-1 willow with Singapore cane handle for power hitting and light pickup. Official Amazon India verified selection from DSC.",
     "price": 1694.0,
     "compare_at_price": 3024.0,
@@ -31248,7 +31248,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12356,
     "name": "MRF Alum Tanned Leather Cricket Ball (Box of 2 Balls) - Deluxe",
-    "slug": "mrf-cricket+equipment-1356-12356",
+    "slug": "mrf-cricket+equipment-1356-12356-12356",
     "description": "Four-piece hand stitched seam leather match ball tested for shape retention. Official Amazon India verified selection from MRF.",
     "price": 589.0,
     "compare_at_price": 907.0,
@@ -31275,7 +31275,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12357,
     "name": "SG Kashmir Willow Full Size Cricket Bat with Thick Edge Profile - Sport",
-    "slug": "sg-cricket+equipment-1357-12357",
+    "slug": "sg-cricket+equipment-1357-12357-12357",
     "description": "Handcrafted grade-1 willow with Singapore cane handle for power hitting and light pickup. Official Amazon India verified selection from SG.",
     "price": 1544.0,
     "compare_at_price": 2625.0,
@@ -31302,7 +31302,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12358,
     "name": "SS Alum Tanned Leather Cricket Ball (Box of 2 Balls) - Select",
-    "slug": "ss-cricket+equipment-1358-12358",
+    "slug": "ss-cricket+equipment-1358-12358-12358",
     "description": "Four-piece hand stitched seam leather match ball tested for shape retention. Official Amazon India verified selection from SS.",
     "price": 564.0,
     "compare_at_price": 853.0,
@@ -31329,7 +31329,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12359,
     "name": "Kookaburra Kashmir Willow Full Size Cricket Bat with Thick Edge Profile - Classic Edition",
-    "slug": "kookaburra-cricket+equipment-1359-12359",
+    "slug": "kookaburra-cricket+equipment-1359-12359-12359",
     "description": "Handcrafted grade-1 willow with Singapore cane handle for power hitting and light pickup. Official Amazon India verified selection from Kookaburra.",
     "price": 1499.0,
     "compare_at_price": 2414.0,
@@ -31356,7 +31356,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12360,
     "name": "DSC Alum Tanned Leather Cricket Ball (Box of 2 Balls) - Premium Series",
-    "slug": "dsc-cricket+equipment-1360-12360",
+    "slug": "dsc-cricket+equipment-1360-12360-12360",
     "description": "Four-piece hand stitched seam leather match ball tested for shape retention. Official Amazon India verified selection from DSC.",
     "price": 554.0,
     "compare_at_price": 939.0,
@@ -31383,7 +31383,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12361,
     "name": "MRF Kashmir Willow Full Size Cricket Bat with Thick Edge Profile - Pro",
-    "slug": "mrf-cricket+equipment-1361-12361",
+    "slug": "mrf-cricket+equipment-1361-12361-12361",
     "description": "Handcrafted grade-1 willow with Singapore cane handle for power hitting and light pickup. Official Amazon India verified selection from MRF.",
     "price": 1424.0,
     "compare_at_price": 1947.0,
@@ -31410,7 +31410,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12362,
     "name": "Nivia Storm Standard Size 5 Rubber Moulded Football - Classic Edition",
-    "slug": "nivia-football-1362-12362",
+    "slug": "nivia-football-1362-12362-12362",
     "description": "All-weather durable outer shell with butyl bladder maintaining pressure on turf and grass. Official Amazon India verified selection from Nivia.",
     "price": 533.0,
     "compare_at_price": 906.0,
@@ -31437,7 +31437,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12363,
     "name": "Cosco Breathable Football Shin Guards with Ankle Protection Socks - Premium Series",
-    "slug": "cosco-football-1363-12363",
+    "slug": "cosco-football-1363-12363-12363",
     "description": "High-impact resistant PP shell padded with thick EVA foam cushioning. Official Amazon India verified selection from Cosco.",
     "price": 405.0,
     "compare_at_price": 669.0,
@@ -31464,7 +31464,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12364,
     "name": "Puma Storm Standard Size 5 Rubber Moulded Football - Pro",
-    "slug": "puma-football-1364-12364",
+    "slug": "puma-football-1364-12364-12364",
     "description": "All-weather durable outer shell with butyl bladder maintaining pressure on turf and grass. Official Amazon India verified selection from Puma.",
     "price": 576.0,
     "compare_at_price": 967.0,
@@ -31491,7 +31491,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12365,
     "name": "Adidas Breathable Football Shin Guards with Ankle Protection Socks - Special Edition",
-    "slug": "adidas-football-1365-12365",
+    "slug": "adidas-football-1365-12365-12365",
     "description": "High-impact resistant PP shell padded with thick EVA foam cushioning. Official Amazon India verified selection from Adidas.",
     "price": 349.0,
     "compare_at_price": 521.0,
@@ -31518,7 +31518,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12366,
     "name": "Vector X Storm Standard Size 5 Rubber Moulded Football - Signature Edition",
-    "slug": "vector-x-football-1366-12366",
+    "slug": "vector-x-football-1366-12366-12366",
     "description": "All-weather durable outer shell with butyl bladder maintaining pressure on turf and grass. Official Amazon India verified selection from Vector X.",
     "price": 538.0,
     "compare_at_price": 912.0,
@@ -31545,7 +31545,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12367,
     "name": "Nivia Breathable Football Shin Guards with Ankle Protection Socks - Deluxe",
-    "slug": "nivia-football-1367-12367",
+    "slug": "nivia-football-1367-12367-12367",
     "description": "High-impact resistant PP shell padded with thick EVA foam cushioning. Official Amazon India verified selection from Nivia.",
     "price": 377.0,
     "compare_at_price": 594.0,
@@ -31572,7 +31572,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12368,
     "name": "Cosco Storm Standard Size 5 Rubber Moulded Football - Sport",
-    "slug": "cosco-football-1368-12368",
+    "slug": "cosco-football-1368-12368-12368",
     "description": "All-weather durable outer shell with butyl bladder maintaining pressure on turf and grass. Official Amazon India verified selection from Cosco.",
     "price": 648.0,
     "compare_at_price": 923.0,
@@ -31599,7 +31599,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12369,
     "name": "Puma Breathable Football Shin Guards with Ankle Protection Socks - Select",
-    "slug": "puma-football-1369-12369",
+    "slug": "puma-football-1369-12369-12369",
     "description": "High-impact resistant PP shell padded with thick EVA foam cushioning. Official Amazon India verified selection from Puma.",
     "price": 363.0,
     "compare_at_price": 593.0,
@@ -31626,7 +31626,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12370,
     "name": "Adidas Storm Standard Size 5 Rubber Moulded Football - Classic Edition",
-    "slug": "adidas-football-1370-12370",
+    "slug": "adidas-football-1370-12370-12370",
     "description": "All-weather durable outer shell with butyl bladder maintaining pressure on turf and grass. Official Amazon India verified selection from Adidas.",
     "price": 626.0,
     "compare_at_price": 1066.0,
@@ -31653,7 +31653,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12371,
     "name": "Vector X Breathable Football Shin Guards with Ankle Protection Socks - Premium Series",
-    "slug": "vector-x-football-1371-12371",
+    "slug": "vector-x-football-1371-12371-12371",
     "description": "High-impact resistant PP shell padded with thick EVA foam cushioning. Official Amazon India verified selection from Vector X.",
     "price": 363.0,
     "compare_at_price": 523.0,
@@ -31680,7 +31680,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12372,
     "name": "Nivia Storm Standard Size 5 Rubber Moulded Football - Pro",
-    "slug": "nivia-football-1372-12372",
+    "slug": "nivia-football-1372-12372-12372",
     "description": "All-weather durable outer shell with butyl bladder maintaining pressure on turf and grass. Official Amazon India verified selection from Nivia.",
     "price": 544.0,
     "compare_at_price": 809.0,
@@ -31707,7 +31707,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12373,
     "name": "Boldfit Multi-Grip Doorway Pull-Up Chin-Up Home Workout Bar - Classic Edition",
-    "slug": "boldfit-gym+equipment-1373-12373",
+    "slug": "boldfit-gym+equipment-1373-12373-12373",
     "description": "Heavy-duty steel bar supporting up to 150kg without damaging door frames. Official Amazon India verified selection from Boldfit.",
     "price": 1139.0,
     "compare_at_price": 1602.0,
@@ -31734,7 +31734,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12374,
     "name": "Strauss Dual Wheel Ab Roller with Ergonomic Knee Mat for Core Abs - Premium Series",
-    "slug": "strauss-gym+equipment-1374-12374",
+    "slug": "strauss-gym+equipment-1374-12374-12374",
     "description": "Non-skid rubber wheels with soft foam handles developing core abdominal muscles. Official Amazon India verified selection from Strauss.",
     "price": 530.0,
     "compare_at_price": 770.0,
@@ -31761,7 +31761,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12375,
     "name": "Kore Multi-Grip Doorway Pull-Up Chin-Up Home Workout Bar - Pro",
-    "slug": "kore-gym+equipment-1375-12375",
+    "slug": "kore-gym+equipment-1375-12375-12375",
     "description": "Heavy-duty steel bar supporting up to 150kg without damaging door frames. Official Amazon India verified selection from Kore.",
     "price": 1029.0,
     "compare_at_price": 1562.0,
@@ -31788,7 +31788,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12376,
     "name": "Cockatoo Dual Wheel Ab Roller with Ergonomic Knee Mat for Core Abs - Special Edition",
-    "slug": "cockatoo-gym+equipment-1376-12376",
+    "slug": "cockatoo-gym+equipment-1376-12376-12376",
     "description": "Non-skid rubber wheels with soft foam handles developing core abdominal muscles. Official Amazon India verified selection from Cockatoo.",
     "price": 409.0,
     "compare_at_price": 699.0,
@@ -31815,7 +31815,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12377,
     "name": "Aurion Multi-Grip Doorway Pull-Up Chin-Up Home Workout Bar - Signature Edition",
-    "slug": "aurion-gym+equipment-1377-12377",
+    "slug": "aurion-gym+equipment-1377-12377-12377",
     "description": "Heavy-duty steel bar supporting up to 150kg without damaging door frames. Official Amazon India verified selection from Aurion.",
     "price": 999.0,
     "compare_at_price": 1730.0,
@@ -31842,7 +31842,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12378,
     "name": "Boldfit Dual Wheel Ab Roller with Ergonomic Knee Mat for Core Abs - Deluxe",
-    "slug": "boldfit-gym+equipment-1378-12378",
+    "slug": "boldfit-gym+equipment-1378-12378-12378",
     "description": "Non-skid rubber wheels with soft foam handles developing core abdominal muscles. Official Amazon India verified selection from Boldfit.",
     "price": 449.0,
     "compare_at_price": 610.0,
@@ -31869,7 +31869,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12379,
     "name": "Strauss Multi-Grip Doorway Pull-Up Chin-Up Home Workout Bar - Sport",
-    "slug": "strauss-gym+equipment-1379-12379",
+    "slug": "strauss-gym+equipment-1379-12379-12379",
     "description": "Heavy-duty steel bar supporting up to 150kg without damaging door frames. Official Amazon India verified selection from Strauss.",
     "price": 1079.0,
     "compare_at_price": 1685.0,
@@ -31896,7 +31896,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12380,
     "name": "Kore Dual Wheel Ab Roller with Ergonomic Knee Mat for Core Abs - Select",
-    "slug": "kore-gym+equipment-1380-12380",
+    "slug": "kore-gym+equipment-1380-12380-12380",
     "description": "Non-skid rubber wheels with soft foam handles developing core abdominal muscles. Official Amazon India verified selection from Kore.",
     "price": 427.0,
     "compare_at_price": 689.0,
@@ -31923,7 +31923,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12381,
     "name": "Cockatoo Multi-Grip Doorway Pull-Up Chin-Up Home Workout Bar - Classic Edition",
-    "slug": "cockatoo-gym+equipment-1381-12381",
+    "slug": "cockatoo-gym+equipment-1381-12381-12381",
     "description": "Heavy-duty steel bar supporting up to 150kg without damaging door frames. Official Amazon India verified selection from Cockatoo.",
     "price": 949.0,
     "compare_at_price": 1524.0,
@@ -31950,7 +31950,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12382,
     "name": "Aurion Dual Wheel Ab Roller with Ergonomic Knee Mat for Core Abs - Premium Series",
-    "slug": "aurion-gym+equipment-1382-12382",
+    "slug": "aurion-gym+equipment-1382-12382-12382",
     "description": "Non-skid rubber wheels with soft foam handles developing core abdominal muscles. Official Amazon India verified selection from Aurion.",
     "price": 521.0,
     "compare_at_price": 826.0,
@@ -31977,7 +31977,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12383,
     "name": "Boldfit Multi-Grip Doorway Pull-Up Chin-Up Home Workout Bar - Pro",
-    "slug": "boldfit-gym+equipment-1383-12383",
+    "slug": "boldfit-gym+equipment-1383-12383-12383",
     "description": "Heavy-duty steel bar supporting up to 150kg without damaging door frames. Official Amazon India verified selection from Boldfit.",
     "price": 899.0,
     "compare_at_price": 1576.0,
@@ -32004,7 +32004,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12384,
     "name": "Boldfit Anti-Skid 6mm High Density EVA Yoga Mat with Carry Strap - Classic Edition",
-    "slug": "boldfit-yoga+mats-1384-12384",
+    "slug": "boldfit-yoga+mats-1384-12384-12384",
     "description": "Textured double-sided slip-resistant cushioning protecting knees and joints. Official Amazon India verified selection from Boldfit.",
     "price": 719.0,
     "compare_at_price": 1160.0,
@@ -32031,7 +32031,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12385,
     "name": "Strauss Eco-Friendly 8mm Extra Thick TPE Exercise & Pilates Mat - Premium Series",
-    "slug": "strauss-yoga+mats-1385-12385",
+    "slug": "strauss-yoga+mats-1385-12385-12385",
     "description": "Biodegradable non-toxic sweat-proof mat with laser printed body alignment lines. Official Amazon India verified selection from Strauss.",
     "price": 935.0,
     "compare_at_price": 1393.0,
@@ -32058,7 +32058,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12386,
     "name": "Decathlon Anti-Skid 6mm High Density EVA Yoga Mat with Carry Strap - Pro",
-    "slug": "decathlon-yoga+mats-1386-12386",
+    "slug": "decathlon-yoga+mats-1386-12386-12386",
     "description": "Textured double-sided slip-resistant cushioning protecting knees and joints. Official Amazon India verified selection from Decathlon.",
     "price": 683.0,
     "compare_at_price": 953.0,
@@ -32085,7 +32085,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12387,
     "name": "Solimo Eco-Friendly 8mm Extra Thick TPE Exercise & Pilates Mat - Special Edition",
-    "slug": "solimo-yoga+mats-1387-12387",
+    "slug": "solimo-yoga+mats-1387-12387-12387",
     "description": "Biodegradable non-toxic sweat-proof mat with laser printed body alignment lines. Official Amazon India verified selection from Solimo.",
     "price": 818.0,
     "compare_at_price": 1348.0,
@@ -32112,7 +32112,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12388,
     "name": "WiseLife Anti-Skid 6mm High Density EVA Yoga Mat with Carry Strap - Signature Edition",
-    "slug": "wiselife-yoga+mats-1388-12388",
+    "slug": "wiselife-yoga+mats-1388-12388-12388",
     "description": "Textured double-sided slip-resistant cushioning protecting knees and joints. Official Amazon India verified selection from WiseLife.",
     "price": 647.0,
     "compare_at_price": 928.0,
@@ -32139,7 +32139,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12389,
     "name": "Boldfit Eco-Friendly 8mm Extra Thick TPE Exercise & Pilates Mat - Deluxe",
-    "slug": "boldfit-yoga+mats-1389-12389",
+    "slug": "boldfit-yoga+mats-1389-12389-12389",
     "description": "Biodegradable non-toxic sweat-proof mat with laser printed body alignment lines. Official Amazon India verified selection from Boldfit.",
     "price": 926.0,
     "compare_at_price": 1605.0,
@@ -32166,7 +32166,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12390,
     "name": "Strauss Anti-Skid 6mm High Density EVA Yoga Mat with Carry Strap - Sport",
-    "slug": "strauss-yoga+mats-1390-12390",
+    "slug": "strauss-yoga+mats-1390-12390-12390",
     "description": "Textured double-sided slip-resistant cushioning protecting knees and joints. Official Amazon India verified selection from Strauss.",
     "price": 563.0,
     "compare_at_price": 771.0,
@@ -32193,7 +32193,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12391,
     "name": "Decathlon Eco-Friendly 8mm Extra Thick TPE Exercise & Pilates Mat - Select",
-    "slug": "decathlon-yoga+mats-1391-12391",
+    "slug": "decathlon-yoga+mats-1391-12391-12391",
     "description": "Biodegradable non-toxic sweat-proof mat with laser printed body alignment lines. Official Amazon India verified selection from Decathlon.",
     "price": 845.0,
     "compare_at_price": 1495.0,
@@ -32220,7 +32220,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12392,
     "name": "Solimo Anti-Skid 6mm High Density EVA Yoga Mat with Carry Strap - Classic Edition",
-    "slug": "solimo-yoga+mats-1392-12392",
+    "slug": "solimo-yoga+mats-1392-12392-12392",
     "description": "Textured double-sided slip-resistant cushioning protecting knees and joints. Official Amazon India verified selection from Solimo.",
     "price": 587.0,
     "compare_at_price": 859.0,
@@ -32247,7 +32247,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12393,
     "name": "WiseLife Eco-Friendly 8mm Extra Thick TPE Exercise & Pilates Mat - Premium Series",
-    "slug": "wiselife-yoga+mats-1393-12393",
+    "slug": "wiselife-yoga+mats-1393-12393-12393",
     "description": "Biodegradable non-toxic sweat-proof mat with laser printed body alignment lines. Official Amazon India verified selection from WiseLife.",
     "price": 827.0,
     "compare_at_price": 1158.0,
@@ -32274,7 +32274,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12394,
     "name": "Boldfit Anti-Skid 6mm High Density EVA Yoga Mat with Carry Strap - Pro",
-    "slug": "boldfit-yoga+mats-1394-12394",
+    "slug": "boldfit-yoga+mats-1394-12394-12394",
     "description": "Textured double-sided slip-resistant cushioning protecting knees and joints. Official Amazon India verified selection from Boldfit.",
     "price": 719.0,
     "compare_at_price": 1187.0,
@@ -32301,7 +32301,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12395,
     "name": "Puma Lightweight Breathable Mesh Men's Running & Walking Shoes - Classic Edition",
-    "slug": "puma-running+shoes-1395-12395",
+    "slug": "puma-running+shoes-1395-12395-12395",
     "description": "Memory foam cushioned insole with responsive EVA shock-absorbing outsole. Official Amazon India verified selection from Puma.",
     "price": 1007.0,
     "compare_at_price": 1715.0,
@@ -32328,7 +32328,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12396,
     "name": "Campus Athletic Women's Training Gym Sneakers with Arch Support - Premium Series",
-    "slug": "campus-running+shoes-1396-12396",
+    "slug": "campus-running+shoes-1396-12396-12396",
     "description": "Engineered knit slip-on sneakers offering lightweight flexibility and grip. Official Amazon India verified selection from Campus.",
     "price": 1053.0,
     "compare_at_price": 1428.0,
@@ -32355,7 +32355,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12397,
     "name": "Sparx Lightweight Breathable Mesh Men's Running & Walking Shoes - Pro",
-    "slug": "sparx-running+shoes-1397-12397",
+    "slug": "sparx-running+shoes-1397-12397-12397",
     "description": "Memory foam cushioned insole with responsive EVA shock-absorbing outsole. Official Amazon India verified selection from Sparx.",
     "price": 872.0,
     "compare_at_price": 1239.0,
@@ -32382,7 +32382,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12398,
     "name": "Asian Athletic Women's Training Gym Sneakers with Arch Support - Special Edition",
-    "slug": "asian-running+shoes-1398-12398",
+    "slug": "asian-running+shoes-1398-12398-12398",
     "description": "Engineered knit slip-on sneakers offering lightweight flexibility and grip. Official Amazon India verified selection from Asian.",
     "price": 864.0,
     "compare_at_price": 1327.0,
@@ -32409,7 +32409,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12399,
     "name": "Reebok Lightweight Breathable Mesh Men's Running & Walking Shoes - Signature Edition",
-    "slug": "reebok-running+shoes-1399-12399",
+    "slug": "reebok-running+shoes-1399-12399-12399",
     "description": "Memory foam cushioned insole with responsive EVA shock-absorbing outsole. Official Amazon India verified selection from Reebok.",
     "price": 1043.0,
     "compare_at_price": 1835.0,
@@ -32436,7 +32436,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12400,
     "name": "Puma Athletic Women's Training Gym Sneakers with Arch Support - Deluxe",
-    "slug": "puma-running+shoes-1400-12400",
+    "slug": "puma-running+shoes-1400-12400-12400",
     "description": "Engineered knit slip-on sneakers offering lightweight flexibility and grip. Official Amazon India verified selection from Puma.",
     "price": 977.0,
     "compare_at_price": 1390.0,
@@ -32463,7 +32463,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12401,
     "name": "Campus Lightweight Breathable Mesh Men's Running & Walking Shoes - Sport",
-    "slug": "campus-running+shoes-1401-12401",
+    "slug": "campus-running+shoes-1401-12401-12401",
     "description": "Memory foam cushioned insole with responsive EVA shock-absorbing outsole. Official Amazon India verified selection from Campus.",
     "price": 1061.0,
     "compare_at_price": 1886.0,
@@ -32490,7 +32490,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12402,
     "name": "Sparx Athletic Women's Training Gym Sneakers with Arch Support - Select",
-    "slug": "sparx-running+shoes-1402-12402",
+    "slug": "sparx-running+shoes-1402-12402-12402",
     "description": "Engineered knit slip-on sneakers offering lightweight flexibility and grip. Official Amazon India verified selection from Sparx.",
     "price": 1110.0,
     "compare_at_price": 1705.0,
@@ -32517,7 +32517,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12403,
     "name": "Asian Lightweight Breathable Mesh Men's Running & Walking Shoes - Classic Edition",
-    "slug": "asian-running+shoes-1403-12403",
+    "slug": "asian-running+shoes-1403-12403-12403",
     "description": "Memory foam cushioned insole with responsive EVA shock-absorbing outsole. Official Amazon India verified selection from Asian.",
     "price": 1052.0,
     "compare_at_price": 1876.0,
@@ -32544,7 +32544,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12404,
     "name": "Reebok Athletic Women's Training Gym Sneakers with Arch Support - Premium Series",
-    "slug": "reebok-running+shoes-1404-12404",
+    "slug": "reebok-running+shoes-1404-12404-12404",
     "description": "Engineered knit slip-on sneakers offering lightweight flexibility and grip. Official Amazon India verified selection from Reebok.",
     "price": 892.0,
     "compare_at_price": 1204.0,
@@ -32571,7 +32571,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12405,
     "name": "Puma Lightweight Breathable Mesh Men's Running & Walking Shoes - Pro",
-    "slug": "puma-running+shoes-1405-12405",
+    "slug": "puma-running+shoes-1405-12405-12405",
     "description": "Memory foam cushioned insole with responsive EVA shock-absorbing outsole. Official Amazon India verified selection from Puma.",
     "price": 926.0,
     "compare_at_price": 1253.0,
@@ -32598,7 +32598,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12406,
     "name": "Kore Rubber Encased Hex Dumbbell Pair (5kg x 2 = 10kg) - Classic Edition",
-    "slug": "kore-dumbbells-1406-12406",
+    "slug": "kore-dumbbells-1406-12406-12406",
     "description": "Anti-roll hexagonal rubber heads with knurled ergonomic chrome steel handles. Official Amazon India verified selection from Kore.",
     "price": 1533.0,
     "compare_at_price": 2709.0,
@@ -32625,7 +32625,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12407,
     "name": "Boldfit Adjustable PVC Water & Sand Filled Fitness Dumbbell Set (10kg Combo) - Premium Series",
-    "slug": "boldfit-dumbbells-1407-12407",
+    "slug": "boldfit-dumbbells-1407-12407-12407",
     "description": "Home fitness weight plates with star-lock collars for strength training. Official Amazon India verified selection from Boldfit.",
     "price": 678.0,
     "compare_at_price": 1087.0,
@@ -32652,7 +32652,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12408,
     "name": "Cockatoo Rubber Encased Hex Dumbbell Pair (5kg x 2 = 10kg) - Pro",
-    "slug": "cockatoo-dumbbells-1408-12408",
+    "slug": "cockatoo-dumbbells-1408-12408-12408",
     "description": "Anti-roll hexagonal rubber heads with knurled ergonomic chrome steel handles. Official Amazon India verified selection from Cockatoo.",
     "price": 1546.0,
     "compare_at_price": 2386.0,
@@ -32679,7 +32679,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12409,
     "name": "Rubx Adjustable PVC Water & Sand Filled Fitness Dumbbell Set (10kg Combo) - Special Edition",
-    "slug": "rubx-dumbbells-1409-12409",
+    "slug": "rubx-dumbbells-1409-12409-12409",
     "description": "Home fitness weight plates with star-lock collars for strength training. Official Amazon India verified selection from Rubx.",
     "price": 776.0,
     "compare_at_price": 1172.0,
@@ -32706,7 +32706,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12410,
     "name": "Aurion Rubber Encased Hex Dumbbell Pair (5kg x 2 = 10kg) - Signature Edition",
-    "slug": "aurion-dumbbells-1410-12410",
+    "slug": "aurion-dumbbells-1410-12410-12410",
     "description": "Anti-roll hexagonal rubber heads with knurled ergonomic chrome steel handles. Official Amazon India verified selection from Aurion.",
     "price": 1468.0,
     "compare_at_price": 2371.0,
@@ -32733,7 +32733,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12411,
     "name": "Kore Adjustable PVC Water & Sand Filled Fitness Dumbbell Set (10kg Combo) - Deluxe",
-    "slug": "kore-dumbbells-1411-12411",
+    "slug": "kore-dumbbells-1411-12411-12411",
     "description": "Home fitness weight plates with star-lock collars for strength training. Official Amazon India verified selection from Kore.",
     "price": 790.0,
     "compare_at_price": 1388.0,
@@ -32760,7 +32760,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12412,
     "name": "Boldfit Rubber Encased Hex Dumbbell Pair (5kg x 2 = 10kg) - Sport",
-    "slug": "boldfit-dumbbells-1412-12412",
+    "slug": "boldfit-dumbbells-1412-12412-12412",
     "description": "Anti-roll hexagonal rubber heads with knurled ergonomic chrome steel handles. Official Amazon India verified selection from Boldfit.",
     "price": 1364.0,
     "compare_at_price": 2247.0,
@@ -32787,7 +32787,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12413,
     "name": "Cockatoo Adjustable PVC Water & Sand Filled Fitness Dumbbell Set (10kg Combo) - Select",
-    "slug": "cockatoo-dumbbells-1413-12413",
+    "slug": "cockatoo-dumbbells-1413-12413-12413",
     "description": "Home fitness weight plates with star-lock collars for strength training. Official Amazon India verified selection from Cockatoo.",
     "price": 825.0,
     "compare_at_price": 1362.0,
@@ -32814,7 +32814,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12414,
     "name": "Rubx Rubber Encased Hex Dumbbell Pair (5kg x 2 = 10kg) - Classic Edition",
-    "slug": "rubx-dumbbells-1414-12414",
+    "slug": "rubx-dumbbells-1414-12414-12414",
     "description": "Anti-roll hexagonal rubber heads with knurled ergonomic chrome steel handles. Official Amazon India verified selection from Rubx.",
     "price": 1364.0,
     "compare_at_price": 2444.0,
@@ -32841,7 +32841,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12415,
     "name": "Aurion Adjustable PVC Water & Sand Filled Fitness Dumbbell Set (10kg Combo) - Premium Series",
-    "slug": "aurion-dumbbells-1415-12415",
+    "slug": "aurion-dumbbells-1415-12415-12415",
     "description": "Home fitness weight plates with star-lock collars for strength training. Official Amazon India verified selection from Aurion.",
     "price": 790.0,
     "compare_at_price": 1174.0,
@@ -32868,7 +32868,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12416,
     "name": "Yonex High Modulus Graphite Isometric Badminton Racket with Full Cover - Classic Edition",
-    "slug": "yonex-badminton+rackets-1416-12416",
+    "slug": "yonex-badminton+rackets-1416-12416-12416",
     "description": "Head-light balance frame enabling lightning-fast smashes and defensive recovery. Official Amazon India verified selection from Yonex.",
     "price": 1127.0,
     "compare_at_price": 1969.0,
@@ -32895,7 +32895,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12417,
     "name": "Li-Ning Twin Pack Aluminium Frame Badminton Rackets with 3 Nylon Shuttles - Premium Series",
-    "slug": "li-ning-badminton+rackets-1417-12417",
+    "slug": "li-ning-badminton+rackets-1417-12417-12417",
     "description": "Durable steel joint rackets ideal for family backyard recreation and club practice. Official Amazon India verified selection from Li-Ning.",
     "price": 751.0,
     "compare_at_price": 1331.0,
@@ -32922,7 +32922,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12418,
     "name": "Cosco High Modulus Graphite Isometric Badminton Racket with Full Cover - Pro",
-    "slug": "cosco-badminton+rackets-1418-12418",
+    "slug": "cosco-badminton+rackets-1418-12418-12418",
     "description": "Head-light balance frame enabling lightning-fast smashes and defensive recovery. Official Amazon India verified selection from Cosco.",
     "price": 1391.0,
     "compare_at_price": 2251.0,
@@ -32949,7 +32949,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12419,
     "name": "Senston Twin Pack Aluminium Frame Badminton Rackets with 3 Nylon Shuttles - Special Edition",
-    "slug": "senston-badminton+rackets-1419-12419",
+    "slug": "senston-badminton+rackets-1419-12419-12419",
     "description": "Durable steel joint rackets ideal for family backyard recreation and club practice. Official Amazon India verified selection from Senston.",
     "price": 863.0,
     "compare_at_price": 1239.0,
@@ -32976,7 +32976,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12420,
     "name": "Silver's High Modulus Graphite Isometric Badminton Racket with Full Cover - Signature Edition",
-    "slug": "silver's-badminton+rackets-1420-12420",
+    "slug": "silver's-badminton+rackets-1420-12420-12420",
     "description": "Head-light balance frame enabling lightning-fast smashes and defensive recovery. Official Amazon India verified selection from Silver's.",
     "price": 1139.0,
     "compare_at_price": 1617.0,
@@ -33003,7 +33003,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12421,
     "name": "Yonex Twin Pack Aluminium Frame Badminton Rackets with 3 Nylon Shuttles - Deluxe",
-    "slug": "yonex-badminton+rackets-1421-12421",
+    "slug": "yonex-badminton+rackets-1421-12421-12421",
     "description": "Durable steel joint rackets ideal for family backyard recreation and club practice. Official Amazon India verified selection from Yonex.",
     "price": 815.0,
     "compare_at_price": 1199.0,
@@ -33030,7 +33030,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12422,
     "name": "Li-Ning High Modulus Graphite Isometric Badminton Racket with Full Cover - Sport",
-    "slug": "li-ning-badminton+rackets-1422-12422",
+    "slug": "li-ning-badminton+rackets-1422-12422-12422",
     "description": "Head-light balance frame enabling lightning-fast smashes and defensive recovery. Official Amazon India verified selection from Li-Ning.",
     "price": 1151.0,
     "compare_at_price": 2009.0,
@@ -33057,7 +33057,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12423,
     "name": "Cosco Twin Pack Aluminium Frame Badminton Rackets with 3 Nylon Shuttles - Select",
-    "slug": "cosco-badminton+rackets-1423-12423",
+    "slug": "cosco-badminton+rackets-1423-12423-12423",
     "description": "Durable steel joint rackets ideal for family backyard recreation and club practice. Official Amazon India verified selection from Cosco.",
     "price": 791.0,
     "compare_at_price": 1420.0,
@@ -33084,7 +33084,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12424,
     "name": "Senston High Modulus Graphite Isometric Badminton Racket with Full Cover - Classic Edition",
-    "slug": "senston-badminton+rackets-1424-12424",
+    "slug": "senston-badminton+rackets-1424-12424-12424",
     "description": "Head-light balance frame enabling lightning-fast smashes and defensive recovery. Official Amazon India verified selection from Senston.",
     "price": 1295.0,
     "compare_at_price": 2075.0,
@@ -33111,7 +33111,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12425,
     "name": "Silver's Twin Pack Aluminium Frame Badminton Rackets with 3 Nylon Shuttles - Premium Series",
-    "slug": "silver's-badminton+rackets-1425-12425",
+    "slug": "silver's-badminton+rackets-1425-12425-12425",
     "description": "Durable steel joint rackets ideal for family backyard recreation and club practice. Official Amazon India verified selection from Silver's.",
     "price": 815.0,
     "compare_at_price": 1101.0,
@@ -33138,7 +33138,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12426,
     "name": "FirstCry Unisex Organic Cotton Infant Bodysuits Onesies (Pack of 3) - Classic Edition",
-    "slug": "firstcry-baby+clothes-1426-12426",
+    "slug": "firstcry-baby+clothes-1426-12426-12426",
     "description": "Breathable hypoallergenic baby onesies with snap crotch closures for quick diapering. Official Amazon India verified selection from FirstCry.",
     "price": 587.0,
     "compare_at_price": 939.0,
@@ -33165,7 +33165,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12427,
     "name": "Mothercare Newborn Baby Cotton Booties and Mittens Set (Combo of 4 Pairs) - Premium Series",
-    "slug": "mothercare-baby+clothes-1427-12427",
+    "slug": "mothercare-baby+clothes-1427-12427-12427",
     "description": "Soft ribbed cotton baby accessories preventing accidental face scratching. Official Amazon India verified selection from Mothercare.",
     "price": 320.0,
     "compare_at_price": 494.0,
@@ -33192,7 +33192,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12428,
     "name": "Mini Klub Unisex Organic Cotton Infant Bodysuits Onesies (Pack of 3) - Pro",
-    "slug": "mini-klub-baby+clothes-1428-12428",
+    "slug": "mini-klub-baby+clothes-1428-12428-12428",
     "description": "Breathable hypoallergenic baby onesies with snap crotch closures for quick diapering. Official Amazon India verified selection from Mini Klub.",
     "price": 626.0,
     "compare_at_price": 891.0,
@@ -33219,7 +33219,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12429,
     "name": "Himalaya Baby Newborn Baby Cotton Booties and Mittens Set (Combo of 4 Pairs) - Special Edition",
-    "slug": "himalaya-baby-baby+clothes-1429-12429",
+    "slug": "himalaya-baby-baby+clothes-1429-12429-12429",
     "description": "Soft ribbed cotton baby accessories preventing accidental face scratching. Official Amazon India verified selection from Himalaya Baby.",
     "price": 314.0,
     "compare_at_price": 439.0,
@@ -33246,7 +33246,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12430,
     "name": "Chicco Unisex Organic Cotton Infant Bodysuits Onesies (Pack of 3) - Signature Edition",
-    "slug": "chicco-baby+clothes-1430-12430",
+    "slug": "chicco-baby+clothes-1430-12430-12430",
     "description": "Breathable hypoallergenic baby onesies with snap crotch closures for quick diapering. Official Amazon India verified selection from Chicco.",
     "price": 500.0,
     "compare_at_price": 882.0,
@@ -33273,7 +33273,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12431,
     "name": "FirstCry Newborn Baby Cotton Booties and Mittens Set (Combo of 4 Pairs) - Deluxe",
-    "slug": "firstcry-baby+clothes-1431-12431",
+    "slug": "firstcry-baby+clothes-1431-12431-12431",
     "description": "Soft ribbed cotton baby accessories preventing accidental face scratching. Official Amazon India verified selection from FirstCry.",
     "price": 353.0,
     "compare_at_price": 587.0,
@@ -33300,7 +33300,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12432,
     "name": "Mothercare Unisex Organic Cotton Infant Bodysuits Onesies (Pack of 3) - Sport",
-    "slug": "mothercare-baby+clothes-1432-12432",
+    "slug": "mothercare-baby+clothes-1432-12432-12432",
     "description": "Breathable hypoallergenic baby onesies with snap crotch closures for quick diapering. Official Amazon India verified selection from Mothercare.",
     "price": 516.0,
     "compare_at_price": 767.0,
@@ -33327,7 +33327,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12433,
     "name": "Mini Klub Newborn Baby Cotton Booties and Mittens Set (Combo of 4 Pairs) - Select",
-    "slug": "mini-klub-baby+clothes-1433-12433",
+    "slug": "mini-klub-baby+clothes-1433-12433-12433",
     "description": "Soft ribbed cotton baby accessories preventing accidental face scratching. Official Amazon India verified selection from Mini Klub.",
     "price": 347.0,
     "compare_at_price": 497.0,
@@ -33354,7 +33354,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12434,
     "name": "Himalaya Baby Unisex Organic Cotton Infant Bodysuits Onesies (Pack of 3) - Classic Edition",
-    "slug": "himalaya-baby-baby+clothes-1434-12434",
+    "slug": "himalaya-baby-baby+clothes-1434-12434-12434",
     "description": "Breathable hypoallergenic baby onesies with snap crotch closures for quick diapering. Official Amazon India verified selection from Himalaya Baby.",
     "price": 642.0,
     "compare_at_price": 885.0,
@@ -33381,7 +33381,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12435,
     "name": "Chicco Newborn Baby Cotton Booties and Mittens Set (Combo of 4 Pairs) - Premium Series",
-    "slug": "chicco-baby+clothes-1435-12435",
+    "slug": "chicco-baby+clothes-1435-12435-12435",
     "description": "Soft ribbed cotton baby accessories preventing accidental face scratching. Official Amazon India verified selection from Chicco.",
     "price": 320.0,
     "compare_at_price": 562.0,
@@ -33408,7 +33408,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12436,
     "name": "FirstCry Unisex Organic Cotton Infant Bodysuits Onesies (Pack of 3) - Pro",
-    "slug": "firstcry-baby+clothes-1436-12436",
+    "slug": "firstcry-baby+clothes-1436-12436-12436",
     "description": "Breathable hypoallergenic baby onesies with snap crotch closures for quick diapering. Official Amazon India verified selection from FirstCry.",
     "price": 565.0,
     "compare_at_price": 885.0,
@@ -33435,7 +33435,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12437,
     "name": "Fisher-Price BPA-Free Non-Toxic Silicone Baby Teether & Rattle Set (Pack of 5) - Classic Edition",
-    "slug": "fisher-price-baby+toys-1437-12437",
+    "slug": "fisher-price-baby+toys-1437-12437-12437",
     "description": "Multi-textured colorful teething toys massaging tender gums and stimulating sensory play. Official Amazon India verified selection from Fisher-Price.",
     "price": 399.0,
     "compare_at_price": 685.0,
@@ -33462,7 +33462,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12438,
     "name": "Chicco Musical Activity Walking Toddler Learning Table with Lights - Premium Series",
-    "slug": "chicco-baby+toys-1438-12438",
+    "slug": "chicco-baby+toys-1438-12438-12438",
     "description": "Interactive early learning play centre teaching numbers, animal sounds, and melodies. Official Amazon India verified selection from Chicco.",
     "price": 1429.0,
     "compare_at_price": 2572.0,
@@ -33489,7 +33489,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12439,
     "name": "Mee Mee BPA-Free Non-Toxic Silicone Baby Teether & Rattle Set (Pack of 5) - Pro",
-    "slug": "mee-mee-baby+toys-1439-12439",
+    "slug": "mee-mee-baby+toys-1439-12439-12439",
     "description": "Multi-textured colorful teething toys massaging tender gums and stimulating sensory play. Official Amazon India verified selection from Mee Mee.",
     "price": 467.0,
     "compare_at_price": 781.0,
@@ -33516,7 +33516,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12440,
     "name": "Funskool Musical Activity Walking Toddler Learning Table with Lights - Special Edition",
-    "slug": "funskool-baby+toys-1440-12440",
+    "slug": "funskool-baby+toys-1440-12440-12440",
     "description": "Interactive early learning play centre teaching numbers, animal sounds, and melodies. Official Amazon India verified selection from Funskool.",
     "price": 1234.0,
     "compare_at_price": 2187.0,
@@ -33543,7 +33543,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12441,
     "name": "Fat Brain BPA-Free Non-Toxic Silicone Baby Teether & Rattle Set (Pack of 5) - Signature Edition",
-    "slug": "fat-brain-baby+toys-1441-12441",
+    "slug": "fat-brain-baby+toys-1441-12441-12441",
     "description": "Multi-textured colorful teething toys massaging tender gums and stimulating sensory play. Official Amazon India verified selection from Fat Brain.",
     "price": 427.0,
     "compare_at_price": 645.0,
@@ -33570,7 +33570,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12442,
     "name": "Fisher-Price Musical Activity Walking Toddler Learning Table with Lights - Deluxe",
-    "slug": "fisher-price-baby+toys-1442-12442",
+    "slug": "fisher-price-baby+toys-1442-12442-12442",
     "description": "Interactive early learning play centre teaching numbers, animal sounds, and melodies. Official Amazon India verified selection from Fisher-Price.",
     "price": 1234.0,
     "compare_at_price": 2142.0,
@@ -33597,7 +33597,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12443,
     "name": "Chicco BPA-Free Non-Toxic Silicone Baby Teether & Rattle Set (Pack of 5) - Sport",
-    "slug": "chicco-baby+toys-1443-12443",
+    "slug": "chicco-baby+toys-1443-12443-12443",
     "description": "Multi-textured colorful teething toys massaging tender gums and stimulating sensory play. Official Amazon India verified selection from Chicco.",
     "price": 459.0,
     "compare_at_price": 781.0,
@@ -33624,7 +33624,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12444,
     "name": "Mee Mee Musical Activity Walking Toddler Learning Table with Lights - Select",
-    "slug": "mee-mee-baby+toys-1444-12444",
+    "slug": "mee-mee-baby+toys-1444-12444-12444",
     "description": "Interactive early learning play centre teaching numbers, animal sounds, and melodies. Official Amazon India verified selection from Mee Mee.",
     "price": 1377.0,
     "compare_at_price": 1912.0,
@@ -33651,7 +33651,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12445,
     "name": "Funskool BPA-Free Non-Toxic Silicone Baby Teether & Rattle Set (Pack of 5) - Classic Edition",
-    "slug": "funskool-baby+toys-1445-12445",
+    "slug": "funskool-baby+toys-1445-12445-12445",
     "description": "Multi-textured colorful teething toys massaging tender gums and stimulating sensory play. Official Amazon India verified selection from Funskool.",
     "price": 399.0,
     "compare_at_price": 699.0,
@@ -33678,7 +33678,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12446,
     "name": "Fat Brain Musical Activity Walking Toddler Learning Table with Lights - Premium Series",
-    "slug": "fat-brain-baby+toys-1446-12446",
+    "slug": "fat-brain-baby+toys-1446-12446-12446",
     "description": "Interactive early learning play centre teaching numbers, animal sounds, and melodies. Official Amazon India verified selection from Fat Brain.",
     "price": 1494.0,
     "compare_at_price": 2249.0,
@@ -33705,7 +33705,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12447,
     "name": "Fisher-Price BPA-Free Non-Toxic Silicone Baby Teether & Rattle Set (Pack of 5) - Pro",
-    "slug": "fisher-price-baby+toys-1447-12447",
+    "slug": "fisher-price-baby+toys-1447-12447-12447",
     "description": "Multi-textured colorful teething toys massaging tender gums and stimulating sensory play. Official Amazon India verified selection from Fisher-Price.",
     "price": 395.0,
     "compare_at_price": 694.0,
@@ -33732,7 +33732,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12448,
     "name": "Lego Wooden Montessori Alphabet & Number Sorting Board Puzzle - Classic Edition",
-    "slug": "lego-educational+toys-1448-12448",
+    "slug": "lego-educational+toys-1448-12448-12448",
     "description": "Eco-friendly non-toxic painted peg puzzle developing fine motor skills in toddlers. Official Amazon India verified selection from Lego.",
     "price": 525.0,
     "compare_at_price": 882.0,
@@ -33759,7 +33759,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12449,
     "name": "Smartivity DIY Science Experiment Mechanics Robotic STEM Construction Kit - Premium Series",
-    "slug": "smartivity-educational+toys-1449-12449",
+    "slug": "smartivity-educational+toys-1449-12449-12449",
     "description": "Engaging hands-on mechanical building game teaching fundamental physics and engineering. Official Amazon India verified selection from Smartivity.",
     "price": 1052.0,
     "compare_at_price": 1455.0,
@@ -33786,7 +33786,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12450,
     "name": "Skillmatics Wooden Montessori Alphabet & Number Sorting Board Puzzle - Pro",
-    "slug": "skillmatics-educational+toys-1450-12450",
+    "slug": "skillmatics-educational+toys-1450-12450-12450",
     "description": "Eco-friendly non-toxic painted peg puzzle developing fine motor skills in toddlers. Official Amazon India verified selection from Skillmatics.",
     "price": 530.0,
     "compare_at_price": 750.0,
@@ -33813,7 +33813,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12451,
     "name": "Shumee DIY Science Experiment Mechanics Robotic STEM Construction Kit - Special Edition",
-    "slug": "shumee-educational+toys-1451-12451",
+    "slug": "shumee-educational+toys-1451-12451-12451",
     "description": "Engaging hands-on mechanical building game teaching fundamental physics and engineering. Official Amazon India verified selection from Shumee.",
     "price": 1025.0,
     "compare_at_price": 1675.0,
@@ -33840,7 +33840,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12452,
     "name": "Melissa & Doug Wooden Montessori Alphabet & Number Sorting Board Puzzle - Signature Edition",
-    "slug": "melissa-&-doug-educational+toys-1452-12452",
+    "slug": "melissa-&-doug-educational+toys-1452-12452-12452",
     "description": "Eco-friendly non-toxic painted peg puzzle developing fine motor skills in toddlers. Official Amazon India verified selection from Melissa & Doug.",
     "price": 530.0,
     "compare_at_price": 945.0,
@@ -33867,7 +33867,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12453,
     "name": "Lego DIY Science Experiment Mechanics Robotic STEM Construction Kit - Deluxe",
-    "slug": "lego-educational+toys-1453-12453",
+    "slug": "lego-educational+toys-1453-12453-12453",
     "description": "Engaging hands-on mechanical building game teaching fundamental physics and engineering. Official Amazon India verified selection from Lego.",
     "price": 1061.0,
     "compare_at_price": 1784.0,
@@ -33894,7 +33894,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12454,
     "name": "Smartivity Wooden Montessori Alphabet & Number Sorting Board Puzzle - Sport",
-    "slug": "smartivity-educational+toys-1454-12454",
+    "slug": "smartivity-educational+toys-1454-12454-12454",
     "description": "Eco-friendly non-toxic painted peg puzzle developing fine motor skills in toddlers. Official Amazon India verified selection from Smartivity.",
     "price": 467.0,
     "compare_at_price": 808.0,
@@ -33921,7 +33921,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12455,
     "name": "Skillmatics DIY Science Experiment Mechanics Robotic STEM Construction Kit - Select",
-    "slug": "skillmatics-educational+toys-1455-12455",
+    "slug": "skillmatics-educational+toys-1455-12455-12455",
     "description": "Engaging hands-on mechanical building game teaching fundamental physics and engineering. Official Amazon India verified selection from Skillmatics.",
     "price": 962.0,
     "compare_at_price": 1322.0,
@@ -33948,7 +33948,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12456,
     "name": "Shumee Wooden Montessori Alphabet & Number Sorting Board Puzzle - Classic Edition",
-    "slug": "shumee-educational+toys-1456-12456",
+    "slug": "shumee-educational+toys-1456-12456-12456",
     "description": "Eco-friendly non-toxic painted peg puzzle developing fine motor skills in toddlers. Official Amazon India verified selection from Shumee.",
     "price": 431.0,
     "compare_at_price": 683.0,
@@ -33975,7 +33975,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12457,
     "name": "Melissa & Doug DIY Science Experiment Mechanics Robotic STEM Construction Kit - Premium Series",
-    "slug": "melissa-&-doug-educational+toys-1457-12457",
+    "slug": "melissa-&-doug-educational+toys-1457-12457-12457",
     "description": "Engaging hands-on mechanical building game teaching fundamental physics and engineering. Official Amazon India verified selection from Melissa & Doug.",
     "price": 845.0,
     "compare_at_price": 1495.0,
@@ -34002,7 +34002,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12458,
     "name": "Lego Wooden Montessori Alphabet & Number Sorting Board Puzzle - Pro",
-    "slug": "lego-educational+toys-1458-12458",
+    "slug": "lego-educational+toys-1458-12458-12458",
     "description": "Eco-friendly non-toxic painted peg puzzle developing fine motor skills in toddlers. Official Amazon India verified selection from Lego.",
     "price": 440.0,
     "compare_at_price": 775.0,
@@ -34029,7 +34029,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12459,
     "name": "Hot Wheels High-Speed 360 Stunt RC Car with LED Headlights & Rechargeable Battery - Classic Edition",
-    "slug": "hot-wheels-remote+control+cars-1459-12459",
+    "slug": "hot-wheels-remote+control+cars-1459-12459-12459",
     "description": "Dual-sided tumbling 4WD vehicle conquering carpet, grass, and rough terrain. Official Amazon India verified selection from Hot Wheels.",
     "price": 962.0,
     "compare_at_price": 1699.0,
@@ -34056,7 +34056,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12460,
     "name": "Webby Scale 1:18 Licensed Luxury Sports RC Supercar with Radio Controller - Premium Series",
-    "slug": "webby-remote+control+cars-1460-12460",
+    "slug": "webby-remote+control+cars-1460-12460-12460",
     "description": "Authentic aerodynamic styling with functional shock absorbers and rubber tires. Official Amazon India verified selection from Webby.",
     "price": 1319.0,
     "compare_at_price": 1853.0,
@@ -34083,7 +34083,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12461,
     "name": "Storio High-Speed 360 Stunt RC Car with LED Headlights & Rechargeable Battery - Pro",
-    "slug": "storio-remote+control+cars-1461-12461",
+    "slug": "storio-remote+control+cars-1461-12461-12461",
     "description": "Dual-sided tumbling 4WD vehicle conquering carpet, grass, and rough terrain. Official Amazon India verified selection from Storio.",
     "price": 899.0,
     "compare_at_price": 1494.0,
@@ -34110,7 +34110,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12462,
     "name": "Wembley Scale 1:18 Licensed Luxury Sports RC Supercar with Radio Controller - Special Edition",
-    "slug": "wembley-remote+control+cars-1462-12462",
+    "slug": "wembley-remote+control+cars-1462-12462-12462",
     "description": "Authentic aerodynamic styling with functional shock absorbers and rubber tires. Official Amazon India verified selection from Wembley.",
     "price": 1211.0,
     "compare_at_price": 1750.0,
@@ -34137,7 +34137,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12463,
     "name": "Miss & Chief High-Speed 360 Stunt RC Car with LED Headlights & Rechargeable Battery - Signature Edition",
-    "slug": "miss-&-chief-remote+control+cars-1463-12463",
+    "slug": "miss-&-chief-remote+control+cars-1463-12463-12463",
     "description": "Dual-sided tumbling 4WD vehicle conquering carpet, grass, and rough terrain. Official Amazon India verified selection from Miss & Chief.",
     "price": 980.0,
     "compare_at_price": 1664.0,
@@ -34164,7 +34164,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12464,
     "name": "Hot Wheels Scale 1:18 Licensed Luxury Sports RC Supercar with Radio Controller - Deluxe",
-    "slug": "hot-wheels-remote+control+cars-1464-12464",
+    "slug": "hot-wheels-remote+control+cars-1464-12464-12464",
     "description": "Authentic aerodynamic styling with functional shock absorbers and rubber tires. Official Amazon India verified selection from Hot Wheels.",
     "price": 1103.0,
     "compare_at_price": 1570.0,
@@ -34191,7 +34191,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12465,
     "name": "Webby High-Speed 360 Stunt RC Car with LED Headlights & Rechargeable Battery - Sport",
-    "slug": "webby-remote+control+cars-1465-12465",
+    "slug": "webby-remote+control+cars-1465-12465-12465",
     "description": "Dual-sided tumbling 4WD vehicle conquering carpet, grass, and rough terrain. Official Amazon India verified selection from Webby.",
     "price": 944.0,
     "compare_at_price": 1400.0,
@@ -34218,7 +34218,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12466,
     "name": "Storio Scale 1:18 Licensed Luxury Sports RC Supercar with Radio Controller - Select",
-    "slug": "storio-remote+control+cars-1466-12466",
+    "slug": "storio-remote+control+cars-1466-12466-12466",
     "description": "Authentic aerodynamic styling with functional shock absorbers and rubber tires. Official Amazon India verified selection from Storio.",
     "price": 1187.0,
     "compare_at_price": 1880.0,
@@ -34245,7 +34245,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12467,
     "name": "Wembley High-Speed 360 Stunt RC Car with LED Headlights & Rechargeable Battery - Classic Edition",
-    "slug": "wembley-remote+control+cars-1467-12467",
+    "slug": "wembley-remote+control+cars-1467-12467-12467",
     "description": "Dual-sided tumbling 4WD vehicle conquering carpet, grass, and rough terrain. Official Amazon India verified selection from Wembley.",
     "price": 908.0,
     "compare_at_price": 1341.0,
@@ -34272,7 +34272,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12468,
     "name": "Miss & Chief Scale 1:18 Licensed Luxury Sports RC Supercar with Radio Controller - Premium Series",
-    "slug": "miss-&-chief-remote+control+cars-1468-12468",
+    "slug": "miss-&-chief-remote+control+cars-1468-12468-12468",
     "description": "Authentic aerodynamic styling with functional shock absorbers and rubber tires. Official Amazon India verified selection from Miss & Chief.",
     "price": 1367.0,
     "compare_at_price": 2347.0,
@@ -34299,7 +34299,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12469,
     "name": "Hot Wheels High-Speed 360 Stunt RC Car with LED Headlights & Rechargeable Battery - Pro",
-    "slug": "hot-wheels-remote+control+cars-1469-12469",
+    "slug": "hot-wheels-remote+control+cars-1469-12469-12469",
     "description": "Dual-sided tumbling 4WD vehicle conquering carpet, grass, and rough terrain. Official Amazon India verified selection from Hot Wheels.",
     "price": 854.0,
     "compare_at_price": 1516.0,
@@ -34326,7 +34326,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12470,
     "name": "Lego Classic Creative Building Bricks Storage Box (300 Pieces) - Classic Edition",
-    "slug": "lego-building+blocks-1470-12470",
+    "slug": "lego-building+blocks-1470-12470-12470",
     "description": "Vibrant multi-shaped architectural construction blocks sparking unlimited imagination. Official Amazon India verified selection from Lego.",
     "price": 1159.0,
     "compare_at_price": 1666.0,
@@ -34353,7 +34353,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12471,
     "name": "Mega Bloks Toddler Big Sized Interlocking Plastic Building Blocks Bucket - Premium Series",
-    "slug": "mega-bloks-building+blocks-1471-12471",
+    "slug": "mega-bloks-building+blocks-1471-12471-12471",
     "description": "Chunky lightweight blocks easy for small hands to stack, sort, and build. Official Amazon India verified selection from Mega Bloks.",
     "price": 719.0,
     "compare_at_price": 971.0,
@@ -34380,7 +34380,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12472,
     "name": "Sluban Classic Creative Building Bricks Storage Box (300 Pieces) - Pro",
-    "slug": "sluban-building+blocks-1472-12472",
+    "slug": "sluban-building+blocks-1472-12472-12472",
     "description": "Vibrant multi-shaped architectural construction blocks sparking unlimited imagination. Official Amazon India verified selection from Sluban.",
     "price": 1059.0,
     "compare_at_price": 1697.0,
@@ -34407,7 +34407,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12473,
     "name": "Funskool Toddler Big Sized Interlocking Plastic Building Blocks Bucket - Special Edition",
-    "slug": "funskool-building+blocks-1473-12473",
+    "slug": "funskool-building+blocks-1473-12473-12473",
     "description": "Chunky lightweight blocks easy for small hands to stack, sort, and build. Official Amazon India verified selection from Funskool.",
     "price": 551.0,
     "compare_at_price": 868.0,
@@ -34434,7 +34434,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12474,
     "name": "Little's Classic Creative Building Bricks Storage Box (300 Pieces) - Signature Edition",
-    "slug": "little's-building+blocks-1474-12474",
+    "slug": "little's-building+blocks-1474-12474-12474",
     "description": "Vibrant multi-shaped architectural construction blocks sparking unlimited imagination. Official Amazon India verified selection from Little's.",
     "price": 1029.0,
     "compare_at_price": 1432.0,
@@ -34461,7 +34461,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12475,
     "name": "Lego Toddler Big Sized Interlocking Plastic Building Blocks Bucket - Deluxe",
-    "slug": "lego-building+blocks-1475-12475",
+    "slug": "lego-building+blocks-1475-12475-12475",
     "description": "Chunky lightweight blocks easy for small hands to stack, sort, and build. Official Amazon India verified selection from Lego.",
     "price": 605.0,
     "compare_at_price": 1044.0,
@@ -34488,7 +34488,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12476,
     "name": "Mega Bloks Classic Creative Building Bricks Storage Box (300 Pieces) - Sport",
-    "slug": "mega-bloks-building+blocks-1476-12476",
+    "slug": "mega-bloks-building+blocks-1476-12476-12476",
     "description": "Vibrant multi-shaped architectural construction blocks sparking unlimited imagination. Official Amazon India verified selection from Mega Bloks.",
     "price": 989.0,
     "compare_at_price": 1549.0,
@@ -34515,7 +34515,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12477,
     "name": "Sluban Toddler Big Sized Interlocking Plastic Building Blocks Bucket - Select",
-    "slug": "sluban-building+blocks-1477-12477",
+    "slug": "sluban-building+blocks-1477-12477-12477",
     "description": "Chunky lightweight blocks easy for small hands to stack, sort, and build. Official Amazon India verified selection from Sluban.",
     "price": 713.0,
     "compare_at_price": 1136.0,
@@ -34542,7 +34542,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12478,
     "name": "Funskool Classic Creative Building Bricks Storage Box (300 Pieces) - Classic Edition",
-    "slug": "funskool-building+blocks-1478-12478",
+    "slug": "funskool-building+blocks-1478-12478-12478",
     "description": "Vibrant multi-shaped architectural construction blocks sparking unlimited imagination. Official Amazon India verified selection from Funskool.",
     "price": 1099.0,
     "compare_at_price": 1797.0,
@@ -34569,7 +34569,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12479,
     "name": "Little's Toddler Big Sized Interlocking Plastic Building Blocks Bucket - Premium Series",
-    "slug": "little's-building+blocks-1479-12479",
+    "slug": "little's-building+blocks-1479-12479-12479",
     "description": "Chunky lightweight blocks easy for small hands to stack, sort, and build. Official Amazon India verified selection from Little's.",
     "price": 713.0,
     "compare_at_price": 1119.0,
@@ -34596,7 +34596,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12480,
     "name": "Lego Classic Creative Building Bricks Storage Box (300 Pieces) - Pro",
-    "slug": "lego-building+blocks-1480-12480",
+    "slug": "lego-building+blocks-1480-12480-12480",
     "description": "Vibrant multi-shaped architectural construction blocks sparking unlimited imagination. Official Amazon India verified selection from Lego.",
     "price": 1079.0,
     "compare_at_price": 1843.0,
@@ -34623,7 +34623,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12481,
     "name": "Hasbro Classic Monopoly Board Game - India Edition with Electronic Banking - Classic Edition",
-    "slug": "hasbro-board+games-1481-12481",
+    "slug": "hasbro-board+games-1481-12481-12481",
     "description": "World's favourite property trading board game for exciting family nights and strategy. Official Amazon India verified selection from Hasbro.",
     "price": 935.0,
     "compare_at_price": 1478.0,
@@ -34650,7 +34650,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12482,
     "name": "Mattel Magnetic Foldable Wooden Chess & Checkers Board Set (12x12 Inch) - Premium Series",
-    "slug": "mattel-board+games-1482-12482",
+    "slug": "mattel-board+games-1482-12482-12482",
     "description": "Hand-carved wooden chessmen with felted bases and velvet interior storage compartments. Official Amazon India verified selection from Mattel.",
     "price": 649.0,
     "compare_at_price": 887.0,
@@ -34677,7 +34677,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12483,
     "name": "Funskool Classic Monopoly Board Game - India Edition with Electronic Banking - Pro",
-    "slug": "funskool-board+games-1483-12483",
+    "slug": "funskool-board+games-1483-12483-12483",
     "description": "World's favourite property trading board game for exciting family nights and strategy. Official Amazon India verified selection from Funskool.",
     "price": 827.0,
     "compare_at_price": 1460.0,
@@ -34704,7 +34704,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12484,
     "name": "Skillmatics Magnetic Foldable Wooden Chess & Checkers Board Set (12x12 Inch) - Special Edition",
-    "slug": "skillmatics-board+games-1484-12484",
+    "slug": "skillmatics-board+games-1484-12484-12484",
     "description": "Hand-carved wooden chessmen with felted bases and velvet interior storage compartments. Official Amazon India verified selection from Skillmatics.",
     "price": 681.0,
     "compare_at_price": 1083.0,
@@ -34731,7 +34731,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12485,
     "name": "Frank Classic Monopoly Board Game - India Edition with Electronic Banking - Signature Edition",
-    "slug": "frank-board+games-1485-12485",
+    "slug": "frank-board+games-1485-12485-12485",
     "description": "World's favourite property trading board game for exciting family nights and strategy. Official Amazon India verified selection from Frank.",
     "price": 971.0,
     "compare_at_price": 1453.0,
@@ -34758,7 +34758,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12486,
     "name": "Hasbro Magnetic Foldable Wooden Chess & Checkers Board Set (12x12 Inch) - Deluxe",
-    "slug": "hasbro-board+games-1486-12486",
+    "slug": "hasbro-board+games-1486-12486-12486",
     "description": "Hand-carved wooden chessmen with felted bases and velvet interior storage compartments. Official Amazon India verified selection from Hasbro.",
     "price": 779.0,
     "compare_at_price": 1342.0,
@@ -34785,7 +34785,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12487,
     "name": "Mattel Classic Monopoly Board Game - India Edition with Electronic Banking - Sport",
-    "slug": "mattel-board+games-1487-12487",
+    "slug": "mattel-board+games-1487-12487-12487",
     "description": "World's favourite property trading board game for exciting family nights and strategy. Official Amazon India verified selection from Mattel.",
     "price": 1007.0,
     "compare_at_price": 1600.0,
@@ -34812,7 +34812,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12488,
     "name": "Funskool Magnetic Foldable Wooden Chess & Checkers Board Set (12x12 Inch) - Select",
-    "slug": "funskool-board+games-1488-12488",
+    "slug": "funskool-board+games-1488-12488-12488",
     "description": "Hand-carved wooden chessmen with felted bases and velvet interior storage compartments. Official Amazon India verified selection from Funskool.",
     "price": 779.0,
     "compare_at_price": 1150.0,
@@ -34839,7 +34839,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12489,
     "name": "Skillmatics Classic Monopoly Board Game - India Edition with Electronic Banking - Classic Edition",
-    "slug": "skillmatics-board+games-1489-12489",
+    "slug": "skillmatics-board+games-1489-12489-12489",
     "description": "World's favourite property trading board game for exciting family nights and strategy. Official Amazon India verified selection from Skillmatics.",
     "price": 998.0,
     "compare_at_price": 1479.0,
@@ -34866,7 +34866,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12490,
     "name": "Frank Magnetic Foldable Wooden Chess & Checkers Board Set (12x12 Inch) - Premium Series",
-    "slug": "frank-board+games-1490-12490",
+    "slug": "frank-board+games-1490-12490-12490",
     "description": "Hand-carved wooden chessmen with felted bases and velvet interior storage compartments. Official Amazon India verified selection from Frank.",
     "price": 617.0,
     "compare_at_price": 865.0,
@@ -34893,7 +34893,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12491,
     "name": "Ultra Ultra-Soft Giant Cuddly Teddy Bear Plush Toy (3 Feet) - Classic Edition",
-    "slug": "ultra-soft+toys-1491-12491",
+    "slug": "ultra-soft+toys-1491-12491-12491",
     "description": "Hypoallergenic non-toxic plush fur stuffed with virgin fibre for hugging and bed decor. Official Amazon India verified selection from Ultra.",
     "price": 959.0,
     "compare_at_price": 1528.0,
@@ -34920,7 +34920,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12492,
     "name": "Hug 'n' Feel Reversible Cute Mood Octopus Plush Stuffed Sensory Animal Toy - Premium Series",
-    "slug": "hug-'n'-feel-soft+toys-1492-12492",
+    "slug": "hug-'n'-feel-soft+toys-1492-12492-12492",
     "description": "Double-sided flip plushie expressing happy and angry moods with bright vibrant colours. Official Amazon India verified selection from Hug 'n' Feel.",
     "price": 269.0,
     "compare_at_price": 413.0,
@@ -34947,7 +34947,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12493,
     "name": "Babique Ultra-Soft Giant Cuddly Teddy Bear Plush Toy (3 Feet) - Pro",
-    "slug": "babique-soft+toys-1493-12493",
+    "slug": "babique-soft+toys-1493-12493-12493",
     "description": "Hypoallergenic non-toxic plush fur stuffed with virgin fibre for hugging and bed decor. Official Amazon India verified selection from Babique.",
     "price": 903.0,
     "compare_at_price": 1230.0,
@@ -34974,7 +34974,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12494,
     "name": "Tickles Reversible Cute Mood Octopus Plush Stuffed Sensory Animal Toy - Special Edition",
-    "slug": "tickles-soft+toys-1494-12494",
+    "slug": "tickles-soft+toys-1494-12494-12494",
     "description": "Double-sided flip plushie expressing happy and angry moods with bright vibrant colours. Official Amazon India verified selection from Tickles.",
     "price": 275.0,
     "compare_at_price": 457.0,
@@ -35001,7 +35001,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12495,
     "name": "Hamleys Ultra-Soft Giant Cuddly Teddy Bear Plush Toy (3 Feet) - Signature Edition",
-    "slug": "hamleys-soft+toys-1495-12495",
+    "slug": "hamleys-soft+toys-1495-12495-12495",
     "description": "Hypoallergenic non-toxic plush fur stuffed with virgin fibre for hugging and bed decor. Official Amazon India verified selection from Hamleys.",
     "price": 751.0,
     "compare_at_price": 1154.0,
@@ -35028,7 +35028,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12496,
     "name": "Ultra Reversible Cute Mood Octopus Plush Stuffed Sensory Animal Toy - Deluxe",
-    "slug": "ultra-soft+toys-1496-12496",
+    "slug": "ultra-soft+toys-1496-12496-12496",
     "description": "Double-sided flip plushie expressing happy and angry moods with bright vibrant colours. Official Amazon India verified selection from Ultra.",
     "price": 296.0,
     "compare_at_price": 528.0,
@@ -35055,7 +35055,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12497,
     "name": "Hug 'n' Feel Ultra-Soft Giant Cuddly Teddy Bear Plush Toy (3 Feet) - Sport",
-    "slug": "hug-'n'-feel-soft+toys-1497-12497",
+    "slug": "hug-'n'-feel-soft+toys-1497-12497-12497",
     "description": "Hypoallergenic non-toxic plush fur stuffed with virgin fibre for hugging and bed decor. Official Amazon India verified selection from Hug 'n' Feel.",
     "price": 719.0,
     "compare_at_price": 1164.0,
@@ -35082,7 +35082,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12498,
     "name": "Babique Reversible Cute Mood Octopus Plush Stuffed Sensory Animal Toy - Select",
-    "slug": "babique-soft+toys-1498-12498",
+    "slug": "babique-soft+toys-1498-12498-12498",
     "description": "Double-sided flip plushie expressing happy and angry moods with bright vibrant colours. Official Amazon India verified selection from Babique.",
     "price": 311.0,
     "compare_at_price": 525.0,
@@ -35109,7 +35109,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12499,
     "name": "Tickles Ultra-Soft Giant Cuddly Teddy Bear Plush Toy (3 Feet) - Classic Edition",
-    "slug": "tickles-soft+toys-1499-12499",
+    "slug": "tickles-soft+toys-1499-12499-12499",
     "description": "Hypoallergenic non-toxic plush fur stuffed with virgin fibre for hugging and bed decor. Official Amazon India verified selection from Tickles.",
     "price": 863.0,
     "compare_at_price": 1506.0,
@@ -35136,7 +35136,7 @@ export const FALLBACK_PRODUCTS: Product[] = [
   {
     "id": 12500,
     "name": "Hamleys Reversible Cute Mood Octopus Plush Stuffed Sensory Animal Toy - Premium Series",
-    "slug": "hamleys-soft+toys-1500-12500",
+    "slug": "hamleys-soft+toys-1500-12500-12500",
     "description": "Double-sided flip plushie expressing happy and angry moods with bright vibrant colours. Official Amazon India verified selection from Hamleys.",
     "price": 305.0,
     "compare_at_price": 504.0,
