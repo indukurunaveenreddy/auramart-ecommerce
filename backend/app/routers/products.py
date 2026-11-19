@@ -157,49 +157,65 @@ def update_stock(
 
 @router.get("/export/csv")
 def export_products_csv(db: Session = Depends(get_db)):
-    """Export complete Amazon A-to-Z catalog as CSV."""
+    """Export complete Amazon A-to-Z catalog as CSV matching user schema."""
     import csv, io
+    from datetime import datetime
     from fastapi.responses import Response
 
     products = (
-        db.query(Product, Category.name.label("category_name"))
+        db.query(Product, Category.name.label("category_name"), Category.slug.label("category_slug"))
         .join(Category, Product.category_id == Category.id)
         .filter(Product.is_active == True)
-        .order_by(Product.name.asc())
+        .order_by(Product.id.asc())
         .all()
     )
 
     output = io.StringIO()
     writer = csv.writer(output)
     writer.writerow([
-        "Product_ID", "Alphabet_Letter", "Product_Name", "Category", 
-        "Selling_Price_INR", "MRP_Compare_Price_INR", "Discount_Percentage", 
-        "Stock_Available", "SKU", "Customer_Rating", "Reviews_Count", "Image_URL"
+        "asin", "title", "brand", "category", "subcategory",
+        "description", "price", "currency", "image_url",
+        "amazon_url", "availability", "last_updated"
     ])
 
-    for prod, cat_name in products:
-        mrp = prod.compare_at_price or prod.price
-        disc = round(((mrp - prod.price) / mrp) * 100, 1) if mrp > prod.price else 0.0
+    TAG = "8639866865-21"
+
+    for prod, cat_name, cat_slug in products:
+        asin_clean = prod.asin if prod.asin else f"B0{prod.id:08d}"
+        brand_clean = prod.brand if prod.brand else (prod.name.split()[0] if prod.name else "Amazon")
+        subcategory = cat_slug.replace("-", " ").title() if cat_slug else cat_name
+
+        if prod.amazon_affiliate_url and "tag=" in prod.amazon_affiliate_url:
+            final_url = prod.amazon_affiliate_url
+        elif asin_clean and not asin_clean.startswith("AURA"):
+            final_url = f"https://www.amazon.in/dp/{asin_clean}?tag={TAG}"
+        else:
+            q = "+".join(prod.name.split()[:5])
+            final_url = f"https://www.amazon.in/s?k={q}&tag={TAG}"
+
+        availability = "In Stock" if (prod.stock is not None and prod.stock > 0) else "Out of Stock"
+        last_up = str(prod.last_synced_at or prod.updated_at or prod.created_at or datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S'))
+
         writer.writerow([
-            prod.id,
-            prod.name[0].upper(),
+            asin_clean,
             prod.name,
+            brand_clean,
             cat_name,
-            prod.price,
-            mrp,
-            disc,
-            prod.stock,
-            prod.sku,
-            prod.rating,
-            prod.reviews_count,
-            prod.image_url
+            subcategory,
+            prod.description or "",
+            f"{float(prod.price):.2f}",
+            "INR",
+            prod.image_url or "",
+            final_url,
+            availability,
+            last_up
         ])
 
     csv_data = output.getvalue()
     return Response(
         content=csv_data,
         media_type="text/csv",
-        headers={"Content-Disposition": "attachment; filename=amazon_india_catalog.csv"}
+        headers={"Content-Disposition": "attachment; filename=amazon_products_catalog.csv"}
     )
 
 @router.get("/export/json")
