@@ -121,7 +121,19 @@ export const api = {
       return await request(`/products${qs ? `?${qs}` : ''}`);
     } catch (err) {
       console.warn('Backend unavailable, serving filtered fallback products:', err);
-      let list = [...FALLBACK_PRODUCTS];
+      // Ensure strict uniqueness by ID and ASIN
+      const seenIds = new Set<number>();
+      const seenAsins = new Set<string>();
+      const uniqueList: Product[] = [];
+      for (const p of FALLBACK_PRODUCTS) {
+        const asinKey = p.asin ? p.asin.toLowerCase() : null;
+        if (!seenIds.has(p.id) && (!asinKey || !seenAsins.has(asinKey))) {
+          seenIds.add(p.id);
+          if (asinKey) seenAsins.add(asinKey);
+          uniqueList.push(p);
+        }
+      }
+      let list = uniqueList;
       if (params.category_slug) {
         list = list.filter(p => p.category?.slug === params.category_slug);
       }

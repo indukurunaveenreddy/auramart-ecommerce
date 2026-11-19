@@ -3,6 +3,7 @@ from pathlib import Path
 from sqlalchemy.orm import Session
 from app.models import User, Category, Product
 from app.auth import get_password_hash
+from app.utils.dedup import check_product_duplicate, normalize_product_name
 
 CATALOG_FILE = Path(__file__).resolve().parent / "curated_catalog.json"
 
@@ -38,6 +39,18 @@ def seed_database(db: Session):
                 for p in prod_list:
                     sku = p.get("sku", f"AURA-{p['id']:05d}")
                     if sku not in existing_skus:
+                        # Check for duplicates before inserting
+                        is_dup, _, _ = check_product_duplicate(
+                            db,
+                            asin=p.get("asin"),
+                            name=p.get("name"),
+                            affiliate_url=p.get("amazon_affiliate_url"),
+                            category_id=category_map.get(p.get("category_slug")) or p.get("category_id"),
+                            brand=p.get("brand")
+                        )
+                        if is_dup:
+                            continue
+
                         # Find matching category by slug or default
                         cat_slug = p.get("category_slug")
                         cat_id = category_map.get(cat_slug) or p.get("category_id")

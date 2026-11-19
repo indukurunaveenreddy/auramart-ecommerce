@@ -7,6 +7,7 @@ from app.database import get_db
 from app.models import Product, Category
 from app.schemas import ProductCreate, ProductUpdate, ProductResponse
 from app.auth import get_current_admin
+from app.utils.dedup import check_product_duplicate, normalize_product_name
 
 router = APIRouter(prefix="/api/products", tags=["Products"])
 
@@ -108,11 +109,27 @@ def create_product(
     db: Session = Depends(get_db),
     admin=Depends(get_current_admin)
 ):
+    # Check slug and SKU
     existing = db.query(Product).filter(
         or_(Product.slug == product_in.slug, Product.sku == product_in.sku)
     ).first()
     if existing:
         raise HTTPException(status_code=400, detail="A product with this slug or SKU already exists")
+
+    # Comprehensive duplicate check (ASIN, affiliate URL, normalized product name)
+    is_dup, dup_prod, reason = check_product_duplicate(
+        db,
+        asin=product_in.asin,
+        name=product_in.name,
+        affiliate_url=product_in.amazon_affiliate_url,
+        category_id=product_in.category_id,
+        brand=product_in.brand
+    )
+    if is_dup and dup_prod:
+        raise HTTPException(
+            status_code=400,
+            detail=f"Duplicate product detected: {reason} (Existing ID: {dup_prod.id})"
+        )
 
     product = Product(**product_in.model_dump())
     db.add(product)

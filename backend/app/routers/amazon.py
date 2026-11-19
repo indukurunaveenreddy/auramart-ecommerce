@@ -11,6 +11,7 @@ from sqlalchemy import func
 from app.database import get_db
 from app.models import Product, Category, AmazonImportLog
 from app.auth import get_current_admin
+from app.utils.dedup import check_product_duplicate, normalize_product_name, clean_display_title
 from app.services.amazon_service import amazon_api, AMAZON_CATEGORIES
 from app.services.amazon_catalog import search_discovery_catalog, get_product_by_asin, get_amazon_link
 from app.config import AMAZON_ASSOCIATE_TAG
@@ -257,17 +258,27 @@ def import_amazon_products(
     for item in payload.products:
         clean_asin = item.asin.strip().upper()
         
-        # 1. Duplicate check
-        existing = db.query(Product).filter(Product.asin == clean_asin).first()
-        if existing:
-            skipped_records.append({"asin": clean_asin, "name": item.name, "reason": "Already imported (duplicate ASIN)"})
-            # Log duplicate
+        # 1. Comprehensive duplicate check (ASIN, affiliate URL, canonical key, normalized name)
+        is_dup, existing, dup_reason = check_product_duplicate(
+            db,
+            asin=clean_asin,
+            name=item.name,
+            affiliate_url=item.affiliate_url,
+            category_id=cat_map.get((item.category or "").strip().lower()),
+            brand=item.brand
+        )
+        if is_dup and existing:
+            skipped_records.append({
+                "asin": clean_asin,
+                "name": item.name,
+                "reason": f"Duplicate detected: {dup_reason} (Matches ID: {existing.id})"
+            })
             log = AmazonImportLog(
                 asin=clean_asin,
                 title=item.name,
                 category=item.category,
                 status="duplicate",
-                message=f"Product with ASIN {clean_asin} already exists (ID: {existing.id})",
+                message=f"Duplicate skipped: {dup_reason} (Existing ID: {existing.id})",
                 product_id=existing.id
             )
             db.add(log)
